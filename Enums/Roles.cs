@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 namespace UserManagement
 {
     public enum Roles
-    {
-      
+    { 
         Admin,
         Buyer,
-        Seller
+        Seller,
+        Basic
     }
 }

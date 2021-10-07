@@ -467,3 +467,6 @@ C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Areas\I
 C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\Error.cshtml.g.cs
 C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Views\RoleManager\Index.cshtml.g.cs
+C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Index.cshtml.g.cs
+C:\Users\Mahes\source\repos\UserManagement\obj\Debug\netcoreapp3.1\Razor\Views\UserRoles\Manage.cshtml.g.cs
