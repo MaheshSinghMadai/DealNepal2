@@ -457,16 +457,16 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore/3.1.19": {
+      "Microsoft.EntityFrameworkCore/3.1.20": {
         "type": "package",
         "dependencies": {
           "Microsoft.Bcl.AsyncInterfaces": "1.1.1",
           "Microsoft.Bcl.HashCode": "1.1.1",
-          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.19",
-          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.19",
-          "Microsoft.Extensions.Caching.Memory": "3.1.19",
-          "Microsoft.Extensions.DependencyInjection": "3.1.19",
-          "Microsoft.Extensions.Logging": "3.1.19",
+          "Microsoft.EntityFrameworkCore.Abstractions": "3.1.20",
+          "Microsoft.EntityFrameworkCore.Analyzers": "3.1.20",
+          "Microsoft.Extensions.Caching.Memory": "3.1.20",
+          "Microsoft.Extensions.DependencyInjection": "3.1.20",
+          "Microsoft.Extensions.Logging": "3.1.20",
           "System.Collections.Immutable": "1.7.1",
           "System.ComponentModel.Annotations": "4.7.0",
           "System.Diagnostics.DiagnosticSource": "4.7.1"
@@ -478,7 +478,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/3.1.19": {
+      "Microsoft.EntityFrameworkCore.Abstractions/3.1.20": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
@@ -487,7 +487,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/3.1.19": {
+      "Microsoft.EntityFrameworkCore.Analyzers/3.1.20": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -496,11 +496,11 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Design/3.1.19": {
+      "Microsoft.EntityFrameworkCore.Design/3.1.20": {
         "type": "package",
         "dependencies": {
           "Microsoft.CSharp": "4.7.0",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.19"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.20"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -512,10 +512,10 @@
           "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/3.1.19": {
+      "Microsoft.EntityFrameworkCore.Relational/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "3.1.19"
+          "Microsoft.EntityFrameworkCore": "3.1.20"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
@@ -524,11 +524,11 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.SqlServer/3.1.19": {
+      "Microsoft.EntityFrameworkCore.SqlServer/3.1.20": {
         "type": "package",
         "dependencies": {
           "Microsoft.Data.SqlClient": "1.1.3",
-          "Microsoft.EntityFrameworkCore.Relational": "3.1.19"
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.20"
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
@@ -537,10 +537,10 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/3.1.19": {
+      "Microsoft.EntityFrameworkCore.Tools/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "3.1.19"
+          "Microsoft.EntityFrameworkCore.Design": "3.1.20"
         },
         "compile": {
           "lib/netstandard2.0/_._": {}
@@ -549,10 +549,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.Extensions.Caching.Abstractions/3.1.19": {
+      "Microsoft.Extensions.Caching.Abstractions/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.19"
+          "Microsoft.Extensions.Primitives": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
@@ -561,13 +561,13 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Caching.Memory/3.1.19": {
+      "Microsoft.Extensions.Caching.Memory/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Caching.Abstractions": "3.1.19",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.19",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.19",
-          "Microsoft.Extensions.Options": "3.1.19"
+          "Microsoft.Extensions.Caching.Abstractions": "3.1.20",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.20",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.20",
+          "Microsoft.Extensions.Options": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
@@ -576,10 +576,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration/3.1.19": {
+      "Microsoft.Extensions.Configuration/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Abstractions": "3.1.19"
+          "Microsoft.Extensions.Configuration.Abstractions": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
@@ -588,10 +588,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/3.1.19": {
+      "Microsoft.Extensions.Configuration.Abstractions/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "3.1.19"
+          "Microsoft.Extensions.Primitives": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
@@ -600,10 +600,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Configuration.Binder/3.1.19": {
+      "Microsoft.Extensions.Configuration.Binder/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration": "3.1.19"
+          "Microsoft.Extensions.Configuration": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
@@ -612,10 +612,10 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection/3.1.19": {
+      "Microsoft.Extensions.DependencyInjection/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.19"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
@@ -624,7 +624,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.DependencyInjection.dll": {}
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.19": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.20": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
@@ -703,13 +703,13 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging/3.1.19": {
+      "Microsoft.Extensions.Logging/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Configuration.Binder": "3.1.19",
-          "Microsoft.Extensions.DependencyInjection": "3.1.19",
-          "Microsoft.Extensions.Logging.Abstractions": "3.1.19",
-          "Microsoft.Extensions.Options": "3.1.19"
+          "Microsoft.Extensions.Configuration.Binder": "3.1.20",
+          "Microsoft.Extensions.DependencyInjection": "3.1.20",
+          "Microsoft.Extensions.Logging.Abstractions": "3.1.20",
+          "Microsoft.Extensions.Options": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
@@ -718,7 +718,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Logging.dll": {}
         }
       },
-      "Microsoft.Extensions.Logging.Abstractions/3.1.19": {
+      "Microsoft.Extensions.Logging.Abstractions/3.1.20": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
@@ -727,11 +727,11 @@
           "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll": {}
         }
       },
-      "Microsoft.Extensions.Options/3.1.19": {
+      "Microsoft.Extensions.Options/3.1.20": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.19",
-          "Microsoft.Extensions.Primitives": "3.1.19"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "3.1.20",
+          "Microsoft.Extensions.Primitives": "3.1.20"
         },
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
@@ -740,7 +740,7 @@
           "lib/netcoreapp3.1/Microsoft.Extensions.Options.dll": {}
         }
       },
-      "Microsoft.Extensions.Primitives/3.1.19": {
+      "Microsoft.Extensions.Primitives/3.1.20": {
         "type": "package",
         "compile": {
           "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.dll": {}
@@ -3378,52 +3378,52 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Data.SqlClient.pdb"
       ]
     },
-    "Microsoft.EntityFrameworkCore/3.1.19": {
-      "sha512": "1EUaFE0bMWlp3XYarKR4tlaCBlg/B9YAyY8AOzrbcLBls8IuTanwwoeg2wOaIQSbCUqzKU2gWX+R9m44Qbtdpg==",
+    "Microsoft.EntityFrameworkCore/3.1.20": {
+      "sha512": "YymIFh97/qs+2Jl3rSfI4Wiow9842WqmJVhGmsY3N8WzgxUFuo2Orezwp/dVuTioPzQObBuIlTE17cectqpLHA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/3.1.19",
+      "path": "microsoft.entityframeworkcore/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/3.1.19": {
-      "sha512": "Dyyg1gT3D4uQaKFJ7hd3liDyEfBm3mh4j0YLSk/XpWU1a3APY2hMAdqBmKR2/yXbGsGyHo9UhvZ+qrhmvaD5fA==",
+    "Microsoft.EntityFrameworkCore.Abstractions/3.1.20": {
+      "sha512": "zLUjg0uymx9C48WCZnMFb/0vNT4YPWUhExE0MgDkc5aMispFtF0QLqMEAMdEJloAgweIEFgl5u5HdQnfLebKWA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/3.1.19",
+      "path": "microsoft.entityframeworkcore.abstractions/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/3.1.19": {
-      "sha512": "UXri6315AYSjNQCBUA6yA50GRN02QXt1u+NFlyHXBnYnDs1pOoj7Ytk/tGS/wF0yYYIKTnaBs0I0u16YQbT6vw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/3.1.20": {
+      "sha512": "iJZ00kb84RKgarPZwaD8hjI9ZUpVXa8YubpYDECOpzoDU6Qsfg/nagSh+tCOzLkl/7+qPoir6tJrq4cbOVx1ag==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/3.1.19",
+      "path": "microsoft.entityframeworkcore.analyzers/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Design/3.1.19": {
-      "sha512": "CqiygeH1yBMjbka3Rohr8MjbDkKoRYwARp+U/Mwc9uk4a5s0Zr5igepCoE5VlAwffiG7E90vgmbHrUpP1MJaUw==",
+    "Microsoft.EntityFrameworkCore.Design/3.1.20": {
+      "sha512": "AjkM5f9ZuHqc01esIp23Vee/M+l54o9Hg8NkveCvziLiEl+zV0U1fv7ddAUEYN0Ss0rOLAsGybTp2OBUSKoxjw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.design/3.1.19",
+      "path": "microsoft.entityframeworkcore.design/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3432,49 +3432,49 @@
         "build/netcoreapp2.0/Microsoft.EntityFrameworkCore.Design.props",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.xml",
-        "microsoft.entityframeworkcore.design.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.design.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.design.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/3.1.19": {
-      "sha512": "/iaAH+qn6i1lQVbJxOyP+CId3VTpjlhGaMM9+bHv4uNJodubs+I9iflYSQXjPDcqkWIGPHbGa4rPw5+ZePU45w==",
+    "Microsoft.EntityFrameworkCore.Relational/3.1.20": {
+      "sha512": "lwbsQip9mduiUrD5Ax0mc+rZSPsqTisyDX1ZKVdiprSCm+WoyQfhWpjSCWPz7Z4tjPE5ZsX+ND0Ni/8EWJ+Plw==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/3.1.19",
+      "path": "microsoft.entityframeworkcore.relational/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.SqlServer/3.1.19": {
-      "sha512": "ueBe72e/BjE1a6sJLgt231JrdOv3xleCqiyefp40jBYtbkUERDPHh85ovLQWd0H31vDY4SbSAW+pRs+BLuFjWg==",
+    "Microsoft.EntityFrameworkCore.SqlServer/3.1.20": {
+      "sha512": "hTodEQPimBhjE1sYQ2SFpoQVuO9UeLu/2xNhejk6ChwQC4fw5CoDg1yxbLr2LXaw5qp1oiVJQS9SHiexRZ1FyQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.sqlserver/3.1.19",
+      "path": "microsoft.entityframeworkcore.sqlserver/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.dll",
         "lib/netstandard2.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
-        "microsoft.entityframeworkcore.sqlserver.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.sqlserver.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/3.1.19": {
-      "sha512": "vJkcdwkjkKk/FNmXcfmSCs7CImSMrdQZ72u7Wv4ehDw+q6yk6mpqxuGtG8vYL975YuQHTp+YGTKWLS9b+fJU5g==",
+    "Microsoft.EntityFrameworkCore.Tools/3.1.20": {
+      "sha512": "zkIn1fuIBQWxzQZQqbZZIDkSgSOZ/4YgLglI/pfVjPRcRM+nBGEbGdDHimA6COrgqZg7FYZZLehcV+QhyF+bag==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/3.1.19",
+      "path": "microsoft.entityframeworkcore.tools/3.1.20",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.tools.3.1.19.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.3.1.20.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -3488,10 +3488,10 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
-    "Microsoft.Extensions.Caching.Abstractions/3.1.19": {
-      "sha512": "jK9VbkyKuJDU4DSsun41/aak9UpLywV0VGNU19+5/XTUYavSMokEKfoHtDrD5Qz0Zpj8a2jyz2T94k/nmvLf0Q==",
+    "Microsoft.Extensions.Caching.Abstractions/3.1.20": {
+      "sha512": "Hg/mDuSQGBSeJNENWA/rTLMS4d6i8g9Eu08YQi3PS4r3/uKzw4FY4VgssyYxxILOhkGmwdzOqunsFXlrIlkvpA==",
       "type": "package",
-      "path": "microsoft.extensions.caching.abstractions/3.1.19",
+      "path": "microsoft.extensions.caching.abstractions/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3500,14 +3500,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Abstractions.xml",
-        "microsoft.extensions.caching.abstractions.3.1.19.nupkg.sha512",
+        "microsoft.extensions.caching.abstractions.3.1.20.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/3.1.19": {
-      "sha512": "7yIklB9c9wbEBWnbdELV7ELkjYSV168ORbbKGdyL7962c7aSswaf68mLbQGhsnvtNGBHA1IAoVHi81uE7gQ4iw==",
+    "Microsoft.Extensions.Caching.Memory/3.1.20": {
+      "sha512": "B6EBjmeCGW6y+OoJAow6PqnZ/YF2ujkeDhAXvzkJqIJY1FsoZSb7c3j19vL1qt9HwynzvXAAi5jCcLh1FU1BdA==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/3.1.19",
+      "path": "microsoft.extensions.caching.memory/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3516,14 +3516,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.3.1.19.nupkg.sha512",
+        "microsoft.extensions.caching.memory.3.1.20.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration/3.1.19": {
-      "sha512": "KDfhqlop17pf6zSOzcIydwXNFI8T15Sg7vguGvf9cjPpXCSNSvuWjVpZB+T9KAGQT7mbrB2W0GOYl/1Kgre/7Q==",
+    "Microsoft.Extensions.Configuration/3.1.20": {
+      "sha512": "qN871hvjHs9pqVW1E8dXzww3hDXmAtSC0Mjvht+2choJN+KKLL/mQpX2Egkp9Wvox005bfmBrFW7svDDTjmuoQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration/3.1.19",
+      "path": "microsoft.extensions.configuration/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3532,14 +3532,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.xml",
-        "microsoft.extensions.configuration.3.1.19.nupkg.sha512",
+        "microsoft.extensions.configuration.3.1.20.nupkg.sha512",
         "microsoft.extensions.configuration.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Abstractions/3.1.19": {
-      "sha512": "5XARAKFFAlX6WVk/c2/oAW44Oh0TMYwIFJJqxjkFXjPWsZAFuPTD0yLuaXvnILATpR8guks4V8yTE33HaV7ZOg==",
+    "Microsoft.Extensions.Configuration.Abstractions/3.1.20": {
+      "sha512": "TpevBA1qF8XuuP5md8As81SHfhtAsVocH/i76F1WjYoOBpA9nwC3dmpN/YDi89efRzU6qk5AYvZ1ldCONtAYSQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.abstractions/3.1.19",
+      "path": "microsoft.extensions.configuration.abstractions/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3548,14 +3548,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
-        "microsoft.extensions.configuration.abstractions.3.1.19.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.3.1.20.nupkg.sha512",
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Configuration.Binder/3.1.19": {
-      "sha512": "UmyDTRQWG1RaP70rGlymCWlDKK9ZHvypJocinplxeeky3bevDBdI4qnhT0eXQSu/iRlanXvhoyBimh9glXPJjg==",
+    "Microsoft.Extensions.Configuration.Binder/3.1.20": {
+      "sha512": "eS6Q5oRKmBQKlgIjSXmgaF2jwSAuii+3UjTSN4jI2LH1N0utPNgZNtnOVXDU2tZiUOtQuAROBb8PZKgHgIgsYQ==",
       "type": "package",
-      "path": "microsoft.extensions.configuration.binder/3.1.19",
+      "path": "microsoft.extensions.configuration.binder/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3564,14 +3564,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Configuration.Binder.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
-        "microsoft.extensions.configuration.binder.3.1.19.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.3.1.20.nupkg.sha512",
         "microsoft.extensions.configuration.binder.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection/3.1.19": {
-      "sha512": "cdBicT5kRGBVWilW0QUFYmeqYNgBP3NHwrnsuJj0QqivA74OHcUiS18EFLMRmqwZ746mbnptfSZ4Lh997KsUew==",
+    "Microsoft.Extensions.DependencyInjection/3.1.20": {
+      "sha512": "JAV97hx4y7qJ5mnjnUOSd+xDnMj2+51c8KVirhuU+rOW1LUnsmjhin86Tep6Q5tOHmNPOmmo6OHEFCdbZj5+zw==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection/3.1.19",
+      "path": "microsoft.extensions.dependencyinjection/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3584,21 +3584,21 @@
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
-        "microsoft.extensions.dependencyinjection.3.1.19.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.3.1.20.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.19": {
-      "sha512": "tiaohUQoNWfUQBWAW4wg9yRYAYcxq0IERI6bR8DojusFIVybdzOJ1bJXLghfO17cGx05SdiUnUk8h0SiQn0hBw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/3.1.20": {
+      "sha512": "a2axLm7TfsB6rELiYDp7qx0S64h1FCFAFGz0WnPWgyshpvLWYM/XKwLHIPqiXuhtEp9kT4qBXRYsXMe6ZrxX0A==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.19",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.3.1.19.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.3.1.20.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
@@ -3695,10 +3695,10 @@
         "microsoft.extensions.identity.stores.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging/3.1.19": {
-      "sha512": "Wv/p90AEtp69cPuQQKAFQCS2tIefqaT6elTx3AwLgltkDXvzGVPbXI7NcfOWh3TNdDcfwV7U6YFC0WrNVA88WA==",
+    "Microsoft.Extensions.Logging/3.1.20": {
+      "sha512": "/CuUfjdPd0X6upL/783pzJTSGLm1XTHlonKcRYi5oGVHuN0ESHRjWwmBvrAPf8TXXL901K9oyxJ9mtG9pTmF8Q==",
       "type": "package",
-      "path": "microsoft.extensions.logging/3.1.19",
+      "path": "microsoft.extensions.logging/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3707,28 +3707,28 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Logging.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.xml",
-        "microsoft.extensions.logging.3.1.19.nupkg.sha512",
+        "microsoft.extensions.logging.3.1.20.nupkg.sha512",
         "microsoft.extensions.logging.nuspec"
       ]
     },
-    "Microsoft.Extensions.Logging.Abstractions/3.1.19": {
-      "sha512": "ZJxpOfelPknOpD+/P+vcvXXAo7JVwBu2n/NkTuQzwneVzqJFzXB4lJu/jr4sbMIrTNvJi/XixPHrKcaztVkXSQ==",
+    "Microsoft.Extensions.Logging.Abstractions/3.1.20": {
+      "sha512": "pejtJ+FM3tRm9Ssy9VO1PMkxlpkwbO+iQmK/Ot9DqgW3zjeLSQg3bEPI6klU70yoRSDwpiI8E71RdzU+vn/bTQ==",
       "type": "package",
-      "path": "microsoft.extensions.logging.abstractions/3.1.19",
+      "path": "microsoft.extensions.logging.abstractions/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Abstractions.xml",
-        "microsoft.extensions.logging.abstractions.3.1.19.nupkg.sha512",
+        "microsoft.extensions.logging.abstractions.3.1.20.nupkg.sha512",
         "microsoft.extensions.logging.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.Options/3.1.19": {
-      "sha512": "awGsLKbgxb/3jxmKQQpD2aPAsWW//d8MTQfFB2XgU2xnjLCx+GN5EPdLe6GfB9ulMq/2AiqZ3IXciHBzSGQ1Uw==",
+    "Microsoft.Extensions.Options/3.1.20": {
+      "sha512": "K5h3xUrYP8mbGZeGAm/vcWjol2wBh2V1vV+Vz02DCKlZ/99Y8ecKJwdpH+elfdqcEFXy76jk+I1nBsmhPKeCgw==",
       "type": "package",
-      "path": "microsoft.extensions.options/3.1.19",
+      "path": "microsoft.extensions.options/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3737,14 +3737,14 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Options.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
-        "microsoft.extensions.options.3.1.19.nupkg.sha512",
+        "microsoft.extensions.options.3.1.20.nupkg.sha512",
         "microsoft.extensions.options.nuspec"
       ]
     },
-    "Microsoft.Extensions.Primitives/3.1.19": {
-      "sha512": "Al3SuZLS4nN7o3TQPfJGHNnQuLEKXz/tBXoPeESMnJxRLCWomo9MAdjEBunexaWK4as+ESVqOD2rLVyBBx3/qA==",
+    "Microsoft.Extensions.Primitives/3.1.20": {
+      "sha512": "RHHWUHzW8y+dyNBIBmo2EQbpCC6xFQcFMpLhNcpzw3zP0rxJdhmTTdy5eXvhlkNi3vqM4Af5Qqb5xgYwqaoaJQ==",
       "type": "package",
-      "path": "microsoft.extensions.primitives/3.1.19",
+      "path": "microsoft.extensions.primitives/3.1.20",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -3753,7 +3753,7 @@
         "lib/netcoreapp3.1/Microsoft.Extensions.Primitives.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
-        "microsoft.extensions.primitives.3.1.19.nupkg.sha512",
+        "microsoft.extensions.primitives.3.1.20.nupkg.sha512",
         "microsoft.extensions.primitives.nuspec"
       ]
     },
@@ -8966,8 +8966,8 @@
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 3.1.19",
       "Microsoft.AspNetCore.Identity.UI >= 3.1.19",
       "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation >= 3.1.18",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.19",
-      "Microsoft.EntityFrameworkCore.Tools >= 3.1.19",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.20",
+      "Microsoft.EntityFrameworkCore.Tools >= 3.1.20",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
@@ -8977,11 +8977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahes\\source\\repos\\UserManagement\\UserManagement.csproj",
+      "projectUniqueName": "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj",
       "projectName": "UserManagement",
-      "projectPath": "C:\\Users\\Mahes\\source\\repos\\UserManagement\\UserManagement.csproj",
+      "projectPath": "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj",
       "packagesPath": "C:\\Users\\Mahes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahes\\source\\repos\\UserManagement\\obj\\",
+      "outputPath": "C:\\Users\\Mahes\\Documents\\DealNepal2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Mahes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9028,13 +9028,13 @@
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
-            "version": "[3.1.19, )"
+            "version": "[3.1.20, )"
           },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[3.1.19, )"
+            "version": "[3.1.20, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
@@ -9059,7 +9059,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

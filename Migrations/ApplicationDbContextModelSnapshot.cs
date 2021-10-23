@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UserManagement.Data;
 
-namespace UserManagement.Data.Migrations
+namespace UserManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
@@ -16,7 +16,7 @@ namespace UserManagement.Data.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasDefaultSchema("Identity")
-                .HasAnnotation("ProductVersion", "3.1.19")
+                .HasAnnotation("ProductVersion", "3.1.20")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -278,6 +278,39 @@ namespace UserManagement.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers");
+                });
+
+            modelBuilder.Entity("UserManagement.Models.Products", b =>
+                {
+                    b.Property<int>("ImageID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Category")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("EndTime")
+                        .HasColumnType("int");
+
+                    b.Property<string>("ImageName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<int>("LatestBid")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MaxPrice")
+                        .HasColumnType("int");
+
+                    b.Property<int>("MinPrice")
+                        .HasColumnType("int");
+
+                    b.HasKey("ImageID");
+
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

@@ -14,6 +14,7 @@ namespace UserManagement.Data
             : base(options)
         {
         }
+        public DbSet<Products> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);
@@ -46,6 +47,8 @@ namespace UserManagement.Data
             {
                 entity.ToTable("UserTokens");
             });
+           
         }
+        
     }
 }

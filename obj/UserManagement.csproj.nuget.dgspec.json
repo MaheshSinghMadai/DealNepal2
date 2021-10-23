@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mahes\\source\\repos\\UserManagement\\UserManagement.csproj": {}
+    "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mahes\\source\\repos\\UserManagement\\UserManagement.csproj": {
+    "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mahes\\source\\repos\\UserManagement\\UserManagement.csproj",
+        "projectUniqueName": "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj",
         "projectName": "UserManagement",
-        "projectPath": "C:\\Users\\Mahes\\source\\repos\\UserManagement\\UserManagement.csproj",
+        "projectPath": "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj",
         "packagesPath": "C:\\Users\\Mahes\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mahes\\source\\repos\\UserManagement\\obj\\",
+        "outputPath": "C:\\Users\\Mahes\\Documents\\DealNepal2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mahes\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,13 +58,13 @@
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.19, )"
+              "version": "[3.1.20, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.19, )"
+              "version": "[3.1.20, )"
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
@@ -89,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

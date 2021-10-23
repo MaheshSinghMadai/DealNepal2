@@ -1,0 +1,38 @@
+@import compasscss3;
+
+
+
+.static-img {
+  display block; 
+}
+
+iframe {
+   max-width 100%; 
+}
+.map-container {
+  width 100%;
+  margin auto;
+  height 0;
+  padding-top 38%;
+  position relative;
+  display none;  Hide for small screens 
+  iframe {
+    width 100%;
+    height 100%;  had to specify heightwidth 
+    position absolute;
+    top 0; 
+    right 0;
+    left 0; 
+    bottom 0;   
+  }
+}
+
+ Medium Screens 
+@media all and (min-width 34.375em) {
+  .map-container {
+    display block;
+  } 
+  .static-img {
+    display none; 
+  }
+}
