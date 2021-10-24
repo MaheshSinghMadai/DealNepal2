@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - DealNepal</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/mystyle.css" />
     <link rel="stylesheet" href="~/css/SearchBar.css" />
     <link rel="stylesheet" href="~/css/Text.css" />
     <link rel="stylesheet" href="~/css/FeaturedProduct.css" />
+    <link rel="stylesheet" href="~/css/footer.css" />
+    <link rel="stylesheet" href="~/css/slider.css" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -17,14 +20,13 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 
-
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/Logo.png" style="height:50px;width:60px"/>
+                    <img src="~/Logo.png" style="height:50px;width:60px" />
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -36,25 +38,25 @@
                         <li class="nav-item">
                             <button type="button" class="btn "> @Html.ActionLink("Home", "Index", "Home")</button>
                         </li>
-                       <li>
-                    <div class="dropdown">
-                        <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Products
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                            <button class="dropdown-item" type="button">@Html.ActionLink("Art", "Art", "Product")</button>
-                            <div class="dropdown-divider"></div>
-                            <button class="dropdown-item" type="button">@Html.ActionLink("Jewellry", "Jewellery", "Product")</button>
-                            <div class="dropdown-divider"></div>
-                            <button class="dropdown-item" type="button">@Html.ActionLink("Furniture", "Furniture", "Product")</button>
-                            <div class="dropdown-divider"></div>
-                            <button class="dropdown-item" type="button">@Html.ActionLink("Coins", "Coins", "Product")</button>
-                        </div>
-                    </div>
-                       <li style="padding-left:10px">
-                           <button type="button" class="btn btn-light">@Html.ActionLink("About", "Index", "About")</button>
-                       </li>
-                    <li style="float:right;margin-right:80px"><partial name="_profile" /></li>
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Products
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                    <button class="dropdown-item" type="button">@Html.ActionLink("Art", "Art", "Product")</button>
+                                    <div class="dropdown-divider"></div>
+                                    <button class="dropdown-item" type="button">@Html.ActionLink("Jewellry", "Jewellery", "Product")</button>
+                                    <div class="dropdown-divider"></div>
+                                    <button class="dropdown-item" type="button">@Html.ActionLink("Furniture", "Furniture", "Product")</button>
+                                    <div class="dropdown-divider"></div>
+                                    <button class="dropdown-item" type="button">@Html.ActionLink("Coins", "Coins", "Product")</button>
+                                </div>
+                            </div>
+                        <li style="padding-left:10px">
+                            <button type="button" class="btn btn-light">@Html.ActionLink("About", "Index", "About")</button>
+                        </li>
+                        <li style="float:right;margin-right:80px"><partial name="_profile" /></li>
                     </ul>
                 </div>
             </div>
@@ -66,18 +68,125 @@
         </main>
     </div>
 
-    <!--Footer-->
-    <footer class="border-top footer text-muted" style="position:relative;" >
-            <div class="container">
-                <div class="media-container-row align-center mbr-white">
-                    <div class="col-12" style="background-color:whitesmoke">
-                        <p class="mbr-text mb-0 mbr-fonts-style display-7">
-                            © Copyright 2021 DealNepal&nbsp; - All Rights Reserved
+ 
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted" style="position: relative; background-color: #9933CC;">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+            <!-- Left -->
+            <div class="col-md-6">
+                <span>Get connected with us on social networks:</span>
+            </div>
+            <!-- Left -->
+            <!-- Right -->
+            <div class="col-md-6">
+                <a href="" class="col-md-2 text-reset">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="" class="col-md-2  text-reset">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="col-md-2  text-reset">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="col-md-2  text-reset">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="col-md-2  text-reset">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="me-4 text-reset">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            <i class="fas fa-gem me-3"></i>DealNepal
+                        </h6>
+                        <p>
+                            An online auction web platform to get the best deals in the country.
+                            Bid now and make it yours.
                         </p>
                     </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Products
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Arts</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Jwellery</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Coins</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Furniture</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Useful links
+                        </h6>
+                        <p>
+                            <a href="#!" class="text-reset">Pricing</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Settings</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Orders</a>
+                        </p>
+                        <p>
+                            <a href="#!" class="text-reset">Help</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Contact
+                        </h6>
+                        <p><i class="fas fa-home me-3"></i> Dubarmag, Kathmandu</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            dealnepal@auction.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 977 9810 999 999</p>
+                        <p><i class="fas fa-print me-3"></i> + 977 014 456 233</p>
+                    </div>
+                    <!-- Grid column -->
                 </div>
+                <!-- Grid row -->
             </div>
+        </section>
+        <!-- Section: Links  -->
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2021 Copyright: DealNepal
+        </div>
+        <!-- Copyright -->
     </footer>
+    <!-- Footer -->
+   
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js/site.js" asp-append-version="true"></script>
