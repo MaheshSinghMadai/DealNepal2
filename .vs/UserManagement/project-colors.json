@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "db0e3467-dd9f-4a99-8ba8-3bb055f62bfd": {
+      "ProjectGuid": "db0e3467-dd9f-4a99-8ba8-3bb055f62bfd",
+      "DisplayName": "UserManagement",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

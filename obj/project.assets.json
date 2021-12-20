@@ -8972,19 +8972,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Mahes\\.nuget\\packages\\": {}
+    "C:\\Users\\mahes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj",
+      "projectUniqueName": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\UserManagement.csproj",
       "projectName": "UserManagement",
-      "projectPath": "C:\\Users\\Mahes\\Documents\\DealNepal2\\UserManagement.csproj",
-      "packagesPath": "C:\\Users\\Mahes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mahes\\Documents\\DealNepal2\\obj\\",
+      "projectPath": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\UserManagement.csproj",
+      "packagesPath": "C:\\Users\\mahes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Mahes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mahes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -9051,6 +9051,12 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.1.21, 3.1.21]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -9059,7 +9065,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

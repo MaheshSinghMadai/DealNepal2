@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/css/header.css" />
     <link rel="stylesheet" href="~/css/mystyle.css" />
     <link rel="stylesheet" href="~/css/SearchBar.css" />
     <link rel="stylesheet" href="~/css/Text.css" />
     <link rel="stylesheet" href="~/css/FeaturedProduct.css" />
     <link rel="stylesheet" href="~/css/footer.css" />
     <link rel="stylesheet" href="~/css/slider.css" />
+    <link rel="stylesheet" href="~/css/aboutus.css" />
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -23,45 +25,55 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <div class="container" style="background-color:lightgrey;">
+
+        </div>
+       <nav class="navbar navbar-expand-lg" style="margin:20px;width:stretch;">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
-                    <img src="~/Logo.png" style="height:50px;width:60px" />
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
-                    <partial name="_LoginPartial" />
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <button type="button" class="btn "> @Html.ActionLink("Home", "Index", "Home")</button>
-                        </li>
-                        <li>
-                            <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                    Products
-                                </button>
-                                <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                    <button class="dropdown-item" type="button">@Html.ActionLink("Art", "Art", "Product")</button>
-                                    <div class="dropdown-divider"></div>
-                                    <button class="dropdown-item" type="button">@Html.ActionLink("Jewellry", "Jewellery", "Product")</button>
-                                    <div class="dropdown-divider"></div>
-                                    <button class="dropdown-item" type="button">@Html.ActionLink("Furniture", "Furniture", "Product")</button>
-                                    <div class="dropdown-divider"></div>
-                                    <button class="dropdown-item" type="button">@Html.ActionLink("Coins", "Coins", "Product")</button>
-                                </div>
-                            </div>
-                        <li style="padding-left:10px">
-                            <button type="button" class="btn btn-light">@Html.ActionLink("About", "Index", "About")</button>
-                        </li>
+                <a class="navbar-brand text-black" asp-action="Index" asp-controller="Home"><i class="fa fa-shopping-cart fa-lg mr-2"></i>DealNepal</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nvbCollapse" aria-controls="nvbCollapse">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+            <div class="collapse navbar-collapse" id="nvbCollapse" style="position:absolute;left:35%;">
+                    <ul class="navbar-nav ml-auto">        
+					<li class="nav-item pl-1" style="padding:10px;">
+						<a asp-controller="Home" asp-action="Index"><i class="fa fa-home fa-fw mr-1"></i>Home</a>
+					</li >
+                    <li>
+                    <div class="dropdown show">
+                          <a class="btn dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
+                          style="color: #24a0ed;" >
+                          
+                            <i class="fa fa-list"></i>
+                              Products
+                          </a>
+
+                          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                             <a asp-controller="Product" asp-action="Coins" >Coins</a>
+                               <div class="dropdown-divider"></div>
+                                <a asp-controller="Product" asp-action="Furniture" >Furniture</a>
+                              <div class="dropdown-divider"></div>
+                                <a asp-controller="Product" asp-action="Jewellery" >Jewellery</a>
+                               <div class="dropdown-divider"></div>
+                                <a asp-controller="Product" asp-action="Art" style="color:grey;">Art</a>
+                              <div class="dropdown-divider"></div>
+                          </div>
+                    </div>
+                      </li>
+                       
+                       <li class="nav-item pl-1" style="padding:10px;">
+						<a asp-controller="About" asp-action="Index"><i class="fa fa-info-circle fa-fw mr-1"></i>About</a>
+					</li>
                         <li style="float:right;margin-right:80px"><partial name="_profile" /></li>
                     </ul>
-                </div>
+            </div>
+               <div class="collapse navbar-collapse" id="nvbCollapse"style="position:absolute;left:80%;">
+                      <partial name="_LoginPartial" />
+                      </div>
             </div>
         </nav>
     </header>
+    
     <div class="container" style="height:100%">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -165,7 +177,7 @@
                         <h6 class="text-uppercase fw-bold mb-4">
                             Contact
                         </h6>
-                        <p><i class="fas fa-home me-3"></i> Dubarmag, Kathmandu</p>
+                        <p><i class="fas fa-home me-3"></i> Durbarmag, Kathmandu</p>
                         <p>
                             <i class="fas fa-envelope me-3"></i>
                             dealnepal@auction.com

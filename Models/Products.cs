@@ -35,7 +35,7 @@ namespace UserManagement.Models
 
         [NotMapped]
         [DisplayName("Upload Image")]
-       
+
         public IFormFile ProductImage { get; set; }
     }
   

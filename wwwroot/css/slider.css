@@ -84,7 +84,6 @@
   left: -9999px;
   font-size: 0pt;
   opacity: 0;
-  filter: alpha(opacity=0);
 }
 
 .csslider1 > ul > li.img,
