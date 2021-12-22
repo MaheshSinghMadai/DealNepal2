@@ -47,7 +47,8 @@ namespace UserManagement.Data
             {
                 entity.ToTable("UserTokens");
             });
-           
+            
+
         }
         
     }

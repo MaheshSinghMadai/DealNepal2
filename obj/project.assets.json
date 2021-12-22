@@ -8977,11 +8977,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\UserManagement.csproj",
+      "projectUniqueName": "E:\\DealNepal-master\\UserManagement.csproj",
       "projectName": "UserManagement",
-      "projectPath": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\UserManagement.csproj",
+      "projectPath": "E:\\DealNepal-master\\UserManagement.csproj",
       "packagesPath": "C:\\Users\\mahes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\obj\\",
+      "outputPath": "E:\\DealNepal-master\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mahes\\AppData\\Roaming\\NuGet\\NuGet.Config",

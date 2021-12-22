@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SFCQqzhfJrm4/a3E5KNrIYkWmfaDOqNPsi++KHOBPsZuRM/8V0clG6oEmO/BqVGy957usu2VnAkDpHS3KDIpnQ==",
+  "dgSpecHash": "vkvUvqUF2k5ZywAb+Y2UvdAj+bff89rA+XO9U7/UGdpCg++9WQhRwV+q/HybYNNpfkkDIOog2oU62hnCJFQD4g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahes\\OneDrive\\Documents\\DealNepal-master\\UserManagement.csproj",
+  "projectFilePath": "E:\\DealNepal-master\\UserManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahes\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\3.1.19\\microsoft.aspnetcore.cryptography.internal.3.1.19.nupkg.sha512",
     "C:\\Users\\mahes\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\3.1.19\\microsoft.aspnetcore.cryptography.keyderivation.3.1.19.nupkg.sha512",
