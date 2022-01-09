@@ -50,7 +50,7 @@ namespace UserManagement.Controllers
                 string wwwRootPath = _hostEnvironment.WebRootPath;
                 string fileName = Path.GetFileNameWithoutExtension(p.ProductImage.FileName);
                 string extension = Path.GetExtension(p.ProductImage.FileName);
-                p.ProductName = fileName += DateTime.Now.ToString("yymmssfff") ;
+                p.ProductImageName = fileName += DateTime.Now.ToString("yymmssfff") + extension;
                 string path = Path.Combine(wwwRootPath + "/image/", fileName);
                 using (var fileStream = new FileStream(path, FileMode.Create))
                 {

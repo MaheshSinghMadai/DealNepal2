@@ -13,6 +13,5 @@ namespace UserManagement.Models
         public int UsernameChangeLimit { get; set; } = 10;
         public byte[] ProfilePicture { get; set; }
 
-        public List<Products> Products { get; set; }
     }
 }

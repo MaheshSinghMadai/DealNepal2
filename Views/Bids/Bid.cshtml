@@ -2,17 +2,17 @@
 @model UserManagement.Models.Bid
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Bid";
+}
 
-
-<h4>Bid</h4>
-<hr />
-@if (SignInManager.IsSignedIn(User))
+    @if (SignInManager.IsSignedIn(User))
 {
+    <hr />
     <div class="row">
         <div class="col-md-4">
-            <form asp-action="Index" asp-controller="Home">
+            <form asp-action="Bid">
                 <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-               
 
                 <div class="form-group">
                     <label asp-for="BidAmount" class="control-label"></label>
@@ -29,10 +29,14 @@
 }
 else
 {
-    <h1>Login to bid</h1> 
+    <a asp-area="Identity" asp-page="/Account/Login" style="color:#008000;font-size:15px;">
+                 <i class="fa fa-unlock-alt" style="color:#008000"></i>
+                Login</a>
+
 }
+
 <div>
-    <a asp-action="Details" asp-controller="Product"> Back to List</a>
+    <a asp-action="Details" asp-controller="Products">Back to List</a>
 </div>
 
 @section Scripts {

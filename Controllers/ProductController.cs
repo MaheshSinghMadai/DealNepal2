@@ -16,9 +16,15 @@ namespace UserManagement.Controllers
         {
             _db = db;
         }
+
+        [HttpGet]
         public IActionResult Details(int? id)
         {
-            Products model = _db.Products.Find(id);
+            //ProductsViewModel model = new ProductsViewModel();
+            
+            Products  model= _db.Products.Find(id);
+           // model.LatestBid = model.Bids.OrderByDescending(x => x.Timestamp).First().BidAmount;
+           // model.LatestBidder = model.Bids.OrderByDescending(x => x.Timestamp).First().User;
 
             return View(model);
         }
@@ -64,6 +70,6 @@ namespace UserManagement.Controllers
                                     select p).ToList();
             return View(model);
         }
-
+       
     }
 }

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "q9IM4KMkVdlyLCSwftzRqQ4aKpP7pEarblFw33n8SrKuFVqOB5OTYLt0fpGKcYaKlYiEF80Z0q3NdpD21cLMEA==",
+  "dgSpecHash": "P+bqOEE6pCR0xkXqA2P+Wm3rcKNYp7sXOIBs1DHRz89LGawwO6EWc1da383wBj4RfYeIvYwRNFZQhfHcy7w4CQ==",
   "success": true,
   "projectFilePath": "E:\\DealNepal-master\\UserManagement.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mahes\\.nuget\\packages\\microsoft.aspnet.identity.core\\1.0.0\\microsoft.aspnet.identity.core.1.0.0.nupkg.sha512",
     "C:\\Users\\mahes\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\mahes\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\mahes\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
@@ -198,5 +199,16 @@
     "C:\\Users\\mahes\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\mahes\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }

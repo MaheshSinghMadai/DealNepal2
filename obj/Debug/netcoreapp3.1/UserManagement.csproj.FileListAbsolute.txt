@@ -2388,4 +2388,5 @@ E:\DealNepal-master\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
 E:\DealNepal-master\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 E:\DealNepal-master\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
 E:\DealNepal-master\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
-E:\DealNepal-master\obj\Debug\netcoreapp3.1\Razor\Views\Bids\AddBid.cshtml.g.cs
+E:\DealNepal-master\bin\Debug\netcoreapp3.1\Microsoft.AspNet.Identity.Core.dll
+E:\DealNepal-master\obj\Debug\netcoreapp3.1\Razor\Views\Bids\Bid.cshtml.g.cs

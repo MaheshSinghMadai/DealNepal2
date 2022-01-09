@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNet.Identity;
 using UserManagement.Data;
 using System.Threading.Tasks;
 using System;
@@ -18,29 +19,36 @@ namespace UserManagement.Models
         }
 
         [HttpGet]
-        public IActionResult AddBid()
+        public IActionResult Bid()
         {
             return View();
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Buyer")]
-        public async Task<IActionResult> AddBid(Bid b)
+        [Authorize(Roles = "Basic")]
+        public IActionResult Bid(int ProductID, double BidAmount)
         {
-            Bid bid = new Bid
+            Bid bid = new Bid();
+
+            if (User.Identity.IsAuthenticated) 
             {
-                ProductID = b.ProductID,
-                UserID = User.Identity.Name,
-                BidAmount = b.BidAmount,
-                Timestamp = DateTime.Now
-            };
+                bid.ProductID = ProductID;
+                bid.UserID = User.Identity.GetUserId();
+                bid.BidAmount = BidAmount;
+                bid.Timestamp = DateTime.Now;
+            }
 
-
-            _db.Bids.Add(bid);
-            await _db.SaveChangesAsync();
+            AddBid(bid);
 
             return View();
+        }
+
+      
+        public bool AddBid(Bid b)
+        {
+            _db.Bids.Add(b);
+            return _db.SaveChanges() > 0;
         }
     }
 }

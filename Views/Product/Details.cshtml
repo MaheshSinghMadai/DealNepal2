@@ -16,7 +16,7 @@
                             <figure class="view overlay rounded z-depth-1 main-img">
                                 <a href="@Url.Content("~/image/"+ Model.ProductName)" 
                                    data-size="710x823">
-                                    <img src="@Url.Content("~/image/"+ Model.ProductName)" asp-append-version="true"
+                                    <img src="@Url.Content("~/image/"+ Model.ProductImageName)" asp-append-version="true"
                                          class="img-fluid z-depth-1" />
                                 </a>
                             </figure>
@@ -26,28 +26,28 @@
                             <div class="row">
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
@@ -85,11 +85,11 @@
                             </tr>
                             <tr>
                                 <th class="pl-0 w-25" scope="row"><strong>Latest Bid</strong></th>
-                                <td>@Html.DisplayFor(model => model.Bids)</td>
+                                <td>@Html.DisplayFor(model => model.LatestBid)</td>
                             </tr>
                             <tr>
-                                <th class="pl-0 w-25" scope="row"><strong>Seller Location</strong></th>
-                                <td></td>
+                                <th class="pl-0 w-25" scope="row"><strong>Latest Bidder</strong></th>
+                                <td>@Html.DisplayFor(model => model.LatestBidder.UserName)</td>
                             </tr>
                         </tbody>
                     </table>
@@ -97,11 +97,11 @@
                 <hr>
                    
                 <!-- Bid Now Button -->
-
-             
-                <a class="btn btn-info" asp-controller="Bids" asp-action="AddBid" 
-               role="button">Bid now</a>
-     
+            
+            <a class="btn btn-info" asp-controller="Bids" asp-action="Bid" id="btnBidNow"
+                           role="button">
+                            Bid Now
+                        </a>
 
                 <button type="button" class="btn btn-light btn-md mr-1 mb-2" name="AddToCart">
                     <i class="fas fa-shopping-cart pr-2"></i>Add to cart
@@ -113,11 +113,11 @@
     </section>
     <!--Section: Block Content-->
 
-     <!--<script>
+     <script>
     $("#btnBidNow").click(function()
     {
         $.ajax({
-            url:
+            url: "@Url.Action("Bid","Bids")",
             type:"post",
             data:
             {
@@ -135,7 +135,7 @@
     }
    );
 
-</script>-->
+</script>
 
     <script type="text/javascript">
         $(document).ready(function () {

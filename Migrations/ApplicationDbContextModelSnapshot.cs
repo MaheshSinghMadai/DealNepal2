@@ -281,7 +281,7 @@ namespace UserManagement.Migrations
 
             modelBuilder.Entity("UserManagement.Models.Bid", b =>
                 {
-                    b.Property<int>("BidID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -301,7 +301,7 @@ namespace UserManagement.Migrations
                     b.Property<string>("UserID")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("BidID");
+                    b.HasKey("Id");
 
                     b.HasIndex("ProductsProductID");
 
@@ -317,9 +317,6 @@ namespace UserManagement.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("ApplicationUserId")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<string>("Category")
                         .HasColumnType("nvarchar(max)");
 
@@ -332,11 +329,17 @@ namespace UserManagement.Migrations
                     b.Property<double>("LatestBid")
                         .HasColumnType("float");
 
+                    b.Property<string>("LatestBidderId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<int>("MaxPrice")
                         .HasColumnType("int");
 
                     b.Property<int>("MinPrice")
                         .HasColumnType("int");
+
+                    b.Property<string>("ProductImageName")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ProductName")
                         .HasColumnType("nvarchar(100)");
@@ -346,7 +349,7 @@ namespace UserManagement.Migrations
 
                     b.HasKey("ProductID");
 
-                    b.HasIndex("ApplicationUserId");
+                    b.HasIndex("LatestBidderId");
 
                     b.ToTable("Products");
                 });
@@ -415,9 +418,9 @@ namespace UserManagement.Migrations
 
             modelBuilder.Entity("UserManagement.Models.Products", b =>
                 {
-                    b.HasOne("UserManagement.Models.ApplicationUser", null)
-                        .WithMany("Products")
-                        .HasForeignKey("ApplicationUserId");
+                    b.HasOne("UserManagement.Models.ApplicationUser", "LatestBidder")
+                        .WithMany()
+                        .HasForeignKey("LatestBidderId");
                 });
 #pragma warning restore 612, 618
         }

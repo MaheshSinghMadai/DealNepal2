@@ -14,12 +14,16 @@ namespace UserManagement.Models
     [Table("Products")]
     public class Products
     {
+        public ApplicationUser LatestBidder { get; set; }
+
         [Key]
         public int ProductID { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
         [DisplayName("Product Name")]
         public string ProductName { get; set; }
+
+        public string ProductImageName { get; set; }
 
         public string Description { get; set; }
 
@@ -41,8 +45,7 @@ namespace UserManagement.Models
         public IFormFile ProductImage { get; set; }
 
         public virtual List<Bid> Bids { get; set; }
-
-
+        //public string LatestBidder { get;  set; }
     }
   
 }
