@@ -4,14 +4,16 @@
     ViewData["Title"] = "Create";
 }
 
-<h2><strong>Add Product</strong></h2>
+
+<h4>Add Products</h4>
 <hr />
-<form>
-    <div class="form-row">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+         <div class="form-row">
         <div class="form-group col-md-6">
-            <label asp-for="ImageName" class="control-label"></label>
-            <input asp-for="ImageName" class="form-control" />
-            <span asp-validation-for="ImageName" class="text-danger"></span>
+            <label asp-for="ProductName" class="control-label"></label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
         </div>
         <div class="form-group col-md-6">
             <label asp-for="Category" class="control-label"></label>
@@ -45,7 +47,7 @@
         </div>
         <div class="form-group col-md-6">
             <label asp-for="ProductImage" class="control-label"></label> <br />
-            <input asp-for="ProductImage" accept="images/*" />
+            <input asp-for="ProductImage" accept="image/*" />
             <span asp-validation-for="ProductImage" class="text-danger"></span>
         </div>
     </div>

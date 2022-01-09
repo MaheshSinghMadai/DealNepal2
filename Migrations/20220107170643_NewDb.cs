@@ -3,16 +3,12 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace UserManagement.Migrations
 {
-    public partial class InititalMigration : Migration
+    public partial class NewDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.EnsureSchema(
-                name: "Identity");
-
             migrationBuilder.CreateTable(
                 name: "AspNetUsers",
-                schema: "Identity",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
@@ -41,28 +37,7 @@ namespace UserManagement.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Products",
-                schema: "Identity",
-                columns: table => new
-                {
-                    ImageID = table.Column<int>(nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    ImageName = table.Column<string>(type: "nvarchar(100)", nullable: true),
-                    Description = table.Column<string>(nullable: true),
-                    Category = table.Column<string>(nullable: true),
-                    MinPrice = table.Column<int>(nullable: false),
-                    MaxPrice = table.Column<int>(nullable: false),
-                    EndTime = table.Column<int>(nullable: false),
-                    LatestBid = table.Column<int>(nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Products", x => x.ImageID);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Role",
-                schema: "Identity",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
@@ -77,7 +52,6 @@ namespace UserManagement.Migrations
 
             migrationBuilder.CreateTable(
                 name: "User",
-                schema: "Identity",
                 columns: table => new
                 {
                     Id = table.Column<string>(nullable: false),
@@ -102,8 +76,34 @@ namespace UserManagement.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Products",
+                columns: table => new
+                {
+                    ProductID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    ProductName = table.Column<string>(type: "nvarchar(100)", nullable: true),
+                    Description = table.Column<string>(nullable: true),
+                    Category = table.Column<string>(nullable: true),
+                    MinPrice = table.Column<int>(nullable: false),
+                    MaxPrice = table.Column<int>(nullable: false),
+                    StartTime = table.Column<DateTime>(nullable: false),
+                    EndTime = table.Column<DateTime>(nullable: false),
+                    LatestBid = table.Column<double>(nullable: false),
+                    ApplicationUserId = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Products", x => x.ProductID);
+                    table.ForeignKey(
+                        name: "FK_Products_AspNetUsers_ApplicationUserId",
+                        column: x => x.ApplicationUserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
                 name: "UserClaims",
-                schema: "Identity",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -118,7 +118,6 @@ namespace UserManagement.Migrations
                     table.ForeignKey(
                         name: "FK_UserClaims_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalSchema: "Identity",
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -126,7 +125,6 @@ namespace UserManagement.Migrations
 
             migrationBuilder.CreateTable(
                 name: "UserLogins",
-                schema: "Identity",
                 columns: table => new
                 {
                     LoginProvider = table.Column<string>(nullable: false),
@@ -140,7 +138,6 @@ namespace UserManagement.Migrations
                     table.ForeignKey(
                         name: "FK_UserLogins_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalSchema: "Identity",
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -148,7 +145,6 @@ namespace UserManagement.Migrations
 
             migrationBuilder.CreateTable(
                 name: "UserTokens",
-                schema: "Identity",
                 columns: table => new
                 {
                     UserId = table.Column<string>(nullable: false),
@@ -162,7 +158,6 @@ namespace UserManagement.Migrations
                     table.ForeignKey(
                         name: "FK_UserTokens_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalSchema: "Identity",
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -170,7 +165,6 @@ namespace UserManagement.Migrations
 
             migrationBuilder.CreateTable(
                 name: "RoleClaims",
-                schema: "Identity",
                 columns: table => new
                 {
                     Id = table.Column<int>(nullable: false)
@@ -185,7 +179,6 @@ namespace UserManagement.Migrations
                     table.ForeignKey(
                         name: "FK_RoleClaims_Role_RoleId",
                         column: x => x.RoleId,
-                        principalSchema: "Identity",
                         principalTable: "Role",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
@@ -193,7 +186,6 @@ namespace UserManagement.Migrations
 
             migrationBuilder.CreateTable(
                 name: "UserRoles",
-                schema: "Identity",
                 columns: table => new
                 {
                     UserId = table.Column<string>(nullable: false),
@@ -205,36 +197,103 @@ namespace UserManagement.Migrations
                     table.ForeignKey(
                         name: "FK_UserRoles_Role_RoleId",
                         column: x => x.RoleId,
-                        principalSchema: "Identity",
                         principalTable: "Role",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
                         name: "FK_UserRoles_AspNetUsers_UserId",
                         column: x => x.UserId,
-                        principalSchema: "Identity",
                         principalTable: "AspNetUsers",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
 
+            migrationBuilder.CreateTable(
+                name: "Bids",
+                columns: table => new
+                {
+                    BidID = table.Column<int>(nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    UserId = table.Column<string>(nullable: true),
+                    BidAmount = table.Column<double>(nullable: false),
+                    Timestamp = table.Column<DateTime>(nullable: false),
+                    ProductsProductID = table.Column<int>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Bids", x => x.BidID);
+                    table.ForeignKey(
+                        name: "FK_Bids_Products_ProductsProductID",
+                        column: x => x.ProductsProductID,
+                        principalTable: "Products",
+                        principalColumn: "ProductID",
+                        onDelete: ReferentialAction.Restrict);
+                    table.ForeignKey(
+                        name: "FK_Bids_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Restrict);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "Products_Bids",
+                columns: table => new
+                {
+                    ProductID = table.Column<int>(nullable: false),
+                    BidID = table.Column<int>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Products_Bids", x => new { x.ProductID, x.BidID });
+                    table.ForeignKey(
+                        name: "FK_Products_Bids_Bids_BidID",
+                        column: x => x.BidID,
+                        principalTable: "Bids",
+                        principalColumn: "BidID",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_Products_Bids_Products_ProductID",
+                        column: x => x.ProductID,
+                        principalTable: "Products",
+                        principalColumn: "ProductID",
+                        onDelete: ReferentialAction.Cascade);
+                });
+
             migrationBuilder.CreateIndex(
                 name: "EmailIndex",
-                schema: "Identity",
                 table: "AspNetUsers",
                 column: "NormalizedEmail");
 
             migrationBuilder.CreateIndex(
                 name: "UserNameIndex",
-                schema: "Identity",
                 table: "AspNetUsers",
                 column: "NormalizedUserName",
                 unique: true,
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Bids_ProductsProductID",
+                table: "Bids",
+                column: "ProductsProductID");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Bids_UserId",
+                table: "Bids",
+                column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_ApplicationUserId",
+                table: "Products",
+                column: "ApplicationUserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Products_Bids_BidID",
+                table: "Products_Bids",
+                column: "BidID");
+
+            migrationBuilder.CreateIndex(
                 name: "RoleNameIndex",
-                schema: "Identity",
                 table: "Role",
                 column: "NormalizedName",
                 unique: true,
@@ -242,25 +301,21 @@ namespace UserManagement.Migrations
 
             migrationBuilder.CreateIndex(
                 name: "IX_RoleClaims_RoleId",
-                schema: "Identity",
                 table: "RoleClaims",
                 column: "RoleId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserClaims_UserId",
-                schema: "Identity",
                 table: "UserClaims",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserLogins_UserId",
-                schema: "Identity",
                 table: "UserLogins",
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_UserRoles_RoleId",
-                schema: "Identity",
                 table: "UserRoles",
                 column: "RoleId");
         }
@@ -268,40 +323,37 @@ namespace UserManagement.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Products",
-                schema: "Identity");
+                name: "Products_Bids");
 
             migrationBuilder.DropTable(
-                name: "RoleClaims",
-                schema: "Identity");
+                name: "RoleClaims");
 
             migrationBuilder.DropTable(
-                name: "User",
-                schema: "Identity");
+                name: "User");
 
             migrationBuilder.DropTable(
-                name: "UserClaims",
-                schema: "Identity");
+                name: "UserClaims");
 
             migrationBuilder.DropTable(
-                name: "UserLogins",
-                schema: "Identity");
+                name: "UserLogins");
 
             migrationBuilder.DropTable(
-                name: "UserRoles",
-                schema: "Identity");
+                name: "UserRoles");
 
             migrationBuilder.DropTable(
-                name: "UserTokens",
-                schema: "Identity");
+                name: "UserTokens");
 
             migrationBuilder.DropTable(
-                name: "Role",
-                schema: "Identity");
+                name: "Bids");
 
             migrationBuilder.DropTable(
-                name: "AspNetUsers",
-                schema: "Identity");
+                name: "Role");
+
+            migrationBuilder.DropTable(
+                name: "Products");
+
+            migrationBuilder.DropTable(
+                name: "AspNetUsers");
         }
     }
 }

@@ -10,15 +10,14 @@ using UserManagement.Data;
 namespace UserManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211218165829_ProductsAb")]
-    partial class ProductsAb
+    [Migration("20220108050119_NewDbssss")]
+    partial class NewDbssss
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasDefaultSchema("Identity")
-                .HasAnnotation("ProductVersion", "3.1.20")
+                .HasAnnotation("ProductVersion", "3.1.18")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
@@ -282,12 +281,46 @@ namespace UserManagement.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
-            modelBuilder.Entity("UserManagement.Models.Products", b =>
+            modelBuilder.Entity("UserManagement.Models.Bid", b =>
                 {
-                    b.Property<int>("ImageID")
+                    b.Property<int>("BidID")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<double>("BidAmount")
+                        .HasColumnType("float");
+
+                    b.Property<int>("ProductID")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("ProductsProductID")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Timestamp")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("UserId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.HasKey("BidID");
+
+                    b.HasIndex("ProductsProductID");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Bids");
+                });
+
+            modelBuilder.Entity("UserManagement.Models.Products", b =>
+                {
+                    b.Property<int>("ProductID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
 
                     b.Property<string>("Category")
                         .HasColumnType("nvarchar(max)");
@@ -295,14 +328,11 @@ namespace UserManagement.Migrations
                     b.Property<string>("Description")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("EndTime")
-                        .HasColumnType("int");
+                    b.Property<DateTime>("EndTime")
+                        .HasColumnType("datetime2");
 
-                    b.Property<string>("ImageName")
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<int>("LatestBid")
-                        .HasColumnType("int");
+                    b.Property<double>("LatestBid")
+                        .HasColumnType("float");
 
                     b.Property<int>("MaxPrice")
                         .HasColumnType("int");
@@ -310,7 +340,15 @@ namespace UserManagement.Migrations
                     b.Property<int>("MinPrice")
                         .HasColumnType("int");
 
-                    b.HasKey("ImageID");
+                    b.Property<string>("ProductName")
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<DateTime>("StartTime")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ProductID");
+
+                    b.HasIndex("ApplicationUserId");
 
                     b.ToTable("Products");
                 });
@@ -364,6 +402,24 @@ namespace UserManagement.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("UserManagement.Models.Bid", b =>
+                {
+                    b.HasOne("UserManagement.Models.Products", "Products")
+                        .WithMany("Bids")
+                        .HasForeignKey("ProductsProductID");
+
+                    b.HasOne("UserManagement.Models.ApplicationUser", "User")
+                        .WithMany()
+                        .HasForeignKey("UserId");
+                });
+
+            modelBuilder.Entity("UserManagement.Models.Products", b =>
+                {
+                    b.HasOne("UserManagement.Models.ApplicationUser", null)
+                        .WithMany("Products")
+                        .HasForeignKey("ApplicationUserId");
                 });
 #pragma warning restore 612, 618
         }

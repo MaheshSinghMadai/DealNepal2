@@ -13,12 +13,15 @@ namespace UserManagement.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+
         }
-        public DbSet<Products> Products { get; set; }
+     
         protected override void OnModelCreating(ModelBuilder builder)
         {
+           
+
             base.OnModelCreating(builder);
-            builder.HasDefaultSchema("Identity");
+
             builder.Entity<IdentityUser>(entity =>
             {
                 entity.ToTable(name: "User");
@@ -47,9 +50,10 @@ namespace UserManagement.Data
             {
                 entity.ToTable("UserTokens");
             });
-            
-
         }
-        
+        public DbSet<Products> Products { get; set; }
+        public DbSet<Bid> Bids { get; set; }
+
+
     }
 }

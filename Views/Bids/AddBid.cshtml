@@ -1,0 +1,40 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model UserManagement.Models.Bid
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+<h4>Bid</h4>
+<hr />
+@if (SignInManager.IsSignedIn(User))
+{
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="Index" asp-controller="Home">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+               
+
+                <div class="form-group">
+                    <label asp-for="BidAmount" class="control-label"></label>
+                    <input asp-for="BidAmount" class="form-control" />
+                    <span asp-validation-for="BidAmount" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <input type="submit" value="Bid" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+}
+else
+{
+    <h1>Login to bid</h1> 
+}
+<div>
+    <a asp-action="Details" asp-controller="Product"> Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

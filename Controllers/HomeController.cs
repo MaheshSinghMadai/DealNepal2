@@ -27,7 +27,7 @@ namespace UserManagement.Controllers
         {
             
                 List<Products> model = (from p in _db.Products
-                                        orderby p.ImageID
+                                        orderby p.ProductID
                                         select p).ToList();
                 return View(model);
             
@@ -42,7 +42,7 @@ namespace UserManagement.Controllers
         // POST: Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ImageId,ImageName,Description,Category,MinPrice,MaxPrice,EndTime,LatestBid,ProductImage")] Products p)
+        public async Task<IActionResult> Create([Bind("ProductID,ProductName,Description,Category,MinPrice,MaxPrice,EndTime,LatestBid,ProductImage")] Products p)
         {
             if (ModelState.IsValid)
             {
@@ -50,8 +50,8 @@ namespace UserManagement.Controllers
                 string wwwRootPath = _hostEnvironment.WebRootPath;
                 string fileName = Path.GetFileNameWithoutExtension(p.ProductImage.FileName);
                 string extension = Path.GetExtension(p.ProductImage.FileName);
-                p.ImageName = fileName = fileName + DateTime.Now.ToString("yymmssfff") ;
-                string path = Path.Combine(wwwRootPath + "/Image/", fileName);
+                p.ProductName = fileName += DateTime.Now.ToString("yymmssfff") ;
+                string path = Path.Combine(wwwRootPath + "/image/", fileName);
                 using (var fileStream = new FileStream(path, FileMode.Create))
                 {
                     await p.ProductImage.CopyToAsync(fileStream);
@@ -61,6 +61,7 @@ namespace UserManagement.Controllers
                 await _db.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
+          
             return View(p);
      
         }
@@ -72,7 +73,7 @@ namespace UserManagement.Controllers
 
                 if (!String.IsNullOrEmpty(searchByName))
                 {
-                    search = search.Where(s => s.ImageName.Contains(searchByName));
+                    search = search.Where(s => s.ProductName.Contains(searchByName));
                 }
 
                  return View(await search.ToListAsync());

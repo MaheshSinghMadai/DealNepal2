@@ -2,7 +2,7 @@
 
 namespace UserManagement.Migrations
 {
-    public partial class ProductsAb : Migration
+    public partial class NewDbsss : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

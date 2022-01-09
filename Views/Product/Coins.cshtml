@@ -30,15 +30,15 @@
                 <small class="ml-1">@Html.DisplayFor(modelItem => item.EndTime) Hours</small>
             </div> <img src="https://i.imgur.com/suuFVrQ.png" width="20">
         </div>
-        <div class="text-center"> <img src="@("~/image/" + item.ImageName)" asp-append-version="true" width="250" height="230"> </div>
+        <div class="text-center"> <img src="@("~/image/" + item.ProductName)" asp-append-version="true" width="250" height="230"> </div>
         <div class="text-center">
-            <h5>@Html.DisplayFor(modelItem => item.ImageName)</h5>
+            <h5>@Html.DisplayFor(modelItem => item.ProductName)</h5>
             <span class="text-success">
                 Starts from NRS. @Html.DisplayFor(modelItem => item.MinPrice)
             </span>
         </div>
         <br />
-        <a class="btn btn-info" asp-controller="Product" asp-action="Details" asp-route-id="@item.ImageID"
+        <a class="btn btn-info" asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductID"
            role="button">See details</a>
     </div>
 </div>}

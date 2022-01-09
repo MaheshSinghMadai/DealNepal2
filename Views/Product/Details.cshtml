@@ -1,4 +1,10 @@
 ﻿@model UserManagement.Models.Products
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/master.js"></script>
+
+
+
     <!--Section: Block Content-->
     <section class="mb-5">
         <div class="row">
@@ -8,9 +14,9 @@
                   <div class="row product-gallery mx-1">
                         <div class="col-12 mb-0">
                             <figure class="view overlay rounded z-depth-1 main-img">
-                                <a href="@Url.Content("~/image/"+Model.ImageName)" 
+                                <a href="@Url.Content("~/image/"+ Model.ProductName)" 
                                    data-size="710x823">
-                                    <img src="@Url.Content("~/image/"+Model.ImageName)" asp-append-version="true"
+                                    <img src="@Url.Content("~/image/"+ Model.ProductName)" asp-append-version="true"
                                          class="img-fluid z-depth-1" />
                                 </a>
                             </figure>
@@ -20,28 +26,28 @@
                             <div class="row">
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ImageName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ImageName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ImageName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
                                 </div>
                                 <div class="col-3">
                                     <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ImageName)"
+                                        <img src="@Url.Content("~/image/"+Model.ProductName)"
                                              class="img-fluid">
                                         <div class="mask rgba-white-slight"></div>
                                     </div>
@@ -54,7 +60,7 @@
 
             </div>
             <div class="col-md-6">
-                <h5>@Html.DisplayFor(model => model.ImageName)</h5>
+                <h5>@Html.DisplayFor(model => model.ProductName)</h5>
                 <p class="mb-2 text-muted text-uppercase small">@Html.DisplayFor(model => model.Category)</p>
                  
                 <div class="rating">
@@ -75,32 +81,61 @@
                         <tbody>
                             <tr>
                                 <th class="pl-0 w-25" scope="row"><strong>Ends in</strong></th>
-                                <td>@Html.DisplayFor(model => model.EndTime) hrs</td>
+                                <td>@Html.DisplayFor(model => model.EndTime) </td>
                             </tr>
                             <tr>
-                                <th class="pl-0 w-25" scope="row"><strong>Bids</strong></th>
-                                <td>x</td>
+                                <th class="pl-0 w-25" scope="row"><strong>Latest Bid</strong></th>
+                                <td>@Html.DisplayFor(model => model.Bids)</td>
                             </tr>
                             <tr>
                                 <th class="pl-0 w-25" scope="row"><strong>Seller Location</strong></th>
-                                <td>z,y</td>
+                                <td></td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <hr>
-                
-                <button type="button" class="btn btn-primary btn-md mr-1 mb-2">
-                
-                Bid now</button>
-                <button type="button" class="btn btn-light btn-md mr-1 mb-2">
+                   
+                <!-- Bid Now Button -->
+
+             
+                <a class="btn btn-info" asp-controller="Bids" asp-action="AddBid" 
+               role="button">Bid now</a>
+     
+
+                <button type="button" class="btn btn-light btn-md mr-1 mb-2" name="AddToCart">
                     <i class="fas fa-shopping-cart pr-2"></i>Add to cart
                 </button>
+
             </div>
         </div>
 
     </section>
     <!--Section: Block Content-->
+
+     <!--<script>
+    $("#btnBidNow").click(function()
+    {
+        $.ajax({
+            url:
+            type:"post",
+            data:
+            {
+                ID : '@Model.ProductID'
+            }
+        }).done(function (response) {
+            if(response.Success)
+                window.location.reload();
+            }else{
+                Swal("Error",response.Message, "Error");
+            }
+        }).fail(function(){
+            Swal("Error","Error . Please try again", "Error");
+        });
+    }
+   );
+
+</script>-->
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -110,3 +145,7 @@
             });
         });
     </script>
+
+
+
+   

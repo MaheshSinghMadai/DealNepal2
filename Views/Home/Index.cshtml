@@ -5,9 +5,9 @@
 @{ ViewBag.Title = "Home Page"; }
 
 <!--Search Bar-->
-<div class="container" style="margin-top:30px;background-color:lightgrey;height:130px;">
+<div class="container bg-light" style="margin-top:30px;background-color:darkgrey;height:130px;">
     <div class="row height d-flex justify-content-center align-items-center">
-        <div class="col-md-8" style="margin:20px;">
+        <div class="col-md-8" style="margin:30px;">
             <form asp-controller="Home" asp-action="Search">
                 <div class="search" >
                     <i class="fa fa-search"></i>
@@ -81,17 +81,17 @@
                             </div> <img src="https://i.imgur.com/suuFVrQ.png" width="20">
                         </div>
                         <div class="text-center">
-                            <img src="@("~/image/" + item.ImageName)" asp-append-version="true"
+                            <img src="@("~/image/" + item.ProductName)" asp-append-version="true"
                                  width="250" height="230">
                         </div>
                         <div class="text-center">
-                            <h5>@Html.DisplayFor(modelItem => item.ImageName)</h5>
+                            <h5>@Html.DisplayFor(modelItem => item.ProductName)</h5>
                             <span class="text-success">
                                 Starts from NRS. @Html.DisplayFor(modelItem => item.MinPrice)
                             </span>
                         </div>
                         <br />
-                        <a class="btn btn-info" asp-controller="Product" asp-action="Details" asp-route-id="@item.ImageID"
+                        <a class="btn btn-info" asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductID"
                            role="button">
                             See details
                         </a>

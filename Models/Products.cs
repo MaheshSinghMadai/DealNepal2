@@ -15,11 +15,11 @@ namespace UserManagement.Models
     public class Products
     {
         [Key]
-        public int ImageID { get; set; }
+        public int ProductID { get; set; }
 
         [Column(TypeName = "nvarchar(100)")]
-        [DisplayName("Image Name")]
-        public string ImageName { get; set; }
+        [DisplayName("Product Name")]
+        public string ProductName { get; set; }
 
         public string Description { get; set; }
 
@@ -29,14 +29,20 @@ namespace UserManagement.Models
 
         public int MaxPrice { get; set; }
 
-        public int EndTime { get; set; }
+        public DateTime StartTime { get; set; }
 
-        public int LatestBid { get; set; }
+        public DateTime  EndTime { get; set; }
+
+        public double LatestBid { get; set; }
 
         [NotMapped]
         [DisplayName("Upload Image")]
 
         public IFormFile ProductImage { get; set; }
+
+        public virtual List<Bid> Bids { get; set; }
+
+
     }
   
 }
