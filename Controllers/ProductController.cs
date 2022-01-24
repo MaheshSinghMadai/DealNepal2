@@ -3,7 +3,6 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNet.Identity;
-using System.Threading.Tasks;
 using UserManagement.Data;
 using UserManagement.Models;
 
@@ -18,13 +17,49 @@ namespace UserManagement.Controllers
             _db = db;
         }
 
-       
-        public IActionResult Details(int? Id)
-        {
-            Products b = _db.Products.Find(Id);
-        
 
-            return View(b);
+        [HttpGet]
+        public IActionResult Details(int? id)
+        {
+
+            Products detail = _db.Products.Find(id);
+            List<Products> recommend = (from p in _db.Products
+                                        where p.Category == detail.Category &&
+                                        p.ProductID != detail.ProductID
+                                        select p).ToList();
+           
+
+            Details model = new Details();
+            model.listA = detail;
+            model.listB = recommend;
+            //calling function
+
+            return View(model);
+        }
+
+        [HttpGet]
+        public IActionResult BidInput(int Id,double BidAmount)
+        {
+            int Pid = Id;
+            Bid bidin = new Bid();
+
+            if (User.Identity.IsAuthenticated)
+            {
+                bidin.ProductID = Pid;
+                bidin.UserID = User.Identity.GetUserId();
+                bidin.BidAmount = BidAmount;
+                bidin.Timestamp = DateTime.Now;
+            }
+
+            AddBid(bidin);
+            return RedirectToAction("Index","Home" );
+        }
+
+
+        public bool AddBid(Bid b)
+        {
+            _db.Bids.Add(b);
+            return _db.SaveChanges() > 0;
         }
 
         public IActionResult Art()
@@ -70,11 +105,6 @@ namespace UserManagement.Controllers
             return View(model);
         }
 
-        public bool AddBid(Bid b)
-        {
-            _db.Bids.Add(b);
-            return _db.SaveChanges() > 0;
-        }
-
+       
     }
 }

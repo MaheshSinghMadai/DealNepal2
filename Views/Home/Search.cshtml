@@ -21,9 +21,18 @@
                                        width="250" height="230"> </div>
         <div class="text-center">
             <h5>@Html.DisplayFor(modelItem => item.ProductName)</h5>
-            <span class="text-success">
-                Starts from NRS. @Html.DisplayFor(modelItem => item.MinPrice)
-            </span>
+            @{ var date = DateTime.Now;
+                int compdate = DateTime.Compare(item.EndTime, date);
+                if (compdate > 0)
+                {
+        <span class="text-success">
+            Starts from NRS. @Html.DisplayFor(modelItem => item.MinPrice)
+        </span> }
+                        else
+                        {
+        <span class="text-success">
+            Auction Ended at NRS. @Html.DisplayFor(modelItem => item.LatestBid)
+        </span> } }
         </div>
         <br />
         <a class="btn btn-info" asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductID"

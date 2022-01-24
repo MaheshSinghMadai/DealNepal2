@@ -1,4 +1,4 @@
-﻿@model UserManagement.Models.Products
+﻿@model UserManagement.Models.Details
 
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<ApplicationUser> SignInManager
@@ -8,156 +8,205 @@
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <script src="~/js/master.js"></script>
 
-    <!--Section: Block Content-->
-    <section class="mb-5">
-        <div class="row">
-            <div class="col-md-6 mb-4 mb-md-0">
-                <div id="mdb-lightbox-ui"></div>
-                <div class="mdb-lightbox">
-                  <div class="row product-gallery mx-1">
-                        <div class="col-12 mb-0">
-                            <figure class="view overlay rounded z-depth-1 main-img">
-                                <a href="@Url.Content("~/image/"+ Model.ProductImageName)" 
-                                   data-size="710x823">
-                                    <img src="@Url.Content("~/image/"+ Model.ProductImageName)" asp-append-version="true"
-                                         class="img-fluid z-depth-1" />
-                                </a>
-                            </figure>
-                           
-                        </div>
-                        <div class="col-12">
-                            <div class="row">
-                                <div class="col-3">
-                                    <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
-                                             class="img-fluid">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </div>
+<!--Section: Block Content-->
+<section class="mb-5">
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <div id="mdb-lightbox-ui"></div>
+            <div class="mdb-lightbox">
+                <div class="row product-gallery mx-1">
+                    <div class="col-12 mb-0">
+                        <figure class="view overlay rounded z-depth-1 main-img">
+                            <a href="@Url.Content("~/image/"+ Model.listA.ProductImageName)"
+                               data-size="710x823">
+                                <img src="@Url.Content("~/image/"+ Model.listA.ProductImageName)" asp-append-version="true"
+                                     class="img-fluid z-depth-1" />
+                            </a>
+                        </figure>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
                                 </div>
-                                <div class="col-3">
-                                    <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
-                                             class="img-fluid">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
                                 </div>
-                                <div class="col-3">
-                                    <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
-                                             class="img-fluid">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
                                 </div>
-                                <div class="col-3">
-                                    <div class="view overlay rounded z-depth-1 gallery-item">
-                                        <img src="@Url.Content("~/image/"+Model.ProductImageName)"
-                                             class="img-fluid">
-                                        <div class="mask rgba-white-slight"></div>
-                                    </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
                 </div>
 
             </div>
-            <div class="col-md-6">
-                <h5>@Html.DisplayFor(model => model.ProductName)</h5>
-                <p class="mb-2 text-muted text-uppercase small">@Html.DisplayFor(model => model.Category)</p>
-                 
-                <div class="rating">
-                    <span class="fas fa-star"></span>
-                    <span class="fas fa-star"></span>
-                    <span class="fa fa-star"></span>
-                    <span class="fa fa-star"></span>
-                </div>
-                <br />
-                <p><span class="mr-1">
-                       <strong>
-           NRS. @Html.DisplayFor(model => model.MinPrice) - NRS.@Html.DisplayFor(model => model.MaxPrice)
-                           </strong></span></p>
-                <p class="pt-1">
-                    @Html.DisplayFor(model => model.Description)
-                </p>
-                <div class="table-responsive">
-                    <table class="table table-sm table-borderless mb-0">
-                        <tbody>
-                            <tr>
-                                <th class="pl-0 w-25" scope="row"><strong>Ends in</strong></th>
-                                <td>@Html.DisplayFor(model => model.EndTime) </td>
-                            </tr>
-                            <tr>
-                                <th class="pl-0 w-25" scope="row"><strong>Latest Bid</strong></th>
-                                <td>@Html.DisplayFor(model => model.LatestBid)</td>
-                            </tr>
-                            <tr>
-                                <th class="pl-0 w-25" scope="row"><strong>Latest Bidder</strong></th>
-                                <td>@Html.DisplayFor(model => model.LatestBidder.UserName)</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <hr>
-                   
-                @if (SignInManager.IsSignedIn(User))
+
+        </div>
+        <div class="col-md-6">
+            <h5>@Html.DisplayFor(model => model.listA.ProductName)</h5>
+            <p class="mb-2 text-muted text-uppercase small">@Html.DisplayFor(model => model.listA.Category)</p>
+
+            <div class="rating">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <br />
+            <p>
+                <span class="mr-1">
+                    <strong>
+                        NRS. @Html.DisplayFor(model => model.listA.MinPrice) - NRS.@Html.DisplayFor(model => model.listA.MaxPrice)
+                    </strong>
+                </span>
+            </p>
+            <p class="pt-1">
+                @Html.DisplayFor(model => model.listA.Description)
+            </p>
+            <div class="table-responsive">
+                <table class="table table-sm table-borderless mb-0">
+                    <tbody>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Ends in</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.EndTime) </td>
+                        </tr>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Latest Bid</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.LatestBid)</td>
+                        </tr>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Latest Bidder</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.LatestBidder.UserName)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+
+            @if (SignInManager.IsSignedIn(User))
             {
                 <!-- Bid Now Button -->
-          
-               <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bidModal">Bid Now</button>
-    
-        <div id="bidModal" class="modal" tabindex="-1" role="dialog">
-            <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Enter Bid Amount</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <partial name="_Bid">
-                      
-                        <div class="modal-footer">
-                            
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        </div>
-                    </div>
-                </div>
-                </div>
-            </div> -->
-            <a class="btn btn-info" asp-controller="Bids" asp-action="Bid" asp-route-id="@Model.ProductID"
-               role="button">Bid Now</a>
-   
-            }
-            else
-            {
-                 <ul>
-                <li class="nav-item pl-1 " style="padding:10px;margin-left:15px;">
-                    <a asp-area="Identity" asp-page="/Account/Login" style="color:#008000;font-size:15px;">
-                         <i class="fa fa-unlock-alt" style="color:#008000"></i>
-                        Login</a>
-                </li>
-                </ul>
-            }
-            <br />
-          
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="BidInput" method="get">
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
+
+                    <div class="form-group">
+                        <label asp-for="listC.BidAmount" name="BidAmount" class="control-label"></label>
+                        <input asp-for="listC.BidAmount" name="BidAmount" class="form-control" />
+                        <input asp-for="listC.ProductID" name="Id" type="hidden" value="@Model.listA.ProductID" />
+                        <span asp-validation-for="listC.BidAmount" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="submit" value="Bid Now" class="btn btn-primary" />
+                    </div>
+                </form>
             </div>
         </div>
+                 }
+                                            else
+                                            {
+                                <ul>
+                                    <li class="nav-item pl-1 " style="padding:10px;margin-left:15px;">
+                                        <a asp-area="Identity" asp-page="/Account/Login" style="color:#008000;font-size:15px;">
+                                            <i class="fa fa-unlock-alt" style="color:#008000"></i>
+                                            Login
+                                        </a>
+                                    </li>
+                                </ul>}
+            <br />
 
-    </section>
-    <!--Section: Block Content-->
+
+        </div>
+    </div>
+
+</section>
+<!--Section: Block Content-->
+<!----Featured Products-->
+<section class="features3 cid-sDUtVF80ox" id="features3-g">
+    <div class="mbr-section-head">
+        <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h3>Product You May Also Bid</h3>
+        </h4>
+    </div>
+    <div class="container mt-5">
+        <div class="d-flex justify-content-between align-items-center mb-3">
+
+        </div>
+       <div class="row" style="">
+            @foreach (var item in Model.listB)
+            {
+<div class="col-md-4">
+    <div class="card" style="height: 415px; margin-bottom: 10px">
+        <div class="d-flex justify-content-between align-items-center">
+            <div class="d-flex flex-row align-items-center time">
+                <i class="fa fa-clock-o"></i>
+                <small class="ml-1">Ends in @Html.DisplayFor(modelItem => item.EndTime)</small>
+            </div> <img src="https://i.imgur.com/suuFVrQ.png" width="20">
+        </div>
+        <br>
+        <div class="text-center">
+            <img src="@("~/image/" + item.ProductImageName)" asp-append-version="true"
+                 width="250" height="230">
+        </div>
+        <div class="text-center">
+            <h5>@Html.DisplayFor(modelItem => item.ProductName)</h5>
+            @{ var date = DateTime.Now;
+                int compdate = DateTime.Compare(item.EndTime, date);
+                if (compdate > 0)
+                {
+<span class="text-success">
+    Starts from NRS. @Html.DisplayFor(modelItem => item.MinPrice)
+</span> }
+else
+{
+<span class="text-success">
+    Auction Ended at NRS. @Html.DisplayFor(modelItem => item.LatestBid)
+</span> } }
+        </div>
+        <br />
+        <a class="btn btn-info" asp-controller="Product" asp-action="Details" asp-route-id="@item.ProductID"
+           role="button">
+            See details
+        </a>
+    </div>
+</div>      }
+        </div>
+        <br />
+    </div>
+</section>
 
 
-    <script type="text/javascript">
-        $(document).ready(function () {
-            // MDB Lightbox Init
-            $(function () {
-                $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
-            });
+<script type="text/javascript">
+    $(document).ready(function () {
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
         });
-    </script>
+    });
+</script>
 
-   
-   
+
+

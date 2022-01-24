@@ -44,7 +44,9 @@ namespace UserManagement.Models
         public ApplicationUser LatestBidder { get; set; }
 
         public virtual List<Bid> Bids { get; set; }
-     
+
+       
+
     }
   
 }
