@@ -17,9 +17,9 @@
                 <div class="row product-gallery mx-1">
                     <div class="col-12 mb-0">
                         <figure class="view overlay rounded z-depth-1 main-img">
-                            <a href="@Url.Content("~/image/"+ Model.listA.ProductImageName)"
+                            <a href="@Url.Content("~/image/" + Model.listA.ProductImageName)"
                                data-size="710x823">
-                                <img src="@Url.Content("~/image/"+ Model.listA.ProductImageName)" asp-append-version="true"
+                                <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)" asp-append-version="true"
                                      class="img-fluid z-depth-1" />
                             </a>
                         </figure>
@@ -29,28 +29,28 @@
                         <div class="row">
                             <div class="col-3">
                                 <div class="view overlay rounded z-depth-1 gallery-item">
-                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
                                          class="img-fluid">
                                     <div class="mask rgba-white-slight"></div>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="view overlay rounded z-depth-1 gallery-item">
-                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
                                          class="img-fluid">
                                     <div class="mask rgba-white-slight"></div>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="view overlay rounded z-depth-1 gallery-item">
-                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
                                          class="img-fluid">
                                     <div class="mask rgba-white-slight"></div>
                                 </div>
                             </div>
                             <div class="col-3">
                                 <div class="view overlay rounded z-depth-1 gallery-item">
-                                    <img src="@Url.Content("~/image/"+Model.listA.ProductImageName)"
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
                                          class="img-fluid">
                                     <div class="mask rgba-white-slight"></div>
                                 </div>
@@ -91,20 +91,24 @@
                             <td>@Html.DisplayFor(model => model.listA.EndTime) </td>
                         </tr>
                         <tr>
-                            <th class="pl-0 w-25" scope="row"><strong>Latest Bid</strong></th>
+                            <th class="pl-0 w-25" scope="row"><strong>Highest Bid</strong></th>
                             <td>@Html.DisplayFor(model => model.listA.LatestBid)</td>
-                        </tr>
-                        <tr>
-                            <th class="pl-0 w-25" scope="row"><strong>Latest Bidder</strong></th>
-                            <td>@Html.DisplayFor(model => model.listA.LatestBidder.UserName)</td>
                         </tr>
                     </tbody>
                 </table>
             </div>
             <hr>
 
-            @if (SignInManager.IsSignedIn(User))
-            {
+            @{ 
+                if (SignInManager.IsSignedIn(User))
+                {
+                    if (UserManager.GetUserId(User).Equals(@Model.listA.UserID))
+                    {
+                        <p>Hello You are owner of this product</p>
+                    }
+
+                    else {
+
                 <!-- Bid Now Button -->
         <div class="row">
             <div class="col-md-4">
@@ -114,7 +118,19 @@
 
                     <div class="form-group">
                         <label asp-for="listC.BidAmount" name="BidAmount" class="control-label"></label>
-                        <input asp-for="listC.BidAmount" name="BidAmount" class="form-control" />
+                        @{ 
+                            if (Model.listA.LatestBid == 0)
+                            {
+                                <input asp-for="listC.BidAmount" type="number" name="BidAmount" class="form-control" 
+                                   min="@Model.listA.MinPrice" max="@Model.listA.MaxPrice"/>
+                            }
+                            else
+                            {
+                                <input asp-for="listC.BidAmount" type="number" name="BidAmount" class="form-control" 
+                                   min="@Model.listA.LatestBid" max="@Model.listA.MaxPrice"/>
+                            }
+                        }
+                        
                         <input asp-for="listC.ProductID" name="Id" type="hidden" value="@Model.listA.ProductID" />
                         <span asp-validation-for="listC.BidAmount" class="text-danger"></span>
                     </div>
@@ -125,9 +141,10 @@
                 </form>
             </div>
         </div>
-                 }
-                                            else
-                                            {
+                                } }
+
+                            else 
+                            {
                                 <ul>
                                     <li class="nav-item pl-1 " style="padding:10px;margin-left:15px;">
                                         <a asp-area="Identity" asp-page="/Account/Login" style="color:#008000;font-size:15px;">
@@ -135,7 +152,11 @@
                                             Login
                                         </a>
                                     </li>
-                                </ul>}
+                                </ul>
+
+                            }
+                          
+                            }
             <br />
 
 

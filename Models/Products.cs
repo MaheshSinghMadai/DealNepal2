@@ -45,7 +45,10 @@ namespace UserManagement.Models
 
         public virtual List<Bid> Bids { get; set; }
 
-       
+        public string UserID { get; set; }
+        public ApplicationUser User { get; set; }
+
+
 
     }
   

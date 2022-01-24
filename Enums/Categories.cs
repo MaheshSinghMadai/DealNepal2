@@ -5,6 +5,6 @@
         Coins,
         Art,
         Furniture,
-        Jwellery
+        Jewellery
     }
 }

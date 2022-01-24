@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using UserManagement.Data;
 using UserManagement.Models;
+using Microsoft.AspNet.Identity;
 
 namespace UserManagement.Controllers
 {
@@ -36,7 +37,15 @@ namespace UserManagement.Controllers
         // GET: Create
         public IActionResult Create()
         {
-            return View();
+            if (User.Identity.IsAuthenticated)
+            {
+                return View();
+            }
+            else
+            {
+                return RedirectToPage("/Account/Login", new { area = "Identity" });
+            }
+               
         }
 
         // POST: Create
@@ -44,24 +53,28 @@ namespace UserManagement.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("ProductID,ProductName,Description,Category,MinPrice,MaxPrice,EndTime,LatestBid,ProductImage")] Products p)
         {
-            if (ModelState.IsValid)
+            if (User.Identity.IsAuthenticated)
             {
-                //Save image to wwwroot/image
-                string wwwRootPath = _hostEnvironment.WebRootPath;
-                string fileName = Path.GetFileNameWithoutExtension(p.ProductImage.FileName);
-                string extension = Path.GetExtension(p.ProductImage.FileName);
-                p.ProductImageName = fileName += DateTime.Now.ToString("yymmssfff") + extension;
-                string path = Path.Combine(wwwRootPath + "/image/", fileName);
-                using (var fileStream = new FileStream(path, FileMode.Create))
+                p.UserID = User.Identity.GetUserId();
+                if (ModelState.IsValid)
                 {
-                    await p.ProductImage.CopyToAsync(fileStream);
+                    //Save image to wwwroot/image
+                    string wwwRootPath = _hostEnvironment.WebRootPath;
+                    string fileName = Path.GetFileNameWithoutExtension(p.ProductImage.FileName);
+                    string extension = Path.GetExtension(p.ProductImage.FileName);
+                    p.ProductImageName = fileName += DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath + "/image/", fileName);
+                    using (var fileStream = new FileStream(path, FileMode.Create))
+                    {
+                        await p.ProductImage.CopyToAsync(fileStream);
+                    }
+                    //Insert record
+
+                    _db.Add(p);
+                    await _db.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
                 }
-                //Insert record
-                _db.Add(p);
-                await _db.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
             }
-          
             return View(p);
      
         }

@@ -1,15 +1,16 @@
 ﻿@model UserManagement.Models.Products
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 
-@{
-    ViewData["Title"] = "Create";
-}
+@{ ViewData["Title"] = "Create"; }
 
 
-<h4>Add Products</h4>
+        <h4>Add Products</h4>
 <hr />
-        <form asp-action="Create" enctype="multipart/form-data">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-         <div class="form-row">
+<form asp-action="Create" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-row">
         <div class="form-group col-md-6">
             <label asp-for="ProductName" class="control-label"></label>
             <input asp-for="ProductName" class="form-control" />
@@ -17,7 +18,13 @@
         </div>
         <div class="form-group col-md-6">
             <label asp-for="Category" class="control-label"></label>
-            <input asp-for="Category" class="form-control" />
+            <select asp-for="Category" class="form-control">
+
+                <option value="Art">Art</option>
+                <option value="Coins">Coins</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Jewellery">Jewellery</option>
+            </select>
             <span asp-validation-for="Category" class="text-danger"></span>
         </div>
     </div>
@@ -30,12 +37,12 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label asp-for="MinPrice" class="control-label"></label>
-            <input asp-for="MinPrice" class="form-control" />
+            <input asp-for="MinPrice" type="number" class="form-control" />
             <span asp-validation-for="MinPrice" class="text-danger"></span>
         </div>
         <div class="form-group col-md-6">
             <label asp-for="MaxPrice" class="control-label"></label>
-            <input asp-for="MaxPrice" class="form-control" />
+            <input asp-for="MaxPrice" type="number" class="form-control" />
             <span asp-validation-for="MaxPrice" class="text-danger"></span>
         </div>
     </div>
@@ -52,13 +59,15 @@
         </div>
     </div>
     <div class="form-group" style="float:right;">
-    <input type="submit" value="Add" class="btn btn-primary" />
+        <input type="submit" value="Add" class="btn btn-primary" />
     </div>
 
 </form>
 <div>
     <a asp-action="Index">Back to List</a>
 </div>
+      
+
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}

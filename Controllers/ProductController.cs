@@ -40,19 +40,30 @@ namespace UserManagement.Controllers
         [HttpGet]
         public IActionResult BidInput(int Id,double BidAmount)
         {
-            int Pid = Id;
-            Bid bidin = new Bid();
 
+            
+            Bid bidin = new Bid();
+            Products detail = _db.Products.Find(Id);
             if (User.Identity.IsAuthenticated)
             {
-                bidin.ProductID = Pid;
+                
+                bidin.ProductID = Id;
                 bidin.UserID = User.Identity.GetUserId();
                 bidin.BidAmount = BidAmount;
                 bidin.Timestamp = DateTime.Now;
             }
 
             AddBid(bidin);
-            return RedirectToAction("Index","Home" );
+
+            //rewriting latest bid
+            
+            if(bidin.BidAmount > detail.LatestBid)
+            {
+                detail.LatestBid = bidin.BidAmount;
+            }
+            UpdateProducts(detail);
+
+            return RedirectToAction("Details",new { @id = Id } );
         }
 
 
@@ -61,7 +72,11 @@ namespace UserManagement.Controllers
             _db.Bids.Add(b);
             return _db.SaveChanges() > 0;
         }
-
+        public bool UpdateProducts(Products b)
+        {
+            _db.Products.Update(b);
+            return _db.SaveChanges() > 0;
+        }
         public IActionResult Art()
         {
 
