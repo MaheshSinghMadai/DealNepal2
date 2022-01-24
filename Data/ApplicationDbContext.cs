@@ -22,6 +22,10 @@ namespace UserManagement.Data
 
             base.OnModelCreating(builder);
 
+            builder.Entity<ProductsViewModel>(builder =>
+            {
+                builder.HasNoKey();
+            });
             builder.Entity<IdentityUser>(entity =>
             {
                 entity.ToTable(name: "User");
@@ -53,7 +57,9 @@ namespace UserManagement.Data
         }
         public DbSet<Products> Products { get; set; }
         public DbSet<Bid> Bids { get; set; }
+        public DbSet<UserManagement.Models.ProductsViewModel> ProductsViewModel { get; set; }
 
+       
 
     }
 }

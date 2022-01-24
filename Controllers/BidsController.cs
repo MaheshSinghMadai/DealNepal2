@@ -25,15 +25,16 @@ namespace UserManagement.Models
         }
 
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        [Authorize(Roles = "Basic")]
-        public IActionResult Bid(int ProductID, double BidAmount)
+      
+        
+        public IActionResult Bid(int Id, double BidAmount)
         {
+           
             Bid bid = new Bid();
 
             if (User.Identity.IsAuthenticated) 
             {
-                bid.ProductID = ProductID;
+                bid.ProductID = Id ;
                 bid.UserID = User.Identity.GetUserId();
                 bid.BidAmount = BidAmount;
                 bid.Timestamp = DateTime.Now;
@@ -41,7 +42,7 @@ namespace UserManagement.Models
 
             AddBid(bid);
 
-            return View();
+            return View(bid);
         }
 
       

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Microsoft.AspNet.Identity;
 using System.Threading.Tasks;
 using UserManagement.Data;
 using UserManagement.Models;
@@ -17,17 +18,15 @@ namespace UserManagement.Controllers
             _db = db;
         }
 
-        [HttpGet]
-        public IActionResult Details(int? id)
+       
+        public IActionResult Details(int? Id)
         {
-            //ProductsViewModel model = new ProductsViewModel();
-            
-            Products  model= _db.Products.Find(id);
-           // model.LatestBid = model.Bids.OrderByDescending(x => x.Timestamp).First().BidAmount;
-           // model.LatestBidder = model.Bids.OrderByDescending(x => x.Timestamp).First().User;
+            Products b = _db.Products.Find(Id);
+        
 
-            return View(model);
+            return View(b);
         }
+
         public IActionResult Art()
         {
 
@@ -70,6 +69,12 @@ namespace UserManagement.Controllers
                                     select p).ToList();
             return View(model);
         }
-       
+
+        public bool AddBid(Bid b)
+        {
+            _db.Bids.Add(b);
+            return _db.SaveChanges() > 0;
+        }
+
     }
 }

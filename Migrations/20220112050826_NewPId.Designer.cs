@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using UserManagement.Data;
 
 namespace UserManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220112050826_NewPId")]
+    partial class NewPId
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -281,7 +283,7 @@ namespace UserManagement.Migrations
 
             modelBuilder.Entity("UserManagement.Models.Bid", b =>
                 {
-                    b.Property<int>("BidID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -292,7 +294,7 @@ namespace UserManagement.Migrations
                     b.Property<int>("ProductID")
                         .HasColumnType("int");
 
-                    b.Property<int?>("ProductsProductID")
+                    b.Property<int?>("ProductsId")
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Timestamp")
@@ -301,9 +303,9 @@ namespace UserManagement.Migrations
                     b.Property<string>("UserID")
                         .HasColumnType("nvarchar(450)");
 
-                    b.HasKey("BidID");
+                    b.HasKey("Id");
 
-                    b.HasIndex("ProductsProductID");
+                    b.HasIndex("ProductsId");
 
                     b.HasIndex("UserID");
 
@@ -312,7 +314,7 @@ namespace UserManagement.Migrations
 
             modelBuilder.Entity("UserManagement.Models.Products", b =>
                 {
-                    b.Property<int>("ProductID")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
@@ -347,7 +349,7 @@ namespace UserManagement.Migrations
                     b.Property<DateTime>("StartTime")
                         .HasColumnType("datetime2");
 
-                    b.HasKey("ProductID");
+                    b.HasKey("Id");
 
                     b.HasIndex("LatestBidderId");
 
@@ -409,7 +411,7 @@ namespace UserManagement.Migrations
                 {
                     b.HasOne("UserManagement.Models.Products", "Products")
                         .WithMany("Bids")
-                        .HasForeignKey("ProductsProductID");
+                        .HasForeignKey("ProductsId");
 
                     b.HasOne("UserManagement.Models.ApplicationUser", "User")
                         .WithMany()

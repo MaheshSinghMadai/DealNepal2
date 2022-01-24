@@ -5,8 +5,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace UserManagement.Models
 {
-    public class Bid : BaseEntity
-    { 
+    public class Bid
+    {
+        [Key]
+        public int BidID { get; set; }
         public int ProductID { get; set; }
        
         public virtual Products Products { get; set; }

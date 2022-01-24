@@ -12,10 +12,8 @@ using System.Threading.Tasks;
 namespace UserManagement.Models
 {
     [Table("Products")]
-    public class Products
+    public class Products 
     {
-        public ApplicationUser LatestBidder { get; set; }
-
         [Key]
         public int ProductID { get; set; }
 
@@ -43,9 +41,10 @@ namespace UserManagement.Models
         [DisplayName("Upload Image")]
 
         public IFormFile ProductImage { get; set; }
+        public ApplicationUser LatestBidder { get; set; }
 
         public virtual List<Bid> Bids { get; set; }
-        //public string LatestBidder { get;  set; }
+     
     }
   
 }

@@ -1,9 +1,12 @@
 ﻿@model UserManagement.Models.Products
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
 <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="~/lib/jquery/dist/jquery.js"></script>
 <script src="~/js/master.js"></script>
-
-
 
     <!--Section: Block Content-->
     <section class="mb-5">
@@ -14,7 +17,7 @@
                   <div class="row product-gallery mx-1">
                         <div class="col-12 mb-0">
                             <figure class="view overlay rounded z-depth-1 main-img">
-                                <a href="@Url.Content("~/image/"+ Model.ProductName)" 
+                                <a href="@Url.Content("~/image/"+ Model.ProductImageName)" 
                                    data-size="710x823">
                                     <img src="@Url.Content("~/image/"+ Model.ProductImageName)" asp-append-version="true"
                                          class="img-fluid z-depth-1" />
@@ -71,7 +74,8 @@
                 </div>
                 <br />
                 <p><span class="mr-1">
-                       <strong>NRS. @Html.DisplayFor(model => model.MinPrice) - NRS.@Html.DisplayFor(model => model.MaxPrice)
+                       <strong>
+           NRS. @Html.DisplayFor(model => model.MinPrice) - NRS.@Html.DisplayFor(model => model.MaxPrice)
                            </strong></span></p>
                 <p class="pt-1">
                     @Html.DisplayFor(model => model.Description)
@@ -96,16 +100,48 @@
                 </div>
                 <hr>
                    
+                @if (SignInManager.IsSignedIn(User))
+            {
                 <!-- Bid Now Button -->
-            
-            <a class="btn btn-info" asp-controller="Bids" asp-action="Bid" id="btnBidNow"
-                           role="button">
-                            Bid Now
-                        </a>
-
-                <button type="button" class="btn btn-light btn-md mr-1 mb-2" name="AddToCart">
-                    <i class="fas fa-shopping-cart pr-2"></i>Add to cart
-                </button>
+          
+               <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#bidModal">Bid Now</button>
+    
+        <div id="bidModal" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Enter Bid Amount</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <partial name="_Bid">
+                      
+                        <div class="modal-footer">
+                            
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div> -->
+            <a class="btn btn-info" asp-controller="Bids" asp-action="Bid" asp-route-id="@Model.ProductID"
+               role="button">Bid Now</a>
+   
+            }
+            else
+            {
+                 <ul>
+                <li class="nav-item pl-1 " style="padding:10px;margin-left:15px;">
+                    <a asp-area="Identity" asp-page="/Account/Login" style="color:#008000;font-size:15px;">
+                         <i class="fa fa-unlock-alt" style="color:#008000"></i>
+                        Login</a>
+                </li>
+                </ul>
+            }
+            <br />
+          
 
             </div>
         </div>
@@ -113,29 +149,6 @@
     </section>
     <!--Section: Block Content-->
 
-     <script>
-    $("#btnBidNow").click(function()
-    {
-        $.ajax({
-            url: "@Url.Action("Bid","Bids")",
-            type:"post",
-            data:
-            {
-                ID : '@Model.ProductID'
-            }
-        }).done(function (response) {
-            if(response.Success)
-                window.location.reload();
-            }else{
-                Swal("Error",response.Message, "Error");
-            }
-        }).fail(function(){
-            Swal("Error","Error . Please try again", "Error");
-        });
-    }
-   );
-
-</script>
 
     <script type="text/javascript">
         $(document).ready(function () {
@@ -146,6 +159,5 @@
         });
     </script>
 
-
-
+   
    

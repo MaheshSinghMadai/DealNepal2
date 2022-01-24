@@ -11,41 +11,12 @@ using System.Threading.Tasks;
 
 namespace UserManagement.Models
 {
-    [Table("Products")]
+    
     public class ProductsViewModel
     {
-        public ApplicationUser LatestBidder { get; set; }
+        public Products Products { get; set; }
+        public Bid Bids { get; set; }
 
-        [Key]
-        public int ProductID { get; set; }
-
-        [Column(TypeName = "nvarchar(100)")]
-        [DisplayName("Product Name")]
-        public string ProductName { get; set; }
-
-        public string ProductImageName { get; set; }
-
-        public string Description { get; set; }
-
-        public string Category { get; set; }
-
-        public int MinPrice { get; set; }
-
-        public int MaxPrice { get; set; }
-
-        public DateTime StartTime { get; set; }
-
-        public DateTime  EndTime { get; set; }
-
-        public double LatestBid { get; set; }
-
-        [NotMapped]
-        [DisplayName("Upload Image")]
-
-        public IFormFile ProductImage { get; set; }
-
-        public virtual List<Bid> Bids { get; set; }
-      
     }
-  
+
 }
