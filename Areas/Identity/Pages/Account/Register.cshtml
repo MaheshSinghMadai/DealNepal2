@@ -1,0 +1,66 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<br />
+<section class="vh-100">
+    <div class="row d-flex ">
+ 
+        <div class="col-md-9 col-lg-6 col-xl-4 offset-xl-1">
+            <h3 class="fw-normal" style="color: #333;font-family:monospace">Create a new Account</h3>
+        <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+        <hr>
+           <!-- Email input -->
+        <div class="form-outline mb-2">
+            <label asp-for="Input.FirstName"></label>
+                    <input asp-for="Input.FirstName" class="form-control" />
+                    <span asp-validation-for="Input.FirstName" class="text-danger"></span>
+          </div>
+           <!-- Email input -->
+          <div class="form-outline mb-2">
+            <label asp-for="Input.LastName"></label>
+                    <input asp-for="Input.LastName" class="form-control" />
+                    <span asp-validation-for="Input.LastName" class="text-danger"></span>
+          </div>
+          <!-- Email input -->
+          <div class="form-outline mb-2">
+            <label asp-for="Input.Email"></label>
+                    <input asp-for="Input.Email" class="form-control" />
+                    <span asp-validation-for="Input.Email" class="text-danger"></span>
+          </div>
+
+          <!-- Password input -->
+          <div class="form-outline mb-2">
+             <label asp-for="Input.Password"></label>
+                    <input asp-for="Input.Password" class="form-control" />
+                    <span asp-validation-for="Input.Password" class="text-danger"></span>
+          </div>
+           <div class="form-outline mb-3">
+             <label asp-for="Input.ConfirmPassword"></label>
+                    <input asp-for="Input.ConfirmPassword" class="form-control" />
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+          </div>
+
+          <div class="text-lg-start">
+
+            <button type="submit" class="btn btn-primary btn-lg"
+              >Register</button>
+          </div>
+        </form>
+      </div>
+         <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2" 
+         style="margin-top:70px">
+        <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp" class="img-fluid"
+          alt="Sample image">
+  
+      </>
+    
+    </div>
+  </div>
+</section>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

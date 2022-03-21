@@ -1,0 +1,181 @@
+﻿@model UserManagement.ViewModels.DashboardViewModel
+
+<br />
+<section class="content-header " >
+    <h1 style="color: #053427;font-family:monospace;font-size:40px"><strong>D A S H B O A R D</strong>
+    
+    </h1>
+    <ol class="breadcrumb">
+
+    </ol>
+</section>
+
+<!-- Main content -->
+<section class="content" style="background-color:white">
+    <!-- Small boxes (Stat box) -->
+    <div class="row">
+    <div class="col-lg-3 col-xs-6" style="margin:10px">
+        <!-- small box -->
+        <div class="small-box bg-blue">
+        <div class="inner">
+            <h3>@Model.Products_count</h3>
+            <p>Products</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-list-ul"></i>
+        </div>
+        <a asp-controller="Admin" asp-action="ProductDetails" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-xs-6" style="margin:10px">
+        <!-- small box -->
+        <div class="small-box bg-green">
+        <div class="inner">
+            <h3>@Model.Bids_count</h3>
+            <p>Bids</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-gavel"></i>
+        </div>
+        <a asp-controller="Admin" asp-action="BidDetails" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-3 col-xs-6">
+        <!-- small box -->
+        <div class="small-box bg-yellow" style="margin:10px">
+        <div class="inner">
+            <h3>@Model.Users_count</h3>
+            <p>Users</p>
+        </div>
+        <div class="icon">
+            <i class="fa fa-users"></i>
+        </div>
+        <a asp-controller="Admin" asp-action="UserDetails" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+    <!-- ./col -->
+    <div class="col-lg-2 col-xs-6" style="margin:10px">
+        <!-- small box -->
+        <div class="small-box bg-red">
+        <div class="inner">
+            <h3>@Model.UserActivity_count</h3>
+            <p>Activities</p>
+        </div>
+        <div class="icon">
+            <i class="ion ion-pie-graph"></i>
+        </div>
+        <a asp-controller="Admin" asp-action="UserActivityDetails" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+        </div>
+    </div>
+  
+    <!-- ./col -->
+    </div>
+
+    <!--charts section-->
+    
+  </section>
+
+ <hr />
+  <br />
+  <div class="container">
+  <section class="content" style="background-color:white;height:800px;font-family:Lato">
+
+        <div id="lineChart" style="width: 55%; height: 300px;display: inline-block;"></div>
+        <div id="doughnutChart" style="width: 40%; height: 300px;display: inline-block;"></div>
+        <br/>
+        <br/>
+        <hr />
+        <br />
+        <br/>
+        <div id="columnChart" style="width: 60%; height: 300px;display: inline-block; "></div>
+        <br/>
+        <br />
+        <br/>
+        
+  </section>
+  </div>
+
+  <script type="text/javascript">
+
+      //Categories Doughnut Chart
+        var chart = new CanvasJS.Chart("doughnutChart",
+            {
+                animationEnabled: true,
+                title: {
+                    text: "Categories",
+                },
+                data: [
+                {
+                    type: "doughnut",
+                    innerRadius: 40,
+                    showInLegend: true,
+                    toolTipContent: "<b>{name}</b>: {y} (#percent%)",
+		            indexLabel: "{name} - #percent%",
+                    dataPoints: [
+                        { y: @Model.Art_count, legendText: "Art", name: "Art" },
+                        { y: @Model.Coins_count, legendText: "Coins", name: "Coins" },
+                        { y: @Model.Furniture_count, legendText: "Furniture", name: "Furniture" },
+                        { y: @Model.Jewellery_count, legendText: "Jewellery", name: "Jewellery" },                     
+                    ]
+                },
+                ]
+            });
+        chart.render();
+
+        //Activity Line Chart
+        var chart = new CanvasJS.Chart("lineChart",
+            {
+                animationEnabled: true,
+                title: {
+                    text: "Site Activity Line Chart - 2022"
+                },
+                axisX: {
+                    valueFormatString: "MMM",
+                    interval: 1,
+                    intervalType: "month"
+                },
+                axisY: {
+                    includeZero: false
+                },
+                data: [
+                {
+                  type: "line",
+                  dataPoints: [
+                      { x: new Date(2022, 00, 1), y: 700 },
+                      { x: new Date(2022, 01, 1), y: 1520},
+                      { x: new Date(2022, 02, 1), y: 2140},
+                      { x: new Date(2022, 03, 1), y: @Model.Apr_ActivityCount },
+                      { x: new Date(2022, 04, 1), y: @Model.Jun_ActivityCount},   
+                    ]
+                }
+                ]
+            });
+        chart.render();
+        
+        //Column chart
+        var chart = new CanvasJS.Chart("columnChart", {
+	            animationEnabled: true,
+	            theme: "light2", // "light1", "light2", "dark1", "dark2"
+	            title:{
+		            text: "Categorical Bid Chart"
+	            },
+	            axisY: {
+		            title: "Categories"
+	            },
+	            data: [{        
+		            type: "column",  
+		            showInLegend: true, 
+		            legendMarkerColor: "grey",	            
+		            dataPoints: [      
+			            { y: @Model.Art_BidCount, label: "Art" },
+			            { y: @Model.Coins_BidCount,  label: "Coins" },
+			            { y: @Model.Furniture_BidCount,  label: "Furniture" },
+			            { y: @Model.Jewellery_BidCount,  label: "Jewellery" },		           
+		            ]
+	            }]
+            });
+            chart.render();
+	   
+</script>

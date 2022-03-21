@@ -1,0 +1,45 @@
+﻿@model IEnumerable<UserManagement.ViewModels.BidDetails>
+
+
+<br />
+<h1 class="fw-normal" style="color: #333;font-family:monospace">BID DETAILS</h1>
+<hr />
+
+<table class="table table-hover table-striped">
+    <thead>
+        <tr>
+            
+            <th>
+                User
+            </th>
+            <th>
+               Bid Amount
+            </th>
+            <th>
+                Timestamp
+            </th>
+           <th>
+               Product Name
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.bids.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bids.BidAmount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.bids.Timestamp)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.products.ProductName)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

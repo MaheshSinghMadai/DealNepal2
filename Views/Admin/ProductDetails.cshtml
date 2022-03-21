@@ -1,0 +1,90 @@
+﻿@model IEnumerable<UserManagement.Models.Products>
+
+@{
+    ViewData["Title"] = "ProductDetails";
+}
+
+<br />
+<h2 class="fw-normal" style="color: #333;font-family:monospace">PRODUCT DETAILS</h2>
+<br />
+@{ 
+    if(TempData["AlertMessage"]!= null)
+    {
+        <div class="alert alert-success">
+            <strong>@TempData["AlertMessage"]</strong>
+        </div>
+    }
+}
+<table class="table table-striped">
+    <thead >
+        <tr>
+            <th>
+               Product Name
+            </th>
+            <th>
+               Category
+            </th>
+            <th>
+                MinPrice
+            </th>
+            <th>
+               MaxPrice
+            </th>
+            <th>
+               StartTime
+            </th>
+            <th>
+               EndTime
+            </th>
+            <th>
+              LatestBid
+            </th>
+            <th>
+               Seller
+            </th>
+            <th>
+                Action
+             </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ProductName)
+            </td>
+           
+            <td>
+                @Html.DisplayFor(modelItem => item.Category)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LatestBid)
+            </td>
+            <td>
+                 @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                <a asp-controller="Admin" asp-action="Edit" asp-route-id="@item.ProductID">Edit</a> |
+                <a asp-controller="Admin" asp-action="Details" asp-route-id="@item.ProductID" >Details</a> |
+               @* <a asp-controller="Admin" asp-action="Delete" asp-route-id="@item.ProductID">Delete</a>*@
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div>
+     <a asp-action="Index">Back to Index</a> |
+</div>

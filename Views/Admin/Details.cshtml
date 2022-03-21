@@ -1,0 +1,175 @@
+﻿@model UserManagement.Models.Details
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/master.js"></script>
+
+<!--Section: Block Content-->
+<section class="mb-5">
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <div id="mdb-lightbox-ui"></div>
+            <div class="mdb-lightbox">
+                <div class="row product-gallery mx-1">
+                    <div class="col-12 mb-0">
+                        <figure class="view overlay rounded z-depth-1 main-img">
+                            <a href="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                               data-size="710x823">
+                                <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)" asp-append-version="true"
+                                     class="img-fluid z-depth-1" />
+                            </a>
+                        </figure>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br />
+        <div class="col-md-6">
+            <br />
+            <h5>@Html.DisplayFor(model => model.listA.ProductName)</h5>
+            <p class="mb-2 text-muted text-uppercase small">@Html.DisplayFor(model => model.listA.Category)</p>
+
+            <div class="rating">
+                <span class="fas fa-star"></span>
+                <span class="fas fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <br />
+            <p>
+                <span class="mr-1">
+                    <strong>
+                        NRS. @Html.DisplayFor(model => model.listA.MinPrice) - NRS.@Html.DisplayFor(model => model.listA.MaxPrice)
+                    </strong>
+                </span>
+            </p>
+            <p class="pt-1">
+                @Html.DisplayFor(model => model.listA.Description)
+            </p>
+            <div class="table-responsive">
+                <table class="table table-sm table-borderless mb-0">
+                    <tbody>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Ends in</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.EndTime) </td>
+                        </tr>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Highest Bid</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.LatestBid)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+
+            <form asp-action="Details" asp-controller="Product" asp-route-id="@Model.listA.UserID">
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                    View Bid History
+                </button>
+            </form>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Bid History</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            UserName
+                                        </th>
+
+                                        <th>
+                                            Bid Amount
+                                        </th>
+                                        <th>
+                                            TimeStamp
+                                        </th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var item in Model.listD)
+                                    {
+                        <tr>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.UserName)
+                            </td>
+
+                            <td>
+                                @Html.DisplayFor(modelItem => item.BidAmount)
+                            </td>
+                            <td>
+                                @Html.DisplayFor(modelItem => item.Timestamp)
+                            </td>
+                        </tr>}
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    </section>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+    });
+</script>

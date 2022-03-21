@@ -1,0 +1,80 @@
+﻿
+@model UserManagement.Models.Products
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{ ViewData["Title"] = "Edit"; }
+
+<br />
+        <h2 class="fw-normal" style="color: #333;font-family:monospace">EDIT PRODUCT INFO</h2>
+<hr />
+<form asp-action="Edit" enctype="multipart/form-data" style="font-family:Lato,sans-serif">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label asp-for="ProductName" class="control-label"></label>
+            <input asp-for="ProductName" class="form-control" />
+            <span asp-validation-for="ProductName" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-6">
+            <label asp-for="Category" class="control-label"></label>
+            <select asp-for="Category" class="form-control">
+
+                <option value="Art">Art</option>
+                <option value="Coins">Coins</option>
+                <option value="Furniture">Furniture</option>
+                <option value="Jewellery">Jewellery</option>
+            </select>
+            <span asp-validation-for="Category" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group">
+        <label asp-for="Description" class="control-label"></label>
+        <input asp-for="Description" class ="form-control rounded-0" 
+        style="height:150px;"
+        id="exampleFormControlTextarea1" rows="6" />
+        <span asp-validation-for="Description" class="text-danger"></span>
+
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label asp-for="MinPrice" class="control-label"></label>
+            <input asp-for="MinPrice" type="number" class="form-control" />
+            <span asp-validation-for="MinPrice" class="text-danger"></span>
+        </div>
+        <div class="form-group col-md-4">
+            <label asp-for="MaxPrice" class="control-label"></label>
+            <input asp-for="MaxPrice" type="number" class="form-control" />
+            <span asp-validation-for="MaxPrice" class="text-danger"></span>
+        </div>
+         <div class="form-group col-md-4">
+            <label asp-for="EndTime" class="control-label"></label>
+            <input asp-for="EndTime" class="form-control" />
+            <span asp-validation-for="EndTime" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-row">
+        
+        <div class="form-group col-md-6">
+            <label asp-for="ProductImage" class="control-label"></label> <br />
+            <input asp-for="ProductImage" accept="image/*" />
+            <span asp-validation-for="ProductImage" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="form-group" style="float:right;">
+        <input class="form-control rounded-0" asp-for="ProductID" name="Id" type="hidden" value="@Model.ProductID" />
+        <input type="submit" value="Update" class="btn btn-primary" />
+    </div>
+</form>
+
+<br />
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+      
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

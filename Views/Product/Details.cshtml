@@ -1,0 +1,405 @@
+﻿@model UserManagement.Models.Details
+
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/master.js"></script>
+
+
+<!--Section: Block Content-->
+<section class="mb-5">
+    <br />
+    <div class="row">
+        <div class="col-md-6 mb-4 mb-md-0">
+            <div id="mdb-lightbox-ui"></div>
+            <div class="mdb-lightbox">
+                <div class="row product-gallery mx-1">
+                    <div class="col-12 mb-0">
+                        <figure class="view overlay rounded z-depth-1 main-img">
+                            <a href="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                               data-size="710x823">
+                                <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)" asp-append-version="true"
+                                     class="img-fluid z-depth-1" style="height:400px;width:500px" />
+                            </a>
+                        </figure>
+
+                    </div>
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="view overlay rounded z-depth-1 gallery-item">
+                                    <img src="@Url.Content("~/image/" + Model.listA.ProductImageName)"
+                                         class="img-fluid">
+                                    <div class="mask rgba-white-slight"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <br />
+        <div class="col-md-6">
+            <br />
+            <h5>@Html.DisplayFor(model => model.listA.ProductName)</h5>
+            <p class="mb-2 text-muted text-uppercase small">@Html.DisplayFor(model => model.listA.Category)</p>
+
+            <div class="rating">
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+                <span class="fa fa-star"></span>
+            </div>
+            <br />
+            <p>
+                <span class="mr-1">
+                    <strong>
+                        Rs. @Html.DisplayFor(model => model.listA.MinPrice) - NRS.@Html.DisplayFor(model => model.listA.MaxPrice)
+                    </strong>
+                </span>
+            </p>
+            <p class="pt-1">
+                @Html.DisplayFor(model => model.listA.Description)
+            </p>
+            <div class="table-responsive">
+                <table class="table table-sm table-borderless mb-0">
+                    <tbody>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Ends in</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.EndTime) </td>
+                        </tr>
+                        <tr>
+                            <th class="pl-0 w-25" scope="row"><strong>Highest Bid</strong></th>
+                            <td>@Html.DisplayFor(model => model.listA.LatestBid)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <hr>
+
+            <!--Display Alert-->
+            @if (TempData["BidSuccess"] != null)
+            {
+        <script type="text/javascript">
+               Swal.fire(
+                  'Great',
+                  '@TempData["BidSuccess"]',
+                  'success'
+                )
+        </script>
+}
+
+
+            @{ var date = DateTime.Now;
+                            int compdate = DateTime.Compare(Model.listA.EndTime, date);
+
+                            if (SignInManager.IsSignedIn(User))
+                            {
+                                if (UserManager.GetUserId(User).Equals(@Model.listA.UserID))
+                                { <!--//Diplay Bid History with Modal pop up --> <!-- Button trigger modal -->
+                                    <form asp-action="Details" asp-controller="Product" asp-route-id="@Model.listA.UserID">
+                                        <button type="button" class="btn btn-light" data-toggle="modal" data-target="#exampleModal">
+                                            View Bid History
+                                        </button>
+                                    </form> if (compdate < 0)
+                                                        {
+                                    <br />
+                                                            <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="right"
+                                                                    data-content="@Model.listD[0].UserName">
+                                                                Sold to User:
+                                                            </button> }
+
+                                                                                else { } <!-- Modal -->
+
+                                                                                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+                                                                                    <div class="modal-dialog">
+
+                                                                                        <div class="modal-content">
+
+                                                                                            <div class="modal-header">
+                                                                                                <h5 class="modal-title" id="exampleModalLabel">Bid History</h5>
+                                                                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                                                                    <span aria-hidden="true">&times;</span>
+                                                                                                </button>
+                                                                                            </div>
+                                                                                            <div class="modal-body">
+                                                                                                <table class="table">
+                                                                                                    <thead>
+                                                                                                        <tr>
+                                                                                                            <th>
+                                                                                                                UserName
+                                                                                                            </th>
+
+                                                                                                            <th>
+                                                                                                                Bid Amount
+                                                                                                            </th>
+                                                                                                            <th>
+                                                                                                                TimeStamp
+                                                                                                            </th>
+                                                                                                        </tr>
+                                                                                                    </thead>
+                                                                                                    <tbody>
+                                                                                                        @foreach (var item in Model.listD)
+                                                                                                        {
+                                                                                    <tr>
+                                                                                        <td>
+                                                                                            @Html.DisplayFor(modelItem => item.UserName)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            @Html.DisplayFor(modelItem => item.BidAmount)
+                                                                                        </td>
+                                                                                        <td>
+                                                                                            @Html.DisplayFor(modelItem => item.Timestamp)
+                                                                                        </td>
+                                                                                    </tr>
+}
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </div>
+                                                                                            <div class="modal-footer">
+                                                                                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div> }
+
+                                                                            else
+                                                                            {
+
+                                                                                if (compdate > 0)
+                                                                                { <!-- Bid Now Button -->
+                                                                                                            <div class="container bg-light" style="margin-top:30px;background-color:darkgrey;height:130px;font-family:Lato,sans-serif">
+                                                                                                                <div class="row height d-flex justify-content-center align-items-center">
+                                                                                                                    <div class="col-md-8" style="margin:30px;">
+                                                                                                                        <form asp-action="BidInput" method="get">
+                                                                                                                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                                                                                                                            <div class="search">
+
+                                                                                                                                @{ if (Model.listA.LatestBid == 0)
+                                                                                                                                    {
+                                                                                                                            <input placeholder="Enter Bid Amount" asp-for="listC.BidAmount" type="number" name="BidAmount" class="form-control"
+                                                                                                                                   min="@Model.listA.MinPrice" max="@Model.listA.MaxPrice" required />
+                                                                                                                                                        <button class="btn btn-success">Bid</button> }
+                                                                                                                                                                                else
+                                                                                                                                                                                {
+                                                                                                                                                        <input placeholder="Enter Bid Amount" asp-for="listC.BidAmount" type="number" name="BidAmount" class="form-control"
+                                                                                                                                                               min="@(Model.listA.LatestBid + 1)" max="@Model.listA.MaxPrice" required />
+                                                                                                                                                                                    <button class="btn btn-success">Bid</button>} }
+
+
+                                                                                                                                <span asp-validation-for="listC.BidAmount" class="text-danger"></span>
+
+                                                                                                                                <div class="input-group mb-2">
+
+                                                                                                                                    <input class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default"
+                                                                                                                                           asp-for="listC.ProductID" name="Id" type="hidden" value="@Model.listA.ProductID">
+                                                                                                                                    <span asp-validation-for="listC.BidAmount" class="text-danger"></span>
+
+                                                                                                                                </div>
+
+                                                                                                                            </div>
+
+                                                                                                                        </form>
+                                                                                                                    </div>
+
+
+                                                                                                                </div>
+                                                                                                            </div> }
+
+                                                                                                        else
+                                                                                                        {
+                                                                                    <span class="mr-1">
+                                                                                        <strong>
+                                                                                            Auction Ended
+                                                                                        </strong>
+                                                                                    </span> }
+                                                                            }
+                                                                        }
+
+                                                                        else
+                                                                        {
+                                                                            if (compdate > 0)
+                                                                            {
+                                                            <ul>
+                                                                <li class="nav-item pl-1 " style="padding:10px;margin-left:15px;">
+                                                                    <a asp-area="Identity" asp-page="/Account/Login" style="color:#008000;font-size:15px;">
+                                                                        <i class="fa fa-unlock-alt" style="color:#008000"></i>
+                                                                        Login
+                                                                    </a>
+                                                                </li>
+                                                            </ul> }
+                                                        else
+                                                        {
+                                        <span class="mr-1">
+                                            <strong>
+                                                Auction Ended
+                                            </strong>
+                                        </span> }
+
+
+                                } }
+
+            <br />
+        </div>
+    </div>
+</section>
+<!--Section: Block Content-->
+<!----Recommended Products-->
+
+<section class="section-products">
+		<div class="container">
+				<div class="row justify-content-center text-center">
+						<div class="col-md-10 col-lg-8" style="margin:5px">							
+                                 <h1 class="fw-normal" style="color: #333;font-family:monospace;font-size:70px">          
+                                        <strong>SIMILAR ITEMS</strong>
+                                </h1>
+						</div>
+				</div>
+                <br />
+				<div class="row">
+                    @foreach (var item in Model.listB)
+            {
+						<!-- Single Product -->
+						<div class="col-md-6 col-lg-6 col-xl-4">
+								<div id="product-1" class="single-product">
+										<div class="part-1">                                     
+                                         <img src="@("~/image/" + item.ProductImageName)" asp-append-version="true" 
+                                         style="height:290px;width:290px;"
+                                         >         
+                                         <span class="discount"> 
+                                         @item.Category</span>
+
+                                         <div class="bottomright"
+                                          style="position: absolute;
+                                            bottom: 8px;
+                                            color: #FFFFFFFF;
+                                            background-color: #000000FF;
+                                            right: 60px;
+                                            padding: 4px;
+                                            font-size: 12px;
+                                            font-family: Lato;"
+                                         >
+                                      @{ 
+                                                        //var date1 = DateTime.Now;
+                                                        //int compdate1 = DateTime.Compare(item.EndTime, date1);
+                                                        if (compdate > 0)
+                                                        {                                                 	
+                                                            //Remaining days show
+                                                              
+                                                                DateTime endDate = @item.EndTime;
+                                                                DateTime currentDate = DateTime.Now;
+
+                                                                // Difference in days, hours, and minutes.
+                                                                TimeSpan ts = endDate - currentDate;
+                                                                // Difference in days.
+                                                                int differenceInDays = ts.Days;
+
+                                                                 <span style="position:center;left:50%">
+                                                                    @differenceInDays Days Left                                
+                                                                 </span>											                   	                                                        
+                                                        }
+                                                        else
+                                                        {
+                                                            <span>Auction Ended</span>
+                                                         }
+                                                    }                                                                       
+                                     </div>
+												<ul>
+														@{
+                                                            
+                                                            if(User.IsInRole("Admin")){
+                                                            <li>
+                                                                <a asp-action="Details" asp-controller="Admin" asp-route-id="@item.ProductID">
+                                                                <i class="fa fa-expand"></i></a>
+                                                            </li>
+                                                            }
+                                                           else{
+                                                           <li>
+                                                      
+                                                                <a asp-action="Details" asp-controller="Product" asp-route-id="@item.ProductID">
+                                                                <i class="fa fa-expand"></i></a>
+                                                            </li>
+                                                            
+                                                           }
+                                                            
+                                                            
+                                                            }
+												</ul>
+
+                                                
+										</div>
+										<div class="part-2">
+												<h3 class="product-title">@Html.DisplayFor(modelItem => item.ProductName)</h3>
+											
+                                                     @{                                                         
+                                                        if (compdate > 0)
+                                                        {                                                 	
+                                                            <h4 style="color:#131313;font-size:16px;">
+                                                             &#8360;.[@Html.DisplayFor(modelItem => item.MinPrice)-@Html.DisplayFor(modelItem => item.MaxPrice)]
+                                                            </h4>        	                                                        
+                                                        }
+                                                       
+                                                    }
+                         
+										</div>
+								</div>
+						</div>
+							}			
+                     </div>
+                     
+                     <a class="btn btn-light" style="left:90%" asp-action="SeeAll" asp-controller="Home">
+                         See all
+                     </a>
+                 </div>
+          </section>
+
+
+
+<script type="text/javascript">
+            Swal(
+            'Good job!',
+            '@TempData["BidMessage"]',
+           'success'
+              )
+</script>
+
+
+
+<script type="text/javascript">$(document).ready(function () {
+        // MDB Lightbox Init
+        $(function () {
+            $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+        });
+    });
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    });</script>
