@@ -8,7 +8,7 @@ CanvasJS for Admin Dashboard Charts
 **Result Analysis**
 **HomePage with Search bar and Featured Section**
 ![Homepage](https://user-images.githubusercontent.com/12298173/160250844-80410e34-8d0d-433d-9022-cee1d77feeb4.png)
-![Featured](https://user-images.githubusercontent.com/12298173/160250850-6c3c899e-2efa-4d86-b599-b13169bfd815.png)
+
 
 **Login & Register**
 ![Login](https://user-images.githubusercontent.com/12298173/160250387-2465f103-5dc7-4543-9ecf-5d8686b40649.png)
