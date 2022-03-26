@@ -18,7 +18,9 @@ CanvasJS for Admin Dashboard Charts
 ![DetailsBid](https://user-images.githubusercontent.com/12298173/160250860-337179a2-9d34-46e9-9987-6b2fe0d2ea17.png)
 
 **Content based Categorical product recommendation**
-![Recommendation](https://user-images.githubusercontent.com/12298173/160250407-f73ee031-7ecd-4705-b41b-a6006a8a110b.png)
+
+![SimilarItems](https://user-images.githubusercontent.com/12298173/160250990-6ffaccd9-123a-46d2-b2b8-86071fd748a7.png)
 
 **Admin Dashboard**
+
 ![Dashboard](https://user-images.githubusercontent.com/12298173/160250424-2daadb52-2443-47cc-a8b5-c0cd4e0f413c.png)
