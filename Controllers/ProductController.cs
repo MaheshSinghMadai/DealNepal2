@@ -5,10 +5,6 @@ using System.Linq;
 using Microsoft.AspNet.Identity;
 using UserManagement.Data;
 using UserManagement.Models;
-using NReco.CF.Taste.Impl.Model.File;
-using NReco.CF.Taste.Impl.Similarity;
-using NReco.CF.Taste.Impl.Neighborhood;
-using NReco.CF.Taste.Impl.Recommender;
 using System.Threading.Tasks;
 
 namespace UserManagement.Controllers
