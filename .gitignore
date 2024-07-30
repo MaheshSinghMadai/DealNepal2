@@ -467,3 +467,9 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/angular,dotnetcore,visualstudiocode,visualstudio
+/obj/Debug/net6.0/apphost.exe
+/.vs/UserManagement/v17/.futdcache.v2
+/.vs/UserManagement/DesignTimeBuild/.dtbcache.v2
+/.vs/UserManagement/v17/fileList.bin
+/obj/project.assets.json
+/obj/project.nuget.cache
