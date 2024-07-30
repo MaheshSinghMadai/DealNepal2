@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/DealNepal2/v17
+/.vs/UserManagement/FileContentIndex/a0d6626b-246b-4d2f-b933-54d2cb5fba29.vsidx
+/.vs/UserManagement/FileContentIndex/3d5715e3-bce2-4169-9986-99eeaa2e87c3.vsidx
+*.vsidx
+/.vs/UserManagement/v17/.suo
+*.json
+/bin/Debug/net6.0/refs/Microsoft.AspNetCore.Antiforgery.dll
