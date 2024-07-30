@@ -1,1980 +1,1980 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\Deal Nepal.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\Deal Nepal.png",
       "PackagePath": "staticwebassets\\Deal Nepal.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\DealNepal.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\DealNepal.png",
       "PackagePath": "staticwebassets\\DealNepal.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\css\\material-dashboard.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\css\\material-dashboard.css",
       "PackagePath": "staticwebassets\\assets\\css\\material-dashboard.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\css\\material-dashboard.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\css\\material-dashboard.css.map",
       "PackagePath": "staticwebassets\\assets\\css\\material-dashboard.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\css\\material-dashboard.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\css\\material-dashboard.min.css",
       "PackagePath": "staticwebassets\\assets\\css\\material-dashboard.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\css\\nucleo-icons.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\css\\nucleo-icons.css",
       "PackagePath": "staticwebassets\\assets\\css\\nucleo-icons.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\css\\nucleo-svg.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\css\\nucleo-svg.css",
       "PackagePath": "staticwebassets\\assets\\css\\nucleo-svg.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo-icons.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo-icons.svg",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo-icons.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo-icons.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo-icons.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo-icons.woff2"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo.eot",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo.eot",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.eot"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo.ttf",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo.ttf",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.ttf"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo.woff",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo.woff",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\fonts\\nucleo.woff2",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\fonts\\nucleo.woff2",
       "PackagePath": "staticwebassets\\assets\\fonts\\nucleo.woff2"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\apple-icon.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\apple-icon.png",
       "PackagePath": "staticwebassets\\assets\\img\\apple-icon.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\bg-pricing.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\bg-pricing.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg-pricing.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\bg-smart-home-1.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\bg-smart-home-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg-smart-home-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\bg-smart-home-2.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\bg-smart-home-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bg-smart-home-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\bruce-mars.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\bruce-mars.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\bruce-mars.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\down-arrow-dark.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\down-arrow-dark.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow-dark.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\down-arrow-white.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\down-arrow-white.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow-white.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\down-arrow.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\down-arrow.svg",
       "PackagePath": "staticwebassets\\assets\\img\\down-arrow.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\drake.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\drake.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\drake.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\favicon.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\favicon.png",
       "PackagePath": "staticwebassets\\assets\\img\\favicon.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\home-decor-1.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\home-decor-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\home-decor-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\home-decor-2.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\home-decor-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\home-decor-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\home-decor-3.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\home-decor-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\home-decor-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\icons\\flags\\AU.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\icons\\flags\\AU.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\AU.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\icons\\flags\\BR.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\icons\\flags\\BR.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\BR.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\icons\\flags\\DE.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\icons\\flags\\DE.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\DE.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\icons\\flags\\GB.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\icons\\flags\\GB.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\GB.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\icons\\flags\\US.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\icons\\flags\\US.png",
       "PackagePath": "staticwebassets\\assets\\img\\icons\\flags\\US.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\chat.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\chat.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\chat.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\danger-chat-ill.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\danger-chat-ill.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\danger-chat-ill.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\dark-lock-ill.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\dark-lock-ill.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\dark-lock-ill.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\error-404.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\error-404.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\error-404.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\error-500.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\error-500.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\error-500.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\illustration-lock.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\illustration-lock.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-lock.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\illustration-reset.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\illustration-reset.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-reset.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\illustration-signin.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\illustration-signin.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-signin.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\illustration-signup.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\illustration-signup.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-signup.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\illustration-verification.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\illustration-verification.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\illustration-verification.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\lock.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\lock.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\lock.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\pattern-tree.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\pattern-tree.svg",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\pattern-tree.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\illustrations\\rocket-white.png",
       "PackagePath": "staticwebassets\\assets\\img\\illustrations\\rocket-white.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\ivana-square.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\ivana-square.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\ivana-square.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\ivana-squares.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\ivana-squares.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\ivana-squares.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\ivancik.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\ivancik.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\ivancik.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\kal-visuals-square.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\kal-visuals-square.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logo-ct-dark.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logo-ct-dark.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo-ct-dark.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logo-ct.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logo-ct.png",
       "PackagePath": "staticwebassets\\assets\\img\\logo-ct.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-coinbase.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-nasa.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-nasa.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-nasa.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-netflix.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-netflix.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-netflix.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-pinterest.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-spotify.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-spotify.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-spotify.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\gray-logos\\logo-vodafone.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\mastercard.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\mastercard.png",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\mastercard.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\logos\\visa.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\logos\\visa.png",
       "PackagePath": "staticwebassets\\assets\\img\\logos\\visa.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\marie.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\marie.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\marie.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\meeting.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\meeting.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\meeting.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\office-dark.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\office-dark.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\office-dark.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\product-12.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\product-12.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\product-12.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-1-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-1-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-1-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-11.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-11.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-11.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-2-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-2-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-2-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-3-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-3-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-3-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-4-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-4-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-4-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-5-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-5-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-5-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-6-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-6-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-6-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-7-min.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-7-min.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-7-min.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-details-1.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-details-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-details-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-details-2.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-details-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-details-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-details-3.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-details-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-details-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-details-4.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-details-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-details-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\products\\product-details-5.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\products\\product-details-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\products\\product-details-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\shapes\\pattern-lines.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\pattern-lines.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\shapes\\waves-white.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shapes\\waves-white.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\bootstrap.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\bootstrap.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\bootstrap.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\creative-tim.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\creative-tim.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\creative-tim.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\devto.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\devto.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\devto.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\github.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\github.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\github.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\google-webdev.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\google-webdev.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\google-webdev.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\icon-bulb.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\icon-bulb.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\icon-bulb.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\icon-sun-cloud.png",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\icon-sun-cloud.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-asana.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-asana.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-asana.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-atlassian.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-atlassian.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-invision.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-invision.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-jira.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-jira.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-slack.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-slack.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-spotify.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-spotify.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\small-logos\\logo-xd.svg",
       "PackagePath": "staticwebassets\\assets\\img\\small-logos\\logo-xd.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\team-1.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\team-1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\team-2.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\team-2.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\team-3.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\team-3.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\team-4.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\team-4.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\team-5.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\team-5.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\team-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\tesla-model-s.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\tesla-model-s.png",
       "PackagePath": "staticwebassets\\assets\\img\\tesla-model-s.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\img\\vr-bg.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\img\\vr-bg.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\vr-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\core\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\core\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\core\\popper.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\core\\popper.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\core\\popper.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\material-dashboard.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\material-dashboard.js",
       "PackagePath": "staticwebassets\\assets\\js\\material-dashboard.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\material-dashboard.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\material-dashboard.js.map",
       "PackagePath": "staticwebassets\\assets\\js\\material-dashboard.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\material-dashboard.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\material-dashboard.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\material-dashboard.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\plugins\\Chart.extension.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\Chart.extension.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\plugins\\bootstrap-notify.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\bootstrap-notify.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\plugins\\chartjs.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\chartjs.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\plugins\\perfect-scrollbar.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\perfect-scrollbar.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\plugins\\smooth-scrollbar.min.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\smooth-scrollbar.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\js\\plugins\\world.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\js\\plugins\\world.js",
       "PackagePath": "staticwebassets\\assets\\js\\plugins\\world.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_accordion.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_accordion.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_accordion.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_alert.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_alert.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_avatars.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_avatars.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_avatars.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_backgrounds.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_backgrounds.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_backgrounds.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_badge.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_breadcrumbs.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_breadcrumbs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_breadcrumbs.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_cards-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_cards-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_cards-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_cards.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_cards.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_components.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_components.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_components.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_dark-version.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_dark-version.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_dark-version.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_dropdown-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_dropdown-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_dropdown-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_dropdown.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_dropdown.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_dropup.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_dropup.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_dropup.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_fixed-plugin.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_fixed-plugin.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_fixed-plugin.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_floating-elements.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_floating-elements.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_floating-elements.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_footer.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_footer.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_footer.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_forms.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_gradients.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_gradients.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_header.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_header.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_header.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_icons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_icons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_icons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_info-areas.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_info-areas.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_info-areas.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_list-check.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_list-check.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_list-check.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_misc-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_misc-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_misc-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_misc.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_misc.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_nav.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_nav.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_navbar-vertical.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_navbar-vertical.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_navbar-vertical.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_navbar.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_pagination.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_popovers.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_popovers.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_popovers.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_progress.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_progress.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_ripple.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_ripple.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_ripple.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_rtl-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_rtl-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_rtl-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_rtl.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_rtl.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_rtl.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_social-buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_social-buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_social-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_tables.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_tables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_tilt.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_tilt.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_tilt.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_timeline.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_timeline.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_timeline.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_tooltips.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_tooltips.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_tooltips.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_typography.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_typography.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_typography.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_utilities-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_utilities-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_utilities-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_utilities.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\_variables.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\_variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge-circle.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge-circle.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\badges\\_badge-circle.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge-dot.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge-dot.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\badges\\_badge-dot.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge-floating.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge-floating.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\badges\\_badge-floating.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\badges\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\badges\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_accordion.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_accordion.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_alert.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_alert.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_badge.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_button-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_button-group.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_card.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_card.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_card.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_carousel.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_carousel.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_close.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_close.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_close.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_containers.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_containers.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_containers.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_dropdown.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_forms.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_functions.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_functions.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_functions.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_grid.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_helpers.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_helpers.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_images.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_images.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_images.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_list-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_mixins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_mixins.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_modal.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_modal.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_modal.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_nav.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_nav.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_nav.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_offcanvas.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_placeholders.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_popover.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_popover.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_popover.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_progress.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_progress.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_progress.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_reboot.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_reboot.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_root.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_root.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_root.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_spinners.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_spinners.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_tables.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_tables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_tables.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_toasts.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_toasts.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_tooltip.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_transitions.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_transitions.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_type.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_type.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_type.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_variables.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\_variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-grid.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-reboot.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap-utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\bootstrap.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_floating-labels.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-check.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-control.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-range.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_form-text.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\forms\\_validation.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_colored-links.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_position.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_ratio.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_stacks.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_stretched-link.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_text-truncation.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\helpers\\_vr.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_alert.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_backdrop.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_border-radius.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_box-shadow.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_breakpoints.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_caret.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_clearfix.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_color-scheme.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_container.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_deprecate.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_gradients.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_grid.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_image.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_list-group.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_lists.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_reset-text.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_resize.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_table-variants.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_text-truncate.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_transition.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\mixins\\_visually-hidden.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\utilities\\_api.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\bootstrap\\vendor\\_rfs.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-background.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-background.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\cards\\card-background.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-blog.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-blog.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\cards\\card-blog.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-horizontal.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-horizontal.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\cards\\card-horizontal.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-pricing.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-pricing.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\cards\\card-pricing.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-profile.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-profile.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\cards\\card-profile.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-rotate.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\cards\\card-rotate.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\cards\\card-rotate.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\custom\\_styles.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\custom\\_styles.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\custom\\_styles.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\custom\\_variables.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\custom\\_variables.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\custom\\_variables.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_form-check.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_form-check.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_form-check.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_form-select.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_form-select.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_form-select.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_form-switch.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_form-switch.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_form-switch.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_forms.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_forms.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_forms.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_input-group.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_input-group.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_input-group.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_inputs.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_inputs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_inputs.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_labels.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\forms\\_labels.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\forms\\_labels.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_badge.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\_buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\_colored-shadows.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_hover.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_hover.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\_hover.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_social-buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\_social-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_vendor.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\_vendor.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\_vendor.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\mixins.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\mixins\\mixins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\mixins\\mixins.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\free\\_flatpickr.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\free\\_nouislider.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\free\\_perfect-scrollbar.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\_prism.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\free\\_prism.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\free\\plugins.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\free\\plugins.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_carousel-slick.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_choices.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_choices.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_choices.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_datatable-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_datatable.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_dragula.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_dropzone.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_fullcalendar.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_glidejs.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_highlight.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_kanban.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_leaflet.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_list-check.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_photoswipe.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_quill.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_quill.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_quill.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_rating-widget.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_sweetalert2.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\_vector-map.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\multi-step.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\plugins\\pro\\plugins-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\theme-pro.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\theme-pro.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\theme-pro.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\theme.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\theme.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\theme.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_animations.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_animations.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_animations.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_avatars.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_avatars.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_avatars.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_badge.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_badge.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_badge.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_breadcrumb.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_breadcrumb.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_cards-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_cards-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_cards-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_cards.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_cards.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_cards.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_choices.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_choices.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_choices.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_dark-version.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_dark-version.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_dark-version.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_dropdowns.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_dropdowns.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_dropdowns.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_fixed-plugin.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_form-switch.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_form-switch.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_form-switch.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_full-calendar.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_full-calendar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_full-calendar.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_header.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_header.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_header.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_info-areas.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_info-areas.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_info-areas.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_misc-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_misc-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_misc-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_misc.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_misc.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_misc.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_navbar-vertical.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_navbar.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_navbar.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_navbar.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_pagination.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_pagination.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_pagination.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_ripple.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_ripple.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_ripple.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_rtl.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_rtl.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_rtl.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_social-buttons.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_social-buttons.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_social-buttons.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_table.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_table.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_table.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_timeline.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_timeline.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_timeline.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_utilities-extend.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_utilities-extend.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_utilities.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_utilities.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_utilities.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\assets\\scss\\material-dashboard\\variables\\_virtual-reality.scss",
       "PackagePath": "staticwebassets\\assets\\scss\\material-dashboard\\variables\\_virtual-reality.scss"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\SearchBar.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\SearchBar.css",
       "PackagePath": "staticwebassets\\css\\SearchBar.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\Text.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\Text.css",
       "PackagePath": "staticwebassets\\css\\Text.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\aboutus.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\aboutus.css",
       "PackagePath": "staticwebassets\\css\\aboutus.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\account.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\account.css",
       "PackagePath": "staticwebassets\\css\\account.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\favicon.ico",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\favicon.ico",
       "PackagePath": "staticwebassets\\css\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\featured.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\featured.css",
       "PackagePath": "staticwebassets\\css\\featured.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\featuredIndex.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\featuredIndex.css",
       "PackagePath": "staticwebassets\\css\\featuredIndex.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\font-awesome.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\font-awesome.css",
       "PackagePath": "staticwebassets\\css\\font-awesome.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\footer.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\footer.css",
       "PackagePath": "staticwebassets\\css\\footer.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\header.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\header.css",
       "PackagePath": "staticwebassets\\css\\header.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\homestyle.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\homestyle.css",
       "PackagePath": "staticwebassets\\css\\homestyle.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\mystyle.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\mystyle.css",
       "PackagePath": "staticwebassets\\css\\mystyle.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\newStyle.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\newStyle.css",
       "PackagePath": "staticwebassets\\css\\newStyle.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\slider.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\slider.css",
       "PackagePath": "staticwebassets\\css\\slider.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\style.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\css\\style1.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\css\\style1.css",
       "PackagePath": "staticwebassets\\css\\style1.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\adminlte.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\adminlte.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\adminlte.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\adminlte.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\adminlte.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\adminlte.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\adminlte.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\adminlte.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.components.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.components.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.components.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.components.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.components.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.components.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.core.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.core.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.core.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.core.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.core.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.core.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.extra-components.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.extra-components.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.light.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.light.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.light.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.light.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.light.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.light.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.pages.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.pages.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.pages.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.pages.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.pages.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.pages.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.plugins.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\css\\alt\\adminlte.plugins.min.css.map",
       "PackagePath": "staticwebassets\\dist\\css\\alt\\adminlte.plugins.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\AdminLTELogo.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\AdminLTELogo.png",
       "PackagePath": "staticwebassets\\dist\\img\\AdminLTELogo.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\avatar.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\avatar.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\avatar2.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\avatar2.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar2.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\avatar3.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\avatar3.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar3.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\avatar4.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\avatar4.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar4.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\avatar5.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\avatar5.png",
       "PackagePath": "staticwebassets\\dist\\img\\avatar5.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\boxed-bg.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\boxed-bg.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\boxed-bg.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\boxed-bg.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\boxed-bg.png",
       "PackagePath": "staticwebassets\\dist\\img\\boxed-bg.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\credit\\american-express.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\credit\\american-express.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\american-express.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\credit\\cirrus.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\credit\\cirrus.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\cirrus.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\credit\\mastercard.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\credit\\mastercard.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\mastercard.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\credit\\paypal.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\credit\\paypal.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\credit\\paypal2.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\credit\\paypal2.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\paypal2.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\credit\\visa.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\credit\\visa.png",
       "PackagePath": "staticwebassets\\dist\\img\\credit\\visa.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\default-150x150.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\default-150x150.png",
       "PackagePath": "staticwebassets\\dist\\img\\default-150x150.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\icons.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\icons.png",
       "PackagePath": "staticwebassets\\dist\\img\\icons.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\photo1.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\photo1.png",
       "PackagePath": "staticwebassets\\dist\\img\\photo1.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\photo2.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\photo2.png",
       "PackagePath": "staticwebassets\\dist\\img\\photo2.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\photo3.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\photo3.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\photo3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\photo4.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\photo4.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\photo4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\prod-1.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\prod-1.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-1.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\prod-2.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\prod-2.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-2.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\prod-3.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\prod-3.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-3.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\prod-4.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\prod-4.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-4.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\prod-5.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\prod-5.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\prod-5.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user1-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user1-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user1-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user2-160x160.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user2-160x160.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user2-160x160.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user3-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user3-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user3-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user4-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user4-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user4-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user5-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user5-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user5-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user6-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user6-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user6-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user7-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user7-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user7-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\img\\user8-128x128.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\img\\user8-128x128.jpg",
       "PackagePath": "staticwebassets\\dist\\img\\user8-128x128.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\.eslintrc.json",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\.eslintrc.json",
       "PackagePath": "staticwebassets\\dist\\js\\.eslintrc.json"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\adminlte.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\adminlte.js",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\adminlte.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\adminlte.js.map",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\adminlte.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\adminlte.min.js",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\adminlte.min.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\adminlte.min.js.map",
       "PackagePath": "staticwebassets\\dist\\js\\adminlte.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\demo.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\demo.js",
       "PackagePath": "staticwebassets\\dist\\js\\demo.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\pages\\dashboard.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\pages\\dashboard.js",
       "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\pages\\dashboard2.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\pages\\dashboard2.js",
       "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard2.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\dist\\js\\pages\\dashboard3.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\dist\\js\\pages\\dashboard3.js",
       "PackagePath": "staticwebassets\\dist\\js\\pages\\dashboard3.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\(9) NATIVE AMERICAN SILVER _ STONE RINGS221552550.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\(9) NATIVE AMERICAN SILVER _ STONE RINGS221552550.jpg",
       "PackagePath": "staticwebassets\\image\\(9) NATIVE AMERICAN SILVER _ STONE RINGS221552550.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\14K yellow gold ring with one oval pink tourmaline221329329.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\14K yellow gold ring with one oval pink tourmaline221329329.jpg",
       "PackagePath": "staticwebassets\\image\\14K yellow gold ring with one oval pink tourmaline221329329.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\4pc contemporary pine bed room set220447160.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\4pc contemporary pine bed room set220447160.jpg",
       "PackagePath": "staticwebassets\\image\\4pc contemporary pine bed room set220447160.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Antique Mystery Artist 1915 Portrait Oil Painting221220572.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Antique Mystery Artist 1915 Portrait Oil Painting221220572.jpg",
       "PackagePath": "staticwebassets\\image\\Antique Mystery Artist 1915 Portrait Oil Painting221220572.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Art deco 14K yellow gold diamond solitaire ring220613871.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Art deco 14K yellow gold diamond solitaire ring220613871.jpg",
       "PackagePath": "staticwebassets\\image\\Art deco 14K yellow gold diamond solitaire ring220613871.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Eleven Chinese Republic and Provincial Silver C225157046.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Eleven Chinese Republic and Provincial Silver C225157046.jpg",
       "PackagePath": "staticwebassets\\image\\Eleven Chinese Republic and Provincial Silver C225157046.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Eleven Chinese Republic and Provincial Silver C225857646.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Eleven Chinese Republic and Provincial Silver C225857646.jpg",
       "PackagePath": "staticwebassets\\image\\Eleven Chinese Republic and Provincial Silver C225857646.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\FRANKLIN MINT Panama 1971 20 Balboa Silver Proof225808072.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\FRANKLIN MINT Panama 1971 20 Balboa Silver Proof225808072.jpg",
       "PackagePath": "staticwebassets\\image\\FRANKLIN MINT Panama 1971 20 Balboa Silver Proof225808072.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Old Master Wise Gentlemen Portrait Oil Painting220721378.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Old Master Wise Gentlemen Portrait Oil Painting220721378.jpg",
       "PackagePath": "staticwebassets\\image\\Old Master Wise Gentlemen Portrait Oil Painting220721378.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Silver Trade Dollar UNCIRCULATED1225923712.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Silver Trade Dollar UNCIRCULATED1225923712.jpg",
       "PackagePath": "staticwebassets\\image\\Silver Trade Dollar UNCIRCULATED1225923712.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\Vintage red mahogany glass top high chest221723020.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\Vintage red mahogany glass top high chest221723020.jpg",
       "PackagePath": "staticwebassets\\image\\Vintage red mahogany glass top high chest221723020.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\image\\[WESTERN SAMOA] A 1986 Kon Tiki 5-Troy225324368.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\image\\[WESTERN SAMOA] A 1986 Kon Tiki 5-Troy225324368.jpg",
       "PackagePath": "staticwebassets\\image\\[WESTERN SAMOA] A 1986 Kon Tiki 5-Troy225324368.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\js\\Chart.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\js\\Chart.min.js",
       "PackagePath": "staticwebassets\\js\\Chart.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\js\\jquery.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\js\\jquery.min.js",
       "PackagePath": "staticwebassets\\js\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap-theme.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap-theme.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-theme.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap-theme.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap-theme.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-theme.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap-theme.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap-theme.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-theme.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap-theme.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap-theme.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap-theme.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\.gitignore",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\.gitignore",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\LICENSE",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\README.md",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\README.md",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\README.md"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\bower.json",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\bower.json",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\bower.json"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index-svg.html",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index-svg.html",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\index-svg.html"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index.html",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index.html",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\index.html"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index.svg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\index.svg",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\index.svg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\jquery.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.js",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.min.js",
       "PackagePath": "staticwebassets\\lib\\davidshimjs-qrcodejs-04f46c6\\qrcode.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\map\\map.css",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\map\\map.css",
       "PackagePath": "staticwebassets\\map\\map.css"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\map\\map.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\map\\map.js",
       "PackagePath": "staticwebassets\\map\\map.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\playstore.png",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\playstore.png",
       "PackagePath": "staticwebassets\\playstore.png"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\searchbar.js",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\searchbar.js",
       "PackagePath": "staticwebassets\\searchbar.js"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\OldCoin.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\OldCoin.jpg",
       "PackagePath": "staticwebassets\\slider\\OldCoin.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\OldFurniture.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\OldFurniture.jpg",
       "PackagePath": "staticwebassets\\slider\\OldFurniture.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\OldJwel.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\OldJwel.jpg",
       "PackagePath": "staticwebassets\\slider\\OldJwel.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\art.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\art.jpg",
       "PackagePath": "staticwebassets\\slider\\art.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\coin.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\coin.jpg",
       "PackagePath": "staticwebassets\\slider\\coin.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\coinsss.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\coinsss.jpg",
       "PackagePath": "staticwebassets\\slider\\coinsss.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\jwel.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\jwel.jpg",
       "PackagePath": "staticwebassets\\slider\\jwel.jpg"
     },
     {
-      "Id": "C:\\Users\\Dell\\Documents\\DotnetProjects\\DealNepal\\wwwroot\\slider\\oldcoinsss.jpg",
+      "Id": "C:\\Users\\MaheshMadai\\Source\\Repos\\DealNepal2\\wwwroot\\slider\\oldcoinsss.jpg",
       "PackagePath": "staticwebassets\\slider\\oldcoinsss.jpg"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.UserManagement.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.DealNepal.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.UserManagement.props",
-      "PackagePath": "build\\UserManagement.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.DealNepal.props",
+      "PackagePath": "build\\DealNepal.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.UserManagement.props",
-      "PackagePath": "buildMultiTargeting\\UserManagement.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.DealNepal.props",
+      "PackagePath": "buildMultiTargeting\\DealNepal.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.UserManagement.props",
-      "PackagePath": "buildTransitive\\UserManagement.props"
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.DealNepal.props",
+      "PackagePath": "buildTransitive\\DealNepal.props"
     }
   ],
   "ElementsToRemove": []
