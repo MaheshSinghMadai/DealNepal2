@@ -473,3 +473,8 @@ FodyWeavers.xsd
 /.vs/UserManagement/v17/fileList.bin
 /obj/project.assets.json
 /obj/project.nuget.cache
+/ClientApp/.vscode
+/ClientApp/public
+/obj/Debug/net6.0/staticwebassets.build.json
+/obj/Debug/net6.0/staticwebassets.development.json
+/obj/Debug/net6.0/staticwebassets.pack.json
