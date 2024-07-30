@@ -33,7 +33,7 @@ namespace UserManagement.Data
                 var user = await userManager.FindByEmailAsync(defaultUser.Email);
                 if (user == null)
                 {
-                    await userManager.CreateAsync(defaultUser, "Zsoxfsq977#@");
+                    await userManager.CreateAsync(defaultUser, "P@$$w0rd");
                     await userManager.AddToRoleAsync(defaultUser, Roles.Basic.ToString());                  
                     await userManager.AddToRoleAsync(defaultUser, Roles.Auctioneer.ToString());
                     await userManager.AddToRoleAsync(defaultUser, Roles.Admin.ToString());   
