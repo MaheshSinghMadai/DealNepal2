@@ -7,7 +7,7 @@
 /.vs/UserManagement/FileContentIndex/3d5715e3-bce2-4169-9986-99eeaa2e87c3.vsidx
 *.vsidx
 /.vs/UserManagement/v17/.suo
-*.json
+# *.json
 /bin/Debug/net6.0/refs/Microsoft.AspNetCore.Antiforgery.dll
 
 # Created by https://www.toptal.com/developers/gitignore/api/angular,dotnetcore,visualstudiocode,visualstudio
