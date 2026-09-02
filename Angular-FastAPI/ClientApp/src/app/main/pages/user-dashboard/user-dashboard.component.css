@@ -1,0 +1,31 @@
+.profile-banner-card {
+  margin-bottom: 32px;
+  padding: 12px;
+}
+.banner-content {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.banner-avatar {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid var(--accent-primary);
+}
+.banner-info { flex: 1; }
+.user-fullname { font-size: 1.75rem; font-weight: 800; margin-bottom: 6px; }
+.user-meta-row { display: flex; align-items: center; gap: 12px; }
+.user-handle { font-size: 0.9rem; color: var(--accent-gold); font-weight: 600; }
+
+.table-card { overflow-x: auto; }
+.dashboard-table { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.dashboard-table th { text-align: left; padding: 14px 16px; color: var(--text-subtle); text-transform: uppercase; font-size: 0.78rem; border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+.dashboard-table td { padding: 14px 16px; border-bottom: 1px solid rgba(255, 255, 255, 0.05); }
+.item-cell { display: flex; align-items: center; gap: 12px; }
+.thumb-img { width: 44px; height: 44px; border-radius: var(--radius-sm); object-fit: cover; }
+.item-name { font-weight: 600; color: #ffffff; max-width: 220px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.amount-cell { font-family: var(--font-heading); font-weight: 700; }
+.action-btns { display: flex; gap: 8px; }
+.empty-box { padding: 48px !important; }

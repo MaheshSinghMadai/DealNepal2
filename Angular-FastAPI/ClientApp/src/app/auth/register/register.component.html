@@ -1,1 +1,57 @@
-<p>register works!</p>
+<div class="main-content flex items-center justify-center min-h-screen">
+  <div class="app-container max-w-md">
+    <mat-card class="auth-card">
+      <mat-card-header class="auth-header text-center">
+        <div class="logo-icon-lg">
+          <mat-icon>person_add</mat-icon>
+        </div>
+        <mat-card-title class="auth-title">Create DealNepal Account</mat-card-title>
+        <mat-card-subtitle class="auth-subtitle">Register to join Nepal's online bidding platform.</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content>
+        <form (ngSubmit)="onRegister()" class="auth-form">
+          <div class="form-row">
+            <mat-form-field appearance="outline">
+              <mat-label>First Name</mat-label>
+              <input matInput placeholder="Srijana" [(ngModel)]="firstName" name="firstName" required />
+            </mat-form-field>
+            <mat-form-field appearance="outline">
+              <mat-label>Last Name</mat-label>
+              <input matInput placeholder="Shrestha" [(ngModel)]="lastName" name="lastName" required />
+            </mat-form-field>
+          </div>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Username</mat-label>
+            <input matInput placeholder="srijana_shrestha" [(ngModel)]="username" name="username" required />
+            <mat-icon matSuffix>account_circle</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Email Address</mat-label>
+            <input matInput type="email" placeholder="srijana@gmail.com" [(ngModel)]="email" name="email" required />
+            <mat-icon matSuffix>email</mat-icon>
+          </mat-form-field>
+
+          <mat-form-field appearance="outline">
+            <mat-label>Account Role</mat-label>
+            <mat-select [(ngModel)]="role" name="role">
+              <mat-option value="User">Buyer / Collector</mat-option>
+              <mat-option value="Auctioneer">Seller / Auctioneer</mat-option>
+            </mat-select>
+          </mat-form-field>
+
+          <button mat-raised-button color="primary" type="submit" class="btn-full">
+            <mat-icon>check_circle</mat-icon> Register Account
+          </button>
+        </form>
+      </mat-card-content>
+
+      <mat-card-actions class="auth-footer text-center">
+        <span class="text-muted text-sm">Already registered? </span>
+        <a routerLink="/login" class="text-amber-400 font-bold hover:underline ml-1">Sign In</a>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

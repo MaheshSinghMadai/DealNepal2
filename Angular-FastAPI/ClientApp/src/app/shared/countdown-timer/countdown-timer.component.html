@@ -1,0 +1,5 @@
+<div class="timer-badge" [class.expired]="isExpired">
+  <i class="fa-regular fa-clock"></i>
+  <span *ngIf="!isExpired">{{ days }}d {{ hours }}h {{ minutes }}m {{ seconds }}s left</span>
+  <span *ngIf="isExpired" class="text-rose-600 font-bold">AUCTION CLOSED</span>
+</div>

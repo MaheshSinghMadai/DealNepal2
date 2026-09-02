@@ -1,0 +1,79 @@
+<div class="main-content">
+  <div class="app-container">
+    <!-- Header Banner -->
+    <mat-card class="catalog-header">
+      <mat-card-header class="catalog-title-wrap">
+        <mat-card-title class="catalog-title">Live Auction Catalog</mat-card-title>
+        <mat-card-subtitle class="catalog-subtitle">Explore rare Nepalese heritage items, coins, thangkas, and antique furniture open for bidding.</mat-card-subtitle>
+      </mat-card-header>
+
+      <mat-card-content class="controls-bar">
+        <!-- Search -->
+        <div class="search-wrap">
+          <mat-icon class="search-icon-inside">search</mat-icon>
+          <input 
+            type="text" 
+            class="glass-input search-input-pad" 
+            placeholder="Search products by title or category..." 
+            [(ngModel)]="searchQuery" 
+            (keyup)="applyFilters()"
+          />
+        </div>
+
+        <!-- Category Filter -->
+        <div class="filter-group">
+          <label class="filter-label"><mat-icon class="align-middle text-xs">filter_list</mat-icon> Category:</label>
+          <select class="glass-input select-input" [(ngModel)]="selectedCategory" (change)="onCategoryChange()">
+            <option value="All">All Categories</option>
+            <option value="Coins">Coins</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Jewellery">Jewellery</option>
+            <option value="Art">Art</option>
+          </select>
+        </div>
+
+        <!-- Sort By -->
+        <div class="filter-group">
+          <label class="filter-label"><mat-icon class="align-middle text-xs">sort</mat-icon> Sort By:</label>
+          <select class="glass-input select-input" [(ngModel)]="sortOrder" (change)="applyFilters()">
+            <option value="default">Default</option>
+            <option value="EndTime">EndTime (Ending Soonest)</option>
+            <option value="HighestBid">Highest Bid</option>
+            <option value="Price">Price (Min Price)</option>
+            <option value="Name">Name (A-Z)</option>
+          </select>
+        </div>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- Category Quick Pills -->
+    <div class="category-pills-bar">
+      <mat-chip-listbox aria-label="Category selection">
+        <mat-chip-option 
+          *ngFor="let cat of ['All', 'Coins', 'Furniture', 'Jewellery', 'Art']"
+          [selected]="selectedCategory === cat"
+          (click)="setCategory(cat)"
+          color="accent"
+        >
+          {{ cat }}
+        </mat-chip-option>
+      </mat-chip-listbox>
+    </div>
+
+    <!-- Product Grid -->
+    <div *ngIf="filteredProducts.length > 0; else noProducts" class="catalog-grid">
+      <div *ngFor="let product of filteredProducts" class="catalog-item animate-fade-in">
+        <app-product-card [product]="product"></app-product-card>
+      </div>
+    </div>
+
+    <ng-template #noProducts>
+      <mat-card class="empty-state text-center">
+        <mat-icon class="text-5xl text-muted mb-4">gavel</mat-icon>
+        <h3 class="text-xl font-bold mb-2">No Auctions Found</h3>
+        <p class="text-muted mb-6">No items match your query "{{ searchQuery }}" in {{ selectedCategory }}. Try clearing filters.</p>
+        <button mat-raised-button color="primary" (click)="resetFilters()">Reset All Filters</button>
+      </mat-card>
+    </ng-template>
+  </div>
+</div>

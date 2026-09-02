@@ -2,36 +2,8 @@ import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 
 @Component({
   selector: 'app-countdown-timer',
-  template: `
-    <div class="timer-badge" [class.expired]="isExpired">
-      <i class="fa-regular fa-clock"></i>
-      <span *ngIf="!isExpired">{{ days }}d {{ hours }}h {{ minutes }}m {{ seconds }}s left</span>
-      <span *ngIf="isExpired" class="text-rose-600 font-bold">AUCTION CLOSED</span>
-    </div>
-  `,
-  styles: [`
-    .timer-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 6px;
-      background: #ffffff;
-      border: 1px solid #fde68a;
-      color: #b45309;
-      padding: 4px 10px;
-      border-radius: 9999px;
-      font-size: 0.75rem;
-      font-weight: 700;
-      font-family: var(--font-heading);
-      letter-spacing: 0.02em;
-      box-shadow: 0 2px 8px rgba(217, 119, 6, 0.15);
-    }
-    .timer-badge.expired {
-      border-color: #fecdd3;
-      color: #e11d48;
-      background: #fff1f2;
-      box-shadow: none;
-    }
-  `]
+  templateUrl: './countdown-timer.component.html',
+  styleUrls: ['./countdown-timer.component.css']
 })
 export class CountdownTimerComponent implements OnInit, OnDestroy {
   @Input() endTime!: string;

@@ -1,0 +1,260 @@
+<div class="main-content">
+  <div class="app-container">
+    <!-- Admin Header -->
+    <mat-card class="admin-header-card">
+      <mat-card-content>
+        <div class="badge-live mb-2"><mat-icon class="align-middle text-xs">admin_panel_settings</mat-icon> SYSTEM ADMIN CONSOLE</div>
+        <h1 class="admin-title">DealNepal Admin Dashboard</h1>
+        <p class="admin-subtitle">Monitor entity metrics, category bidding activity, manage products, audit user activity logs, and configure user role permissions.</p>
+      </mat-card-content>
+    </mat-card>
+
+    <!-- KPI Metric Cards Grid -->
+    <div class="kpi-grid" *ngIf="stats">
+      <mat-card class="kpi-card">
+        <div class="kpi-icon icon-indigo"><mat-icon>gavel</mat-icon></div>
+        <div class="kpi-meta">
+          <span class="kpi-label">Products Count</span>
+          <span class="kpi-value">{{ stats.products_count }}</span>
+        </div>
+      </mat-card>
+
+      <mat-card class="kpi-card">
+        <div class="kpi-icon icon-amber"><mat-icon>payments</mat-icon></div>
+        <div class="kpi-meta">
+          <span class="kpi-label">Bids Count</span>
+          <span class="kpi-value">{{ stats.bids_count }}</span>
+        </div>
+      </mat-card>
+
+      <mat-card class="kpi-card">
+        <div class="kpi-icon icon-emerald"><mat-icon>people</mat-icon></div>
+        <div class="kpi-meta">
+          <span class="kpi-label">Users Count</span>
+          <span class="kpi-value">{{ stats.users_count }}</span>
+        </div>
+      </mat-card>
+
+      <mat-card class="kpi-card">
+        <div class="kpi-icon icon-rose"><mat-icon>history_edu</mat-icon></div>
+        <div class="kpi-meta">
+          <span class="kpi-label">User Activity Count</span>
+          <span class="kpi-value">{{ stats.userActivity_count }}</span>
+        </div>
+      </mat-card>
+    </div>
+
+    <!-- Analytics Visual Charts Row (CanvasJS Upgrade with Material UI) -->
+    <div class="charts-row" *ngIf="stats">
+      <!-- Categorical Distribution Breakdown -->
+      <mat-card class="chart-card">
+        <mat-card-header>
+          <mat-card-title class="chart-title">
+            <mat-icon class="text-amber-400">pie_chart</mat-icon> Categorical Product & Bid Breakdown
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="cat-bar-list">
+            <div class="cat-bar-item">
+              <div class="cat-bar-header">
+                <span>Coins</span>
+                <span class="font-bold">{{ stats.coins_count }} Products | {{ stats.coins_BidCount }} Bids</span>
+              </div>
+              <mat-progress-bar mode="determinate" value="75" color="accent"></mat-progress-bar>
+            </div>
+
+            <div class="cat-bar-item">
+              <div class="cat-bar-header">
+                <span>Furniture</span>
+                <span class="font-bold">{{ stats.furniture_count }} Products | {{ stats.furniture_BidCount }} Bids</span>
+              </div>
+              <mat-progress-bar mode="determinate" value="60" color="primary"></mat-progress-bar>
+            </div>
+
+            <div class="cat-bar-item">
+              <div class="cat-bar-header">
+                <span>Jewellery</span>
+                <span class="font-bold">{{ stats.jewellery_count }} Products | {{ stats.jewellery_BidCount }} Bids</span>
+              </div>
+              <mat-progress-bar mode="determinate" value="50" color="warn"></mat-progress-bar>
+            </div>
+
+            <div class="cat-bar-item">
+              <div class="cat-bar-header">
+                <span>Art</span>
+                <span class="font-bold">{{ stats.art_count }} Products | {{ stats.art_BidCount }} Bids</span>
+              </div>
+              <mat-progress-bar mode="determinate" value="85" color="accent"></mat-progress-bar>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+
+      <!-- Monthly Bidding Activity Growth -->
+      <mat-card class="chart-card">
+        <mat-card-header>
+          <mat-card-title class="chart-title">
+            <mat-icon class="text-indigo-400">bar_chart</mat-icon> Monthly Activity Distribution
+          </mat-card-title>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="monthly-bars">
+            <div *ngFor="let m of stats.monthlyActivities" class="monthly-col">
+              <span class="month-count">{{ m.count }}</span>
+              <div class="month-bar" [style.height.px]="m.count * 2.2"></div>
+              <span class="month-name">{{ m.month }}</span>
+            </div>
+          </div>
+        </mat-card-content>
+      </mat-card>
+    </div>
+
+    <!-- Admin Management Material Tabs -->
+    <mat-tab-group class="admin-mat-tabs" animationDuration="200ms">
+      <!-- TAB 1: PRODUCTS MANAGEMENT TABLE -->
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="mr-2">view_list</mat-icon> Product Details ({{ allProducts.length }})
+        </ng-template>
+
+        <div class="tab-content py-6 animate-fade-in">
+          <mat-card class="admin-table-card">
+            <div class="table-toolbar">
+              <h3 class="box-title">Manage Products List</h3>
+              <input type="text" class="glass-input search-sm" placeholder="Filter products..." [(ngModel)]="prodSearch" />
+            </div>
+
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Product Name</th>
+                    <th>Category</th>
+                    <th>Min Price</th>
+                    <th>Latest Bid</th>
+                    <th>Seller</th>
+                    <th>End Time</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let p of filteredProducts">
+                    <td class="font-mono text-xs">#{{ p.productID }}</td>
+                    <td class="item-cell">
+                      <img [src]="p.productImageName" [alt]="p.productName" class="thumb-img" />
+                      <span class="item-name">{{ p.productName }}</span>
+                    </td>
+                    <td><span class="badge-category">{{ p.category }}</span></td>
+                    <td>NPR {{ p.minPrice | number }}</td>
+                    <td class="amount-cell text-amber-400">NPR {{ p.latestBid | number }}</td>
+                    <td>&#64;{{ p.userName }}</td>
+                    <td class="time-cell">{{ p.endTime | date:'mediumDate' }}</td>
+                    <td>
+                      <div class="action-btns">
+                        <a [routerLink]="['/product', p.productID]" mat-icon-button color="primary"><mat-icon>visibility</mat-icon></a>
+                        <button (click)="deleteProduct(p.productID)" mat-icon-button color="warn"><mat-icon>delete</mat-icon></button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </mat-card>
+        </div>
+      </mat-tab>
+
+      <!-- TAB 2: USER ROLES MANAGEMENT -->
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="mr-2">manage_accounts</mat-icon> Manage User Roles ({{ allUsers.length }})
+        </ng-template>
+
+        <div class="tab-content py-6 animate-fade-in">
+          <mat-card class="admin-table-card">
+            <div class="table-toolbar">
+              <h3 class="box-title">User Roles Console</h3>
+            </div>
+
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>User ID</th>
+                    <th>User Details</th>
+                    <th>Email</th>
+                    <th>Current Role</th>
+                    <th>Manage Role</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let u of allUsers">
+                    <td class="font-mono text-xs">{{ u.id }}</td>
+                    <td class="item-cell">
+                      <img [src]="u.profilePictureUrl" [alt]="u.username" class="thumb-avatar" />
+                      <div>
+                        <div class="font-bold text-white">{{ u.firstName }} {{ u.lastName }}</div>
+                        <div class="text-xs text-muted">&#64;{{ u.username }}</div>
+                      </div>
+                    </td>
+                    <td>{{ u.email }}</td>
+                    <td>
+                      <span class="badge-live" [class.role-admin]="u.role === 'Admin'">
+                        {{ u.role }}
+                      </span>
+                    </td>
+                    <td>
+                      <div class="role-btn-toggles">
+                        <button (click)="changeUserRole(u, 'Admin')" [class.active-r]="u.role === 'Admin'">Admin</button>
+                        <button (click)="changeUserRole(u, 'Auctioneer')" [class.active-r]="u.role === 'Auctioneer'">Auctioneer</button>
+                        <button (click)="changeUserRole(u, 'User')" [class.active-r]="u.role === 'User'">Buyer</button>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </mat-card>
+        </div>
+      </mat-tab>
+
+      <!-- TAB 3: USER ACTIVITY DETAILS -->
+      <mat-tab>
+        <ng-template mat-tab-label>
+          <mat-icon class="mr-2">read_more</mat-icon> User Activity Details ({{ activities.length }})
+        </ng-template>
+
+        <div class="tab-content py-6 animate-fade-in">
+          <mat-card class="admin-table-card">
+            <div class="table-toolbar">
+              <h3 class="box-title">System Audit Log</h3>
+            </div>
+
+            <div class="table-responsive">
+              <table class="admin-table">
+                <thead>
+                  <tr>
+                    <th>ID</th>
+                    <th>Username</th>
+                    <th>Action</th>
+                    <th>Event Summary</th>
+                    <th>Activity Date</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let act of activities">
+                    <td class="font-mono text-xs">#{{ act.id }}</td>
+                    <td class="font-bold text-white">&#64;{{ act.userName }}</td>
+                    <td><span class="badge-gold">{{ act.action }}</span></td>
+                    <td>{{ act.data }}</td>
+                    <td class="time-cell">{{ act.activityDate | date:'medium' }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </mat-card>
+        </div>
+      </mat-tab>
+    </mat-tab-group>
+  </div>
+</div>
