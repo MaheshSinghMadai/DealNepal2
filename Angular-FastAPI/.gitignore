@@ -1,0 +1,5 @@
+/.DS_Store
+/angular_app/.env
+/python_api/.env
+/venv
+/__pycache__/
