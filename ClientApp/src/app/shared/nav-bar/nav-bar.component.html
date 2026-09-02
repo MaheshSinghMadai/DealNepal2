@@ -1,0 +1,127 @@
+<mat-toolbar class="mat-elevation-z4 navbar-toolbar">
+  <div class="navbar-container">
+    <!-- Brand Logo -->
+    <a routerLink="/" class="navbar-brand">
+      <div class="logo-icon">
+        <mat-icon>gavel</mat-icon>
+      </div>
+      <div class="logo-text">
+        <span class="brand-name">Deal<span class="brand-highlight">Nepal</span></span>
+        <span class="brand-tagline">Online Auction Hub</span>
+      </div>
+    </a>
+
+    <!-- Global Search Bar -->
+    <div class="nav-search">
+      <mat-icon class="search-icon">search</mat-icon>
+      <input 
+        type="text" 
+        class="glass-input search-input" 
+        placeholder="Search for Products (Art, Coins, Jewellery, Furniture)..." 
+        [(ngModel)]="searchQuery"
+        (keyup.enter)="onSearch()"
+      />
+      <button mat-flat-button color="accent" class="search-btn" (click)="onSearch()">Search</button>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="nav-links">
+      <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" mat-button class="nav-item">
+        <mat-icon>home</mat-icon> Home
+      </a>
+
+      <!-- Category Dropdown Menu -->
+      <button mat-button [matMenuTriggerFor]="categoryMenu" class="nav-item">
+        <mat-icon>category</mat-icon> Products <mat-icon>expand_more</mat-icon>
+      </button>
+
+      <mat-menu #categoryMenu="matMenu" class="mat-dropdown-menu">
+        <a mat-menu-item [routerLink]="['/catalog']" [queryParams]="{category: 'Coins'}">
+          <mat-icon>monetization_on</mat-icon> <span>Coins</span>
+        </a>
+        <mat-divider></mat-divider>
+        <a mat-menu-item [routerLink]="['/catalog']" [queryParams]="{category: 'Furniture'}">
+          <mat-icon>chair</mat-icon> <span>Furniture</span>
+        </a>
+        <mat-divider></mat-divider>
+        <a mat-menu-item [routerLink]="['/catalog']" [queryParams]="{category: 'Jewellery'}">
+          <mat-icon>diamond</mat-icon> <span>Jewellery</span>
+        </a>
+        <mat-divider></mat-divider>
+        <a mat-menu-item [routerLink]="['/catalog']" [queryParams]="{category: 'Art'}">
+          <mat-icon>palette</mat-icon> <span>Art</span>
+        </a>
+      </mat-menu>
+
+      <a *ngIf="currentUser?.role === 'Auctioneer' || currentUser?.role === 'Admin'" routerLink="/create" routerLinkActive="active" mat-button class="nav-item nav-action-link">
+        <mat-icon>add_circle</mat-icon> Post Item
+      </a>
+
+      <a *ngIf="currentUser?.role === 'Admin'" routerLink="/admin" routerLinkActive="active" mat-button class="nav-item nav-admin-link">
+        <mat-icon>dashboard</mat-icon> Admin Portal
+      </a>
+    </div>
+
+    <!-- User Profile & Actions -->
+    <div class="nav-actions">
+      <ng-container *ngIf="currentUser; else loginBtn">
+        <button mat-button [matMenuTriggerFor]="profileMenu" class="profile-pill-btn">
+          <img [src]="currentUser.profilePictureUrl" alt="Avatar" class="user-avatar" />
+          <div class="user-meta">
+            <span class="user-name">{{ currentUser.firstName }}</span>
+            <span class="user-role-badge" [class.role-admin]="currentUser.role === 'Admin'">
+              {{ currentUser.role }}
+            </span>
+          </div>
+          <mat-icon>arrow_drop_down</mat-icon>
+        </button>
+
+        <mat-menu #profileMenu="matMenu" xPosition="before" class="profile-mat-menu">
+          <div class="dropdown-header">
+            <div class="font-semibold text-white">{{ currentUser.firstName }} {{ currentUser.lastName }}</div>
+            <div class="text-xs text-muted">{{ currentUser.email }}</div>
+          </div>
+          
+          <mat-divider></mat-divider>
+          
+          <a mat-menu-item routerLink="/dashboard">
+            <mat-icon>person</mat-icon> <span>My Dashboard & Bids</span>
+          </a>
+          
+          <a *ngIf="currentUser.role === 'Auctioneer' || currentUser.role === 'Admin'" mat-menu-item routerLink="/create">
+            <mat-icon>add_box</mat-icon> <span>Post New Auction</span>
+          </a>
+          
+          <a *ngIf="currentUser.role === 'Admin'" mat-menu-item routerLink="/admin">
+            <mat-icon>admin_panel_settings</mat-icon> <span>Admin Portal</span>
+          </a>
+
+          <mat-divider></mat-divider>
+
+          <!-- Quick Role Switcher Demo -->
+          <div class="demo-role-selector">
+            <span class="text-xs text-muted block mb-1">Switch Role Demo:</span>
+            <div class="role-btn-group">
+              <button (click)="switchDemoRole('Admin')" [class.active-role]="currentUser.role === 'Admin'">Admin</button>
+              <button (click)="switchDemoRole('Auctioneer')" [class.active-role]="currentUser.role === 'Auctioneer'">Seller</button>
+              <button (click)="switchDemoRole('User')" [class.active-role]="currentUser.role === 'User'">Buyer</button>
+            </div>
+          </div>
+
+          <mat-divider></mat-divider>
+
+          <button mat-menu-item class="logout-btn" (click)="logout()">
+            <mat-icon class="text-rose-400">logout</mat-icon> <span class="text-rose-400">Sign Out</span>
+          </button>
+        </mat-menu>
+      </ng-container>
+
+      <ng-template #loginBtn>
+        <div class="auth-buttons">
+          <a routerLink="/login" mat-stroked-button color="primary">Log In</a>
+          <a routerLink="/register" mat-raised-button color="accent">Register</a>
+        </div>
+      </ng-template>
+    </div>
+  </div>
+</mat-toolbar>

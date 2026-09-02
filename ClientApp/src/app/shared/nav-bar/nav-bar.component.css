@@ -1,0 +1,231 @@
+.navbar-toolbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  background: #ffffff !important;
+  border-bottom: 1px solid #e2e8f0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  height: 76px !important;
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+}
+
+.navbar-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-icon {
+  width: 42px;
+  height: 42px;
+  background: linear-gradient(135deg, #4f46e5 0%, #6366f1 100%);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.brand-name {
+  font-family: var(--font-heading);
+  font-size: 1.35rem;
+  font-weight: 800;
+  color: #0f172a;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+}
+
+.brand-highlight {
+  color: var(--accent-gold);
+}
+
+.brand-tagline {
+  font-size: 0.68rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Nav Search */
+.nav-search {
+  position: relative;
+  flex: 1;
+  max-width: 440px;
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  left: 14px;
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  pointer-events: none;
+}
+
+.search-input {
+  padding-left: 44px;
+  padding-right: 90px;
+  height: 42px;
+  font-size: 0.875rem;
+  border-radius: 9999px;
+  background: #f8fafc;
+  border: 1px solid #cbd5e1;
+  color: var(--text-main);
+}
+
+.search-btn {
+  position: absolute;
+  right: 4px;
+  border-radius: 9999px !important;
+  height: 34px !important;
+  line-height: 34px !important;
+  padding: 0 16px !important;
+  font-size: 0.8rem !important;
+  font-weight: 600 !important;
+}
+
+/* Nav Links */
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.nav-item {
+  color: var(--text-muted) !important;
+  font-family: var(--font-heading) !important;
+  font-weight: 600 !important;
+  font-size: 0.9rem !important;
+}
+
+.nav-item:hover, .nav-item.active {
+  color: var(--accent-primary) !important;
+}
+
+.nav-action-link {
+  color: var(--accent-gold) !important;
+}
+
+.nav-admin-link {
+  color: #7c3aed !important;
+}
+
+/* Profile Menu Button */
+.profile-pill-btn {
+  background: #f1f5f9 !important;
+  border: 1px solid #cbd5e1 !important;
+  border-radius: 9999px !important;
+  padding: 4px 12px 4px 4px !important;
+  display: flex !important;
+  align-items: center !important;
+  gap: 8px !important;
+}
+
+.user-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--accent-primary);
+}
+
+.user-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1.2;
+}
+
+.user-name {
+  font-family: var(--font-heading);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.user-role-badge {
+  font-size: 0.65rem;
+  font-weight: 700;
+  color: #0284c7;
+  text-transform: uppercase;
+}
+
+.user-role-badge.role-admin { color: #e11d48; }
+
+.dropdown-header {
+  padding: 12px 16px 8px 16px;
+}
+
+/* Demo Role Selector */
+.demo-role-selector {
+  padding: 8px 16px;
+}
+
+.role-btn-group {
+  display: flex;
+  gap: 6px;
+  background: #f1f5f9;
+  padding: 4px;
+  border-radius: var(--radius-sm);
+}
+
+.role-btn-group button {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 4px 6px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.role-btn-group button.active-role {
+  background: var(--accent-primary);
+  color: #ffffff;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+/* Mobile Responsiveness */
+.mobile-toggle-btn {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .nav-search { max-width: 220px; }
+  .nav-links { display: none; }
+  .mobile-toggle-btn { display: block; }
+}
+
+@media (max-width: 640px) {
+  .nav-search { display: none; }
+  .navbar-container { padding: 0 16px; }
+}

@@ -1,0 +1,180 @@
+<div class="main-content" *ngIf="product">
+  <div class="app-container">
+    <!-- Breadcrumb -->
+    <div class="breadcrumb-bar">
+      <a routerLink="/">Home</a> <mat-icon class="text-xs text-muted">chevron_right</mat-icon>
+      <a routerLink="/catalog">Catalog</a> <mat-icon class="text-xs text-muted">chevron_right</mat-icon>
+      <span class="text-white font-medium">{{ product.category }}</span>
+    </div>
+
+    <!-- Product Main Grid -->
+    <div class="product-main-grid">
+      <!-- Left Column: Image Showcase & Specs -->
+      <div class="image-column">
+        <mat-card class="main-image-card">
+          <img mat-card-image [src]="product.productImageName" [alt]="product.productName" class="hero-product-img" />
+          
+          <div class="image-overlay-badges">
+            <span class="badge-live">LIVE AUCTION</span>
+            <mat-chip-option color="primary" selected>{{ product.category }}</mat-chip-option>
+          </div>
+
+          <div class="timer-float">
+            <app-countdown-timer [endTime]="product.endTime"></app-countdown-timer>
+          </div>
+        </mat-card>
+
+        <!-- Description Box -->
+        <mat-card class="info-box">
+          <mat-card-header>
+            <mat-card-title class="box-title">
+              <mat-icon class="text-indigo-400">description</mat-icon> Item Description
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <p class="description-text">{{ product.description }}</p>
+            
+            <div class="spec-grid">
+              <div class="spec-item">
+                <span class="spec-label">Listing ID:</span>
+                <span class="spec-value">#NP-{{ product.productID }}</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Listed On:</span>
+                <span class="spec-value">{{ product.startTime | date:'mediumDate' }}</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Auction Ends:</span>
+                <span class="spec-value">{{ product.endTime | date:'medium' }}</span>
+              </div>
+              <div class="spec-item">
+                <span class="spec-label">Seller:</span>
+                <span class="spec-value text-amber-400 font-semibold">&#64;{{ product.userName }}</span>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <!-- Right Column: Bidding Spotlight & Form -->
+      <div class="bidding-column">
+        <mat-card class="action-card">
+          <mat-card-header>
+            <mat-card-title class="product-detail-title">{{ product.productName }}</mat-card-title>
+          </mat-card-header>
+
+          <mat-card-content>
+            <!-- Bidding Price Header Spotlight -->
+            <div class="price-spotlight-box">
+              <div class="spotlight-left">
+                <span class="spotlight-label">Current Highest Bid</span>
+                <div class="spotlight-price">NPR {{ product.latestBid | number }}</div>
+              </div>
+
+              <div class="spotlight-right">
+                <span class="spotlight-label">Starting Price</span>
+                <div class="spotlight-start">NPR {{ product.minPrice | number }}</div>
+              </div>
+            </div>
+
+            <!-- Alert Notification Message -->
+            <div *ngIf="bidMessage" class="alert-box" [class.alert-success]="bidSuccess" [class.alert-error]="!bidSuccess">
+              <mat-icon>{{ bidSuccess ? 'check_circle' : 'warning' }}</mat-icon>
+              <span>{{ bidMessage }}</span>
+            </div>
+
+            <!-- Live Bidding Form -->
+            <div class="bidding-form-section">
+              <label class="form-label"><mat-icon class="text-amber-400 align-middle">gavel</mat-icon> Enter Your Bid Amount (NPR):</label>
+              
+              <div class="input-with-button">
+                <input 
+                  type="number" 
+                  class="glass-input bid-amount-input" 
+                  [min]="product.latestBid + 100" 
+                  [(ngModel)]="bidInputAmount"
+                />
+                <button mat-raised-button color="accent" class="btn-lg" (click)="submitBid()">
+                  <mat-icon>gavel</mat-icon> Place Bid Now
+                </button>
+              </div>
+
+              <!-- Quick Increment Buttons -->
+              <div class="quick-bids-row">
+                <span class="quick-label">Quick Add:</span>
+                <button mat-stroked-button class="quick-btn" (click)="quickIncrement(500)">+ NPR 500</button>
+                <button mat-stroked-button class="quick-btn" (click)="quickIncrement(1000)">+ NPR 1,000</button>
+                <button mat-stroked-button class="quick-btn" (click)="quickIncrement(5000)">+ NPR 5,000</button>
+              </div>
+            </div>
+
+            <!-- Escrow Guarantee Badge -->
+            <div class="escrow-badge-box">
+              <mat-icon class="text-emerald-400 text-2xl">verified_user</mat-icon>
+              <div>
+                <div class="font-bold text-sm text-white">100% Buyer Protection & Escrow Guarantee</div>
+                <div class="text-xs text-muted">Your bid is legally binding. Funds are only transferred upon item delivery inspection.</div>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+
+        <!-- Real-Time Bid Audit History Table -->
+        <mat-card class="history-box">
+          <mat-card-header class="history-header">
+            <mat-card-title class="box-title">
+              <mat-icon class="text-indigo-400">history</mat-icon> Real-Time Bid History
+            </mat-card-title>
+            <mat-chip-option color="accent" selected>{{ product.bids?.length || 0 }} Bids Placed</mat-chip-option>
+          </mat-card-header>
+
+          <mat-card-content>
+            <div *ngIf="product.bids && product.bids.length > 0; else noBidsYet" class="history-table-wrapper">
+              <table class="history-table">
+                <thead>
+                  <tr>
+                    <th>Bidder</th>
+                    <th>Amount</th>
+                    <th>Time</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let bid of product.bids; let idx = index">
+                    <td class="bidder-cell">
+                      <mat-icon class="text-muted align-middle">account_circle</mat-icon> &#64;{{ bid.userName }}
+                    </td>
+                    <td class="amount-cell">NPR {{ bid.bidAmount | number }}</td>
+                    <td class="time-cell">{{ bid.timestamp | date:'shortTime' }}</td>
+                    <td>
+                      <span *ngIf="idx === 0" class="badge-live text-xs">HIGHEST</span>
+                      <span *ngIf="idx > 0" class="text-xs text-subtle">Outbid</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <ng-template #noBidsYet>
+              <p class="text-center text-muted py-6 font-medium">No bids placed yet. Be the first to bid on this item!</p>
+            </ng-template>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+
+    <!-- Similar Items Categorical Recommendations (Original Razor Feature) -->
+    <div class="similar-items-section" *ngIf="similarProducts.length > 0">
+      <div class="section-header">
+        <span class="section-tag">Content based Categorical product recommendation</span>
+        <h2 class="section-title">Similar Items In {{ product.category }}</h2>
+      </div>
+
+      <div class="similar-grid">
+        <div *ngFor="let item of similarProducts">
+          <app-product-card [product]="item"></app-product-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

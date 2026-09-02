@@ -1,0 +1,76 @@
+<!-- Search Bar Section (Original Razor Upgrade) -->
+<section class="search-banner-section">
+  <div class="app-container">
+    <div class="search-banner-card glass-panel">
+      <div class="search-row">
+        <mat-icon class="search-banner-icon">search</mat-icon>
+        <input 
+          type="text" 
+          class="glass-input hero-input" 
+          placeholder="Search for the Products (Art, Coins, Jewellery, Furniture)..." 
+          [(ngModel)]="searchQuery"
+          (keyup.enter)="onHeroSearch()"
+        />
+        <button mat-raised-button color="accent" class="hero-search-btn" (click)="onHeroSearch()">
+          <mat-icon>search</mat-icon> Search
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Hero Carousel Slider (Original Razor Slider Upgrade) -->
+<section class="slider-section">
+  <div class="app-container">
+    <div class="carousel-container glass-panel">
+      <div class="carousel-slide animate-fade-in" [style.background-image]="'url(' + activeSlide.image + ')'">
+        <div class="carousel-overlay">
+          <mat-chip-option color="accent" selected class="slide-chip">Featured Collection</mat-chip-option>
+          <h2 class="slide-title">{{ activeSlide.title }}</h2>
+          <p class="slide-desc">{{ activeSlide.desc }}</p>
+          <button mat-raised-button color="primary" [routerLink]="['/catalog']" [queryParams]="{category: activeSlide.category}">
+            Explore {{ activeSlide.title }} Bids <mat-icon>arrow_forward</mat-icon>
+          </button>
+        </div>
+      </div>
+
+      <!-- Slider Controls -->
+      <div class="slider-controls">
+        <button mat-icon-button class="slider-nav-btn" (click)="prevSlide()"><mat-icon>chevron_left</mat-icon></button>
+        <div class="slider-dots">
+          <span 
+            *ngFor="let s of slides; let idx = index" 
+            class="dot" 
+            [class.active]="idx === currentSlideIdx"
+            (click)="currentSlideIdx = idx"
+          ></span>
+        </div>
+        <button mat-icon-button class="slider-nav-btn" (click)="nextSlide()"><mat-icon>chevron_right</mat-icon></button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED Section (Original Razor "F E A T U R E D" Header) -->
+<section class="section-products">
+  <div class="app-container">
+    <div class="section-header-centered">
+      <h1 class="featured-heading">F E A T U R E D</h1>
+      <div class="heading-line"></div>
+    </div>
+
+    <!-- Featured Product Cards Grid -->
+    <div class="featured-grid">
+      <div *ngFor="let item of featuredProducts" class="featured-card-item animate-fade-in">
+        <app-product-card [product]="item"></app-product-card>
+      </div>
+    </div>
+
+    <!-- "See All" Catalog Button (Original Razor "See all" link) -->
+    <div class="see-all-wrapper">
+      <a routerLink="/catalog" mat-raised-button color="primary" class="see-all-btn">
+        See All Auctions <mat-icon>arrow_forward</mat-icon>
+      </a>
+    </div>
+  </div>
+</section>
