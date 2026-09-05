@@ -1,21 +1,16 @@
-.timer-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  background: #ffffff;
-  border: 1px solid #fde68a;
-  color: #b45309;
-  padding: 4px 10px;
-  border-radius: 9999px;
-  font-size: 0.75rem;
-  font-weight: 700;
-  font-family: var(--font-heading);
-  letter-spacing: 0.02em;
-  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.15);
+.timer-minimal-text {
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--accent-gold);
+  letter-spacing: 0.05em;
 }
-.timer-badge.expired {
-  border-color: #fecdd3;
-  color: #e11d48;
-  background: #fff1f2;
-  box-shadow: none;
+
+.timer-minimal-text.expired {
+  color: #f43f5e;
+}
+
+.expired-text {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
 }

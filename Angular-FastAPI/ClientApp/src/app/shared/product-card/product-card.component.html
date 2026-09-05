@@ -1,50 +1,58 @@
-<mat-card class="product-mat-card" *ngIf="product">
-  <!-- Image Header with Badges -->
-  <div class="card-image-wrap">
-    <img mat-card-image [src]="product.productImageName" [alt]="product.productName" class="card-img" />
+<div class="product-minimal-card glass-panel" *ngIf="product">
+  
+  <!-- Media Header Wrap with Overlay Badges -->
+  <div class="card-media-wrapper">
+    <a [routerLink]="['/product', product.productID]" class="media-link">
+      <img 
+        [src]="product.productImageName || getCategoryImage(product.category)" 
+        [alt]="product.productName" 
+        class="card-product-img" 
+      />
+      <div class="image-gradient-overlay"></div>
+    </a>
     
-    <div class="card-badge-overlay">
-      <mat-chip-option color="primary" selected class="category-chip">
-        {{ product.category }}
-      </mat-chip-option>
-      <span class="badge-live">LIVE</span>
+    <!-- Top Right Countdown Timer Pill -->
+    <div class="card-timer-floating-box">
+      <mat-icon class="timer-icon">schedule</mat-icon>
+      <app-countdown-timer [endTime]="product.endTime"></app-countdown-timer>
     </div>
 
-    <div class="timer-overlay">
-      <app-countdown-timer [endTime]="product.endTime"></app-countdown-timer>
+    <!-- Category Pill Badge Top Left -->
+    <div class="card-category-badge">
+      <span>{{ product.category }}</span>
     </div>
   </div>
 
   <!-- Card Body Content -->
-  <mat-card-content class="card-body">
-    <h3 class="card-title">
+  <div class="card-body-content">
+    <div class="lot-meta-bar">
+      <span class="lot-number-tag font-mono">LOT #NP-{{ product.productID }}</span>
+      <span class="seller-tag">&#64;{{ product.userName || 'Curator' }}</span>
+    </div>
+
+    <h3 class="card-title font-serif">
       <a [routerLink]="['/product', product.productID]">{{ product.productName }}</a>
     </h3>
-    
-    <p class="card-desc">{{ product.description | slice:0:70 }}...</p>
 
-    <div class="bid-pricing-row">
+    <!-- Pricing Row -->
+    <div class="pricing-spotlight-row">
       <div class="price-col">
-        <span class="price-label">Current Highest Bid</span>
-        <span class="price-amount">NPR {{ product.latestBid | number }}</span>
+        <span class="price-label">Current Bid</span>
+        <div class="current-price-val font-mono">NPR {{ product.latestBid | number }}</div>
       </div>
-
-      <div class="price-col text-right">
-        <span class="price-label">Est. Price Range</span>
-        <span class="start-price">NPR {{ product.minPrice | number }} - {{ product.maxPrice | number }}</span>
+      <div class="reserve-col text-right">
+        <span class="price-label">Reserve</span>
+        <div class="reserve-val font-mono">NPR {{ product.minPrice | number }}</div>
       </div>
     </div>
-  </mat-card-content>
 
-  <!-- Card Footer Actions -->
-  <mat-card-actions class="card-footer-row">
-    <div class="seller-meta">
-      <mat-icon class="text-xs text-muted">person</mat-icon>
-      <span class="seller-name">{{ product.userName }}</span>
+    <!-- Action Footer CTA -->
+    <div class="card-action-wrap">
+      <a [routerLink]="['/product', product.productID]" class="bid-btn-minimal">
+        <span>PLACE BID</span>
+        <mat-icon class="btn-arrow-icon">arrow_forward</mat-icon>
+      </a>
     </div>
+  </div>
 
-    <a [routerLink]="['/product', product.productID]" mat-raised-button color="accent" class="bid-mat-btn">
-      <mat-icon>gavel</mat-icon> Place Bid
-    </a>
-  </mat-card-actions>
-</mat-card>
+</div>

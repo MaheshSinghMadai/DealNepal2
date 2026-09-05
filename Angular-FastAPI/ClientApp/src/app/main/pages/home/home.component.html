@@ -1,76 +1,118 @@
-<!-- Search Bar Section (Original Razor Upgrade) -->
-<section class="search-banner-section">
+<!-- Editorial Modern Minimalist Hero Banner -->
+<section class="minimal-hero-section">
   <div class="app-container">
-    <div class="search-banner-card glass-panel">
-      <div class="search-row">
-        <mat-icon class="search-banner-icon">search</mat-icon>
-        <input 
-          type="text" 
-          class="glass-input hero-input" 
-          placeholder="Search for the Products (Art, Coins, Jewellery, Furniture)..." 
-          [(ngModel)]="searchQuery"
-          (keyup.enter)="onHeroSearch()"
-        />
-        <button mat-raised-button color="accent" class="hero-search-btn" (click)="onHeroSearch()">
-          <mat-icon>search</mat-icon> Search
-        </button>
-      </div>
-    </div>
-  </div>
-</section>
+    <div class="hero-wrapper glass-panel">
+      
+      <!-- Slide Content Showcase -->
+      <div class="hero-slide-content animate-fade-in" [style.background-image]="'url(' + activeSlide.image + ')'">
+        <div class="hero-slide-overlay">
+          
+          <div class="hero-badge-row">
+            <span class="badge-live-minimal font-mono">FEATURED MASTERPIECE</span>
+            <span class="category-pill-minimal active font-mono">{{ activeSlide.category }}</span>
+          </div>
 
-<!-- Hero Carousel Slider (Original Razor Slider Upgrade) -->
-<section class="slider-section">
-  <div class="app-container">
-    <div class="carousel-container glass-panel">
-      <div class="carousel-slide animate-fade-in" [style.background-image]="'url(' + activeSlide.image + ')'">
-        <div class="carousel-overlay">
-          <mat-chip-option color="accent" selected class="slide-chip">Featured Collection</mat-chip-option>
-          <h2 class="slide-title">{{ activeSlide.title }}</h2>
-          <p class="slide-desc">{{ activeSlide.desc }}</p>
-          <button mat-raised-button color="primary" [routerLink]="['/catalog']" [queryParams]="{category: activeSlide.category}">
-            Explore {{ activeSlide.title }} Bids <mat-icon>arrow_forward</mat-icon>
-          </button>
+          <h1 class="hero-title font-serif">{{ activeSlide.title }}</h1>
+          <p class="hero-desc font-sans">{{ activeSlide.desc }}</p>
+
+          <div class="hero-actions-row">
+            <a [routerLink]="['/catalog']" [queryParams]="{category: activeSlide.category}" class="btn-gold-minimal">
+              <span>EXPLORE AUCTION</span>
+              <mat-icon class="text-sm">arrow_forward</mat-icon>
+            </a>
+            <a routerLink="/catalog" class="btn-outline-minimal">
+              <span>BROWSE CATALOG</span>
+            </a>
+          </div>
+
         </div>
       </div>
 
-      <!-- Slider Controls -->
-      <div class="slider-controls">
-        <button mat-icon-button class="slider-nav-btn" (click)="prevSlide()"><mat-icon>chevron_left</mat-icon></button>
-        <div class="slider-dots">
+      <!-- Slide Controls Bar -->
+      <div class="hero-controls-bar">
+        <div class="hero-dots">
           <span 
             *ngFor="let s of slides; let idx = index" 
-            class="dot" 
+            class="hero-dot" 
             [class.active]="idx === currentSlideIdx"
             (click)="currentSlideIdx = idx"
           ></span>
         </div>
-        <button mat-icon-button class="slider-nav-btn" (click)="nextSlide()"><mat-icon>chevron_right</mat-icon></button>
+
+        <div class="hero-nav-buttons">
+          <button class="nav-arrow-btn" (click)="prevSlide()"><mat-icon>chevron_left</mat-icon></button>
+          <button class="nav-arrow-btn" (click)="nextSlide()"><mat-icon>chevron_right</mat-icon></button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Minimalist Category Filter Bar -->
+<section class="category-strip-section">
+  <div class="app-container">
+    <div class="category-pills-bar glass-panel">
+      <span class="pill-label font-mono text-subtle">CURATED DEPARTMENTS:</span>
+      <div class="pills-scroll-wrap">
+        <a [routerLink]="['/catalog']" class="category-pill-minimal active">All Lots</a>
+        <a [routerLink]="['/catalog']" [queryParams]="{category: 'Art'}" class="category-pill-minimal">Sacred Thangka Art</a>
+        <a [routerLink]="['/catalog']" [queryParams]="{category: 'Coins'}" class="category-pill-minimal">Royal Coins & Numismatics</a>
+        <a [routerLink]="['/catalog']" [queryParams]="{category: 'Jewellery'}" class="category-pill-minimal">Heritage Gold Jewellery</a>
+        <a [routerLink]="['/catalog']" [queryParams]="{category: 'Furniture'}" class="category-pill-minimal">Antique Teak Woodcraft</a>
       </div>
     </div>
   </div>
 </section>
 
-<!-- FEATURED Section (Original Razor "F E A T U R E D" Header) -->
-<section class="section-products">
+<!-- Stats Metrics Strip -->
+<section class="stats-metrics-section">
   <div class="app-container">
-    <div class="section-header-centered">
-      <h1 class="featured-heading">F E A T U R E D</h1>
-      <div class="heading-line"></div>
+    <div class="stats-grid glass-panel">
+      <div class="stat-box">
+        <div class="stat-val font-serif">100%</div>
+        <div class="stat-label">Escrow Buyer Protection</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-box">
+        <div class="stat-val font-serif">24/7</div>
+        <div class="stat-label">Real-Time Bidding Engine</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-box">
+        <div class="stat-val font-serif">NPR 15M+</div>
+        <div class="stat-label">Total Auction Volume</div>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-box">
+        <div class="stat-val font-serif">Verified</div>
+        <div class="stat-label">Royal Provenance Standard</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED AUCTIONS Section -->
+<section class="featured-auctions-section">
+  <div class="app-container">
+    
+    <div class="section-title-bar">
+      <div>
+        <span class="section-sub-tag font-mono">LIVE CURATION</span>
+        <h2 class="section-title font-serif">FEATURED AUCTIONS</h2>
+      </div>
+      <a routerLink="/catalog" class="btn-outline-minimal">
+        <span>VIEW ALL ({{ featuredProducts.length }})</span>
+        <mat-icon class="text-sm">arrow_forward</mat-icon>
+      </a>
     </div>
 
-    <!-- Featured Product Cards Grid -->
+    <!-- Product Cards Grid -->
     <div class="featured-grid">
-      <div *ngFor="let item of featuredProducts" class="featured-card-item animate-fade-in">
+      <div *ngFor="let item of featuredProducts" class="featured-card-item">
         <app-product-card [product]="item"></app-product-card>
       </div>
     </div>
 
-    <!-- "See All" Catalog Button (Original Razor "See all" link) -->
-    <div class="see-all-wrapper">
-      <a routerLink="/catalog" mat-raised-button color="primary" class="see-all-btn">
-        See All Auctions <mat-icon>arrow_forward</mat-icon>
-      </a>
-    </div>
   </div>
 </section>

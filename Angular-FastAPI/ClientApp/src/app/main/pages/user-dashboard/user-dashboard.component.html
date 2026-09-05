@@ -1,79 +1,80 @@
 <div class="main-content">
   <div class="app-container">
-    <!-- Dashboard Profile Banner -->
-    <mat-card class="profile-banner-card" *ngIf="currentUser">
-      <mat-card-content class="banner-content">
+    
+    <!-- Profile Header Card -->
+    <div class="profile-banner-card glass-panel" *ngIf="currentUser">
+      <div class="banner-content">
         <img [src]="currentUser.profilePictureUrl" alt="Avatar" class="banner-avatar" />
         <div class="banner-info">
-          <h1 class="user-fullname">{{ currentUser.firstName }} {{ currentUser.lastName }}</h1>
+          <h1 class="user-fullname font-serif">{{ currentUser.firstName }} {{ currentUser.lastName }}</h1>
           <div class="user-meta-row">
-            <span class="user-handle">&#64;{{ currentUser.username }}</span>
-            <span class="badge-category">{{ currentUser.email }}</span>
-            <span class="badge-live" [class.role-admin]="currentUser.role === 'Admin'">{{ currentUser.role }} ACCOUNT</span>
+            <span class="user-handle font-mono">&#64;{{ currentUser.username }}</span>
+            <span class="badge-amber-minimal font-mono">{{ currentUser.email }}</span>
+            <span class="badge-live-minimal">{{ currentUser.role }} ACCOUNT</span>
           </div>
         </div>
 
-        <div class="banner-actions">
-          <a *ngIf="currentUser.role === 'Auctioneer' || currentUser.role === 'Admin'" routerLink="/create" mat-raised-button color="accent">
-            <mat-icon>add</mat-icon> Post Auction
+        <div class="banner-actions" *ngIf="currentUser.role === 'Auctioneer' || currentUser.role === 'Admin'">
+          <a routerLink="/create" class="btn-gold-minimal">
+            <mat-icon>add</mat-icon>
+            <span>POST AUCTION</span>
           </a>
         </div>
-      </mat-card-content>
-    </mat-card>
+      </div>
+    </div>
 
-    <!-- Material UI Tabs -->
-    <mat-tab-group class="dashboard-mat-tabs" animationDuration="200ms">
+    <!-- Tabs Container -->
+    <mat-tab-group class="dashboard-minimal-tabs" animationDuration="200ms">
+      
       <!-- TAB 1: MY BIDS -->
       <mat-tab>
         <ng-template mat-tab-label>
-          <mat-icon class="mr-2">gavel</mat-icon> My Bids ({{ myBids.length }})
+          <span class="font-mono">MY BIDS ({{ myBids.length }})</span>
         </ng-template>
         
-        <div class="tab-content py-6 animate-fade-in">
-          <mat-card *ngIf="myBids.length > 0; else noMyBids" class="table-card">
-            <mat-card-content class="p-0">
-              <table class="dashboard-table">
-                <thead>
-                  <tr>
-                    <th>Auction Item</th>
-                    <th>Category</th>
-                    <th>My Bid Amount</th>
-                    <th>Current Highest</th>
-                    <th>Bid Timestamp</th>
-                    <th>Status</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let item of myBids">
-                    <td class="item-cell">
-                      <img [src]="item.product.productImageName" [alt]="item.product.productName" class="thumb-img" />
-                      <span class="item-name">{{ item.product.productName }}</span>
-                    </td>
-                    <td><span class="badge-category">{{ item.product.category }}</span></td>
-                    <td class="amount-cell">NPR {{ item.bid.bidAmount | number }}</td>
-                    <td class="amount-cell text-amber-400">NPR {{ item.product.latestBid | number }}</td>
-                    <td class="time-cell">{{ item.bid.timestamp | date:'short' }}</td>
-                    <td>
-                      <span *ngIf="item.bid.bidAmount === item.product.latestBid" class="badge-live">HIGHEST BIDDER</span>
-                      <span *ngIf="item.bid.bidAmount < item.product.latestBid" class="badge-gold text-rose-400">OUTBID</span>
-                    </td>
-                    <td>
-                      <a [routerLink]="['/product', item.product.productID]" mat-stroked-button color="primary">View Item</a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </mat-card-content>
-          </mat-card>
+        <div class="tab-content py-6">
+          <div *ngIf="myBids.length > 0; else noMyBids" class="table-card glass-panel">
+            <table class="dashboard-table">
+              <thead>
+                <tr class="font-mono">
+                  <th>ITEM</th>
+                  <th>DEPARTMENT</th>
+                  <th>MY BID</th>
+                  <th>CURRENT HIGHEST</th>
+                  <th>TIMESTAMP</th>
+                  <th>STATUS</th>
+                  <th>ACTION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of myBids">
+                  <td class="item-cell">
+                    <img [src]="item.product.productImageName" [alt]="item.product.productName" class="thumb-img" />
+                    <span class="item-name font-serif">{{ item.product.productName }}</span>
+                  </td>
+                  <td><span class="category-pill-minimal font-mono text-xs">{{ item.product.category }}</span></td>
+                  <td class="amount-cell font-mono">NPR {{ item.bid.bidAmount | number }}</td>
+                  <td class="amount-cell text-amber-400 font-mono">NPR {{ item.product.latestBid | number }}</td>
+                  <td class="time-cell font-mono">{{ item.bid.timestamp | date:'short' }}</td>
+                  <td>
+                    <span *ngIf="item.bid.bidAmount === item.product.latestBid" class="badge-live-minimal">LEADING</span>
+                    <span *ngIf="item.bid.bidAmount < item.product.latestBid" class="badge-amber-minimal font-mono text-rose-400">OUTBID</span>
+                  </td>
+                  <td>
+                    <a [routerLink]="['/product', item.product.productID]" class="btn-outline-minimal font-mono text-xs">VIEW</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <ng-template #noMyBids>
-            <mat-card class="empty-box text-center">
-              <mat-icon class="text-5xl text-muted mb-3">gavel</mat-icon>
-              <h3 class="font-bold text-lg">No Active Bids Placed</h3>
-              <p class="text-muted text-sm mb-4">You haven't placed any bids yet. Check our live catalog!</p>
-              <a routerLink="/catalog" mat-raised-button color="primary">Browse Catalog</a>
-            </mat-card>
+            <div class="empty-box glass-panel text-center py-12">
+              <mat-icon class="text-4xl text-amber-400 mb-2">gavel</mat-icon>
+              <h3 class="font-serif text-lg text-white mb-2">NO ACTIVE BIDS PLACED</h3>
+              <p class="text-subtle text-sm mb-6">Explore our live catalog to bid on rare art, coins, and heritage artifacts.</p>
+              <a routerLink="/catalog" class="btn-gold-minimal">BROWSE CATALOG</a>
+            </div>
           </ng-template>
         </div>
       </mat-tab>
@@ -81,54 +82,52 @@
       <!-- TAB 2: MY LISTED AUCTIONS -->
       <mat-tab>
         <ng-template mat-tab-label>
-          <mat-icon class="mr-2">inventory_2</mat-icon> My Listed Auctions ({{ myAuctions.length }})
+          <span class="font-mono">MY AUCTIONS ({{ myAuctions.length }})</span>
         </ng-template>
         
-        <div class="tab-content py-6 animate-fade-in">
-          <mat-card *ngIf="myAuctions.length > 0; else noMyAuctions" class="table-card">
-            <mat-card-content class="p-0">
-              <table class="dashboard-table">
-                <thead>
-                  <tr>
-                    <th>Item Title</th>
-                    <th>Category</th>
-                    <th>Starting Price</th>
-                    <th>Current Highest</th>
-                    <th>Total Bids</th>
-                    <th>End Time</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let prod of myAuctions">
-                    <td class="item-cell">
-                      <img [src]="prod.productImageName" [alt]="prod.productName" class="thumb-img" />
-                      <span class="item-name">{{ prod.productName }}</span>
-                    </td>
-                    <td><span class="badge-category">{{ prod.category }}</span></td>
-                    <td>NPR {{ prod.minPrice | number }}</td>
-                    <td class="amount-cell text-amber-400">NPR {{ prod.latestBid | number }}</td>
-                    <td><span class="badge-gold">{{ prod.bids?.length || 0 }} Bids</span></td>
-                    <td class="time-cell">{{ prod.endTime | date:'mediumDate' }}</td>
-                    <td>
-                      <div class="action-btns">
-                        <a [routerLink]="['/product', prod.productID]" mat-icon-button color="primary"><mat-icon>visibility</mat-icon></a>
-                        <button (click)="deleteAuction(prod.productID)" mat-icon-button color="warn"><mat-icon>delete</mat-icon></button>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </mat-card-content>
-          </mat-card>
+        <div class="tab-content py-6">
+          <div *ngIf="myAuctions.length > 0; else noMyAuctions" class="table-card glass-panel">
+            <table class="dashboard-table">
+              <thead>
+                <tr class="font-mono">
+                  <th>TITLE</th>
+                  <th>DEPARTMENT</th>
+                  <th>STARTING BID</th>
+                  <th>HIGHEST BID</th>
+                  <th>BIDS COUNT</th>
+                  <th>END DATE</th>
+                  <th>ACTIONS</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let prod of myAuctions">
+                  <td class="item-cell">
+                    <img [src]="prod.productImageName" [alt]="prod.productName" class="thumb-img" />
+                    <span class="item-name font-serif">{{ prod.productName }}</span>
+                  </td>
+                  <td><span class="category-pill-minimal font-mono text-xs">{{ prod.category }}</span></td>
+                  <td class="font-mono">NPR {{ prod.minPrice | number }}</td>
+                  <td class="amount-cell text-amber-400 font-mono">NPR {{ prod.latestBid | number }}</td>
+                  <td><span class="badge-amber-minimal font-mono">{{ prod.bids?.length || 0 }} Bids</span></td>
+                  <td class="time-cell font-mono">{{ prod.endTime | date:'mediumDate' }}</td>
+                  <td>
+                    <div class="action-btns">
+                      <a [routerLink]="['/product', prod.productID]" class="btn-outline-minimal font-mono text-xs">VIEW</a>
+                      <button (click)="deleteAuction(prod.productID)" class="btn-outline-minimal font-mono text-xs text-rose-400">DELETE</button>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <ng-template #noMyAuctions>
-            <mat-card class="empty-box text-center">
-              <mat-icon class="text-5xl text-muted mb-3">storefront</mat-icon>
-              <h3 class="font-bold text-lg">No Auctions Posted</h3>
-              <p class="text-muted text-sm mb-4">Sell your rare antiques, coins, and art on DealNepal.</p>
-              <a routerLink="/create" mat-raised-button color="accent">Post First Auction</a>
-            </mat-card>
+            <div class="empty-box glass-panel text-center py-12">
+              <mat-icon class="text-4xl text-amber-400 mb-2">storefront</mat-icon>
+              <h3 class="font-serif text-lg text-white mb-2">NO AUCTION LOTS LISTED</h3>
+              <p class="text-subtle text-sm mb-6">List your authentic antiques and heritage collectibles for bidding.</p>
+              <a routerLink="/create" class="btn-gold-minimal">POST FIRST AUCTION</a>
+            </div>
           </ng-template>
         </div>
       </mat-tab>
@@ -136,49 +135,49 @@
       <!-- TAB 3: WON DEALS -->
       <mat-tab>
         <ng-template mat-tab-label>
-          <mat-icon class="mr-2 text-amber-400">emoji_events</mat-icon> Won Deals ({{ wonBids.length }})
+          <span class="font-mono">WON DEALS ({{ wonBids.length }})</span>
         </ng-template>
 
-        <div class="tab-content py-6 animate-fade-in">
-          <mat-card *ngIf="wonBids.length > 0; else noWon" class="table-card">
-            <mat-card-content class="p-0">
-              <table class="dashboard-table">
-                <thead>
-                  <tr>
-                    <th>Won Item</th>
-                    <th>Winning Bid Amount</th>
-                    <th>Seller</th>
-                    <th>Escrow Status</th>
-                    <th>Receipt</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr *ngFor="let item of wonBids">
-                    <td class="item-cell">
-                      <img [src]="item.product.productImageName" [alt]="item.product.productName" class="thumb-img" />
-                      <span class="item-name">{{ item.product.productName }}</span>
-                    </td>
-                    <td class="amount-cell text-emerald-400">NPR {{ item.bid.bidAmount | number }}</td>
-                    <td>&#64;{{ item.product.userName }}</td>
-                    <td><span class="badge-live">VERIFIED ESCROW</span></td>
-                    <td>
-                      <a [routerLink]="['/product', item.product.productID]" mat-raised-button color="primary">Claim Deal</a>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </mat-card-content>
-          </mat-card>
+        <div class="tab-content py-6">
+          <div *ngIf="wonBids.length > 0; else noWon" class="table-card glass-panel">
+            <table class="dashboard-table">
+              <thead>
+                <tr class="font-mono">
+                  <th>WON LOT</th>
+                  <th>WINNING BID</th>
+                  <th>CURATOR</th>
+                  <th>ESCROW STATUS</th>
+                  <th>ACTION</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of wonBids">
+                  <td class="item-cell">
+                    <img [src]="item.product.productImageName" [alt]="item.product.productName" class="thumb-img" />
+                    <span class="item-name font-serif">{{ item.product.productName }}</span>
+                  </td>
+                  <td class="amount-cell text-emerald-400 font-mono">NPR {{ item.bid.bidAmount | number }}</td>
+                  <td class="font-mono">&#64;{{ item.product.userName }}</td>
+                  <td><span class="badge-live-minimal">VERIFIED ESCROW</span></td>
+                  <td>
+                    <a [routerLink]="['/product', item.product.productID]" class="btn-gold-minimal text-xs">CLAIM DEAL</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
 
           <ng-template #noWon>
-            <mat-card class="empty-box text-center">
-              <mat-icon class="text-5xl text-muted mb-3">emoji_events</mat-icon>
-              <h3 class="font-bold text-lg">No Won Deals Yet</h3>
-              <p class="text-muted text-sm">When an auction closes and your bid is highest, it will appear here!</p>
-            </mat-card>
+            <div class="empty-box glass-panel text-center py-12">
+              <mat-icon class="text-4xl text-amber-400 mb-2">emoji_events</mat-icon>
+              <h3 class="font-serif text-lg text-white mb-2">NO WON DEALS YET</h3>
+              <p class="text-subtle text-sm">When an auction concludes with your highest bid, it will appear here!</p>
+            </div>
           </ng-template>
         </div>
       </mat-tab>
+
     </mat-tab-group>
+
   </div>
 </div>

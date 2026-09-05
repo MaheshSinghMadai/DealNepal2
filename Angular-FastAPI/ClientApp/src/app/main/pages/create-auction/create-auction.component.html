@@ -1,86 +1,123 @@
 <div class="main-content">
   <div class="app-container max-w-3xl">
-    <mat-card class="form-card">
-      <mat-card-header class="form-header">
-        <mat-card-title class="form-title">
-          <mat-icon class="text-indigo-400 align-middle">add_circle</mat-icon> Post New Auction Item
-        </mat-card-title>
-        <mat-card-subtitle class="form-subtitle">
-          List your vintage coins, handcrafted furniture, fine art or jewellery for live bidding across Nepal.
-        </mat-card-subtitle>
-      </mat-card-header>
+    
+    <div class="form-container-card glass-panel">
+      
+      <div class="form-header">
+        <span class="header-sub-tag font-mono">SELLER CONCIERGE</span>
+        <h1 class="form-title font-serif">POST NEW AUCTION LOT</h1>
+        <p class="form-subtitle">List your Thangka art, historical coins, royal jewellery or fine antiques for live bidding across Nepal.</p>
+      </div>
 
-      <mat-card-content>
-        <form (ngSubmit)="onSubmit()" #auctionForm="ngForm" class="create-form">
-          <!-- Product Name -->
-          <mat-form-field appearance="outline">
-            <mat-label>Product Name / Title *</mat-label>
-            <input matInput placeholder="e.g. 19th Century Malla Dynasty Silver Mohar Coin" [(ngModel)]="productName" name="productName" required />
-          </mat-form-field>
+      <form (ngSubmit)="onSubmit()" #auctionForm="ngForm" class="create-form">
+        
+        <!-- Product Name -->
+        <div class="form-group">
+          <label class="form-label font-mono text-xs text-subtle">TITLE / ITEM NAME *</label>
+          <input 
+            type="text" 
+            class="input-minimal" 
+            placeholder="e.g. 18th Century Gold Leaf Thangka Mandala" 
+            [(ngModel)]="productName" 
+            name="productName" 
+            required 
+          />
+        </div>
 
-          <!-- Category & Image URL -->
-          <div class="form-row">
-            <mat-form-field appearance="outline">
-              <mat-label>Category *</mat-label>
-              <mat-select [(ngModel)]="category" name="category" required>
-                <mat-option value="Coins">Coins</mat-option>
-                <mat-option value="Furniture">Furniture</mat-option>
-                <mat-option value="Jewellery">Jewellery</mat-option>
-                <mat-option value="Art">Art</mat-option>
-              </mat-select>
-            </mat-form-field>
-
-            <mat-form-field appearance="outline">
-              <mat-label>Image URL *</mat-label>
-              <input matInput placeholder="https://images.unsplash.com/..." [(ngModel)]="productImageName" name="productImageName" required />
-            </mat-form-field>
+        <!-- Category & Image URL -->
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label font-mono text-xs text-subtle">CATEGORY DEPARTMENT *</label>
+            <select class="input-minimal" [(ngModel)]="category" name="category" required>
+              <option value="Coins">Coins</option>
+              <option value="Furniture">Furniture</option>
+              <option value="Jewellery">Jewellery</option>
+              <option value="Art">Art</option>
+            </select>
           </div>
 
-          <!-- Live Image Preview Box -->
-          <div *ngIf="productImageName" class="image-preview-box">
-            <span class="preview-label">Image Preview:</span>
+          <div class="form-group">
+            <label class="form-label font-mono text-xs text-subtle">IMAGE ASSET URL *</label>
+            <input 
+              type="text" 
+              class="input-minimal" 
+              placeholder="https://images.unsplash.com/..." 
+              [(ngModel)]="productImageName" 
+              name="productImageName" 
+              required 
+            />
+          </div>
+        </div>
+
+        <!-- Live Image Preview -->
+        <div *ngIf="productImageName" class="image-preview-box">
+          <span class="preview-label font-mono text-xs text-subtle">IMAGE PREVIEW:</span>
+          <div class="preview-img-wrap">
             <img [src]="productImageName" alt="Preview" class="preview-img" (error)="onImageError()" />
           </div>
+        </div>
 
-          <!-- Description -->
-          <mat-form-field appearance="outline">
-            <mat-label>Detailed Description *</mat-label>
-            <textarea matInput rows="4" placeholder="Describe provenance, condition, dimensions, material, and historical significance..." [(ngModel)]="description" name="description" required></textarea>
-          </mat-form-field>
+        <!-- Description -->
+        <div class="form-group">
+          <label class="form-label font-mono text-xs text-subtle">DETAILED DESCRIPTION & PROVENANCE *</label>
+          <textarea 
+            class="input-minimal textarea-input" 
+            rows="4" 
+            placeholder="Describe provenance, dimensions, materials, and historical significance..." 
+            [(ngModel)]="description" 
+            name="description" 
+            required
+          ></textarea>
+        </div>
 
-          <!-- Price Settings -->
-          <div class="form-row">
-            <mat-form-field appearance="outline">
-              <mat-label>Min Starting Bid (NPR) *</mat-label>
-              <input matInput type="number" placeholder="10000" [(ngModel)]="minPrice" name="minPrice" required />
-            </mat-form-field>
-
-            <mat-form-field appearance="outline">
-              <mat-label>Max Reserve Price (NPR)</mat-label>
-              <input matInput type="number" placeholder="50000" [(ngModel)]="maxPrice" name="maxPrice" />
-            </mat-form-field>
+        <!-- Pricing Grid -->
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label font-mono text-xs text-subtle">MINIMUM STARTING BID (NPR) *</label>
+            <input 
+              type="number" 
+              class="input-minimal font-mono" 
+              placeholder="10000" 
+              [(ngModel)]="minPrice" 
+              name="minPrice" 
+              required 
+            />
           </div>
 
-          <!-- Duration Picker -->
-          <mat-form-field appearance="outline">
-            <mat-label>Auction Duration (Days)</mat-label>
-            <mat-select [(ngModel)]="durationDays" name="durationDays">
-              <mat-option [value]="3">3 Days (Fast Auction)</mat-option>
-              <mat-option [value]="5">5 Days</mat-option>
-              <mat-option [value]="7">7 Days (Standard)</mat-option>
-              <mat-option [value]="14">14 Days (Extended)</mat-option>
-            </mat-select>
-          </mat-form-field>
-
-          <!-- Action Buttons -->
-          <div class="form-actions">
-            <button type="button" mat-stroked-button (click)="cancel()">Cancel</button>
-            <button type="submit" mat-raised-button color="accent" [disabled]="!auctionForm.valid">
-              <mat-icon>cloud_upload</mat-icon> Publish Auction Now
-            </button>
+          <div class="form-group">
+            <label class="form-label font-mono text-xs text-subtle">MAX ESTIMATE PRICE (NPR)</label>
+            <input 
+              type="number" 
+              class="input-minimal font-mono" 
+              placeholder="50000" 
+              [(ngModel)]="maxPrice" 
+              name="maxPrice" 
+            />
           </div>
-        </form>
-      </mat-card-content>
-    </mat-card>
+        </div>
+
+        <!-- Duration Selection -->
+        <div class="form-group">
+          <label class="form-label font-mono text-xs text-subtle">AUCTION DURATION</label>
+          <select class="input-minimal" [(ngModel)]="durationDays" name="durationDays">
+            <option [value]="3">3 Days (Fast Auction)</option>
+            <option [value]="5">5 Days</option>
+            <option [value]="7">7 Days (Standard)</option>
+            <option [value]="14">14 Days (Extended)</option>
+          </select>
+        </div>
+
+        <!-- Action Footer -->
+        <div class="form-actions-bar">
+          <button type="button" class="btn-outline-minimal" (click)="cancel()">CANCEL</button>
+          <button type="submit" class="btn-gold-minimal" [disabled]="!auctionForm.valid">
+            <mat-icon>cloud_upload</mat-icon>
+            <span>PUBLISH AUCTION LOT</span>
+          </button>
+        </div>
+
+      </form>
+    </div>
+
   </div>
 </div>

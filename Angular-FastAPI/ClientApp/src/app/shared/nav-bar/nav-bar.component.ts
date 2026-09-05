@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import { AuthService } from '../../core/services/auth.service';
+import { ThemeService } from '../../core/services/theme.service';
 import { User } from '../../core/models/product.model';
 
 @Component({
@@ -16,6 +17,7 @@ export class NavBarComponent implements OnInit {
 
   constructor(
     public authService: AuthService,
+    public themeService: ThemeService,
     private router: Router
   ) {}
 
@@ -23,6 +25,14 @@ export class NavBarComponent implements OnInit {
     this.authService.currentUser$.subscribe(user => {
       this.currentUser = user;
     });
+  }
+
+  toggleTheme(): void {
+    this.themeService.toggleTheme();
+  }
+
+  isDarkMode(): boolean {
+    return this.themeService.isDarkMode();
   }
 
   onSearch(): void {
